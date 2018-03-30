@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>Matt Bagnara's Blog</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-				<h1>Matt Bagnara's Blog</h1>
+---
+layout: default
+title: Matt Bagnara's Blog
+---
+	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
-	  
-	    <li><span>30 Mar 2018</span> » <a href="/blog/2018/03/30/taiwan-vietnam" title="My trip to Taiwan and Việt Nam">My trip to Taiwan and Việt Nam</a></li>
-	  
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
 	</ul>
-
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:mbagnara@redhat.com">email</a></li>
-	        		<li><a href="https://github.com/bagnaram">github.com/bagnaram</a></li>
-				</ul>
-			</footer>
-		</body>
-</html>
