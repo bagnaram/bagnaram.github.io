@@ -1,1 +1,1 @@
-Sitemap: http://bencentra.github.io/centrarium/sitemap.xml
+Sitemap: http://bagnaram.github.io/blog/sitemap.xml
