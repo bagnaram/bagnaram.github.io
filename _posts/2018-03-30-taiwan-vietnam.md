@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trip to Taiwan and Vietnam"
+title: "My trip to Taiwan and Việt Nam"
 date: 2018-03-30
 ---
 
