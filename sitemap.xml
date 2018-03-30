@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://bagnaram.github.io/blog/blog/2018/03/30/taiwan-vietnam</loc>
+<loc>http://bagnaram.github.io/blog/2018/03/30/taiwan-vietnam</loc>
 <lastmod>2018-03-30T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>http://bagnaram.github.io/blog/blog/</loc>
 </url>
 <url>
 <loc>http://bagnaram.github.io/blog/</loc>
 </url>
 <url>
-<loc>http://bagnaram.github.io/blog/posts/</loc>
+<loc>http://bagnaram.github.io/</loc>
+</url>
+<url>
+<loc>http://bagnaram.github.io/posts/</loc>
 </url>
 </urlset>

@@ -1,1 +1,1 @@
-Sitemap: http://bagnaram.github.io/blog/sitemap.xml
+Sitemap: http://bagnaram.github.io/sitemap.xml
