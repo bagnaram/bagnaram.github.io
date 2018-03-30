@@ -1,9 +1,0 @@
-name: Matt Bagnara
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-flickr:
-  cache_dir:       ./_cache/flickr
-  api_key:          fa38365e165994dc0d0b23caad69b28e
-  shared_secret:    775081744bb7f10c
-  access_token:     72157693291224061-a627e83c2f0012a9
-  access_secret: 49c48efd135373c7
