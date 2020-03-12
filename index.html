@@ -1,364 +1,86 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
+<div class="home">
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Matt Bagnara</title>
-  <meta name="description" content="This is my personal site!
-">
-  
-  <meta name="author" content="Matt Bagnara">
-  <meta name="copyright" content="&copy; Matt Bagnara 2019">
-  
-
-  <!-- External libraries -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
-
-  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
-  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-  <link rel="manifest" href="/assets/icons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  
-  <!-- Facebook OGP cards -->
-  <meta property="og:description" content="This is my personal site!
-" />
-  <meta property="og:url" content="http://bagnaram.github.io" />
-  <meta property="og:site_name" content="Matt Bagnara" />
-  <meta property="og:title" content="Matt Bagnara" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://bagnaram.github.io/assets/logo.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="612" />
-  <meta property="og:image:height" content="605" />
-  
-
-  
-  <!-- Twitter: card tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Matt Bagnara">
-  <meta name="twitter:description" content="This is my personal site!
-">
-  <meta name="twitter:image" content="http://bagnaram.github.io/assets/logo.png">
-  <meta name="twitter:url" content="http://bagnaram.github.io">
-  
-
-  
-
-  <!-- Site styles -->
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://bagnaram.github.io/">
-  <link rel="alternate" type="application/rss+xml" title="Matt Bagnara" href="http://bagnaram.github.io/feed.xml" />
-</head>
-
-
-  <body>
-
-    <header class="navigation" role="banner">
-  <div class="navigation-wrapper">
-    <a href="/" class="logo">
-      
-      <img src="/assets/logo.png" alt="Matt Bagnara">
-      
-    </a>
-    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <nav role="navigation">
-      <ul id="js-navigation-menu" class="navigation-menu show">
-        
-          
-          <li class="nav-link"><a href="/blog/">Matt Bagnara's Blog</a>
-          
-        
-          
-        
-          
-          <li class="nav-link"><a href="/posts/">Posts</a>
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
-    <div class="page-content">
-        <div class="home">
-
-<div class="site-header-container has-cover" style="background-image: url(/assets/header_image.jpg);">
-  <div class="scrim has-cover">
+<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+  <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
-      <h1 class="title">Matt Bagnara</h1>
-      <p class="subtitle">Matt's blog</p>
+      <h1 class="title">{{ site.title }}</h1>
+      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
     </header>
   </div>
 </div>
 
 <div class="wrapper">
 <ul class="post-list">
-  
+  {% for post in paginator.posts %}
   <li>
     <h2>
-      <a class="post-link" href="/blog/2019/10/26/taiwan-japan-2">Tour de Taiwan Part 2</a>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>This is a continuation of the Taiwan bicycling trip. It commences as a direct flight from Taipei to Osaka. The trip was designated an exploratory adventure in Japan, and it was convenient because the flight connection allowed this leg of the journey to take place. I likely would have not...</p>
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
     </section>
     <section class="post-meta">
-      <div class="post-date">October 26, 2019</div>
+      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
       <div class="post-categories">
-      
+      {% if post.categories.size > 0 %}in {% for cat in post.categories %}
+        {% if site.jekyll-archives %}
+        <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
+        {% else %}
+        <a href="{{ site.baseurl }}/posts/#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endif %}
+      {% endfor %}{% endif %}
       </div>
     </section>
   </li>
-  
+  {% if forloop.last == false %}
   <hr>
-  
-  
-  <li>
-    <h2>
-      <a class="post-link" href="/blog/2019/10/18/taiwan-japan">Tour de Taiwan</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>This is a Giant Cycling Adventures trip that was inspired from my first trip to Taiwan and biking the countryside. This trip is a formal tour that circles the entire island! Day 1 - Starting in Florida My trip began as a business trip in Tampa. I woke up around...</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">October 18, 2019</div>
-      <div class="post-categories">
-      
-      </div>
-    </section>
-  </li>
-  
-  <hr>
-  
-  
-  <li>
-    <h2>
-      <a class="post-link" href="/blog/2019/06/16/halifax">Halifax</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>A weekend trip to Canada! This adventure was another cycling-inspired trip that had me visiting the beautiful Canadian province of Nova Scotia. After hearing about the terrific cycling infrastructure in the Halifax area, I decided it was well worth a trip up for a long weekend. At the time I...</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">June 16, 2019</div>
-      <div class="post-categories">
-      
-      </div>
-    </section>
-  </li>
-  
-  <hr>
-  
-  
-  <li>
-    <h2>
-      <a class="post-link" href="/blog/2019/02/09/germany">Deutschland</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>My trip to Germany was inspired from a 3 year study of German in school. I had decided to take a holiday in the early part of 2019 because I had holidays to use up of else they would be taken away! Because of this, I decided to book a...</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">February 9, 2019</div>
-      <div class="post-categories">
-      
-      </div>
-    </section>
-  </li>
-  
-  <hr>
-  
-  
-  <li>
-    <h2>
-      <a class="post-link" href="/blog/2018/06/02/portland">Portland Weekend</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>Planning &amp; Prep After taking a trip to Iceland with my brother and friend, we began looking at the next adventure. This time, we decided to keep it inside of the country. We also kept the trip duration to a 4 days over a long weekend. The plan was to...</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">June 2, 2018</div>
-      <div class="post-categories">
-      
-      </div>
-    </section>
-  </li>
-  
-  
+  {% endif %}
+  {% endfor %}
 </ul>
 
 <nav class="pagination" role="navigation">
 	<p>
-    
+    {% if paginator.previous_page %}
+			{% if paginator.page == 2 %}
+			<a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+			{% else %}
+			<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-square fa-stack-2x"></i>
+					<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+			{% endif %}
+		{% else %}
 		<span class="fa-stack fa-lg">
       <i class="fa fa-square fa-stack-2x"></i>
       <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
     </span>
-		
-		<span class="page-number">Page 1 of 2</span>
-		
-		<a class="newer-posts" href="/page2">
+		{% endif %}
+		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% if paginator.next_page %}
+		<a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
       <span class="fa-stack fa-lg">
         <i class="fa fa-square fa-stack-2x"></i>
         <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
       </span>
     </a>
-		
+		{% else %}
+		<span class="fa-stack fa-lg">
+      <i class="fa fa-square fa-stack-2x"></i>
+      <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+    </span>
+		{% endif %}
 	</p>
 </nav>
 
 </div>
 </div>
-
-    </div>
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h3 class="footer-heading">Matt Bagnara</h3>
-
-    <div class="site-navigation">
-
-      <p><strong>Site Map</strong></p>
-      <ul class="pages">
-        
-        
-          <li class="nav-link"><a href="/blog/">Matt Bagnara's Blog</a>
-        
-        
-        
-        
-        
-          <li class="nav-link"><a href="/posts/">Posts</a>
-        
-        
-        
-        
-        
-        
-        
-        
-      </ul>
-    </div>
-
-    <div class="site-contact">
-
-      <p><strong>Contact</strong></p>
-      <ul class="social-media-list">
-        <li>
-          <a href="mailto:mbagnara@redhat.com">
-            <i class="fa fa-envelope-o"></i>
-            <span class="username">mbagnara@redhat.com</span>
-          </a>
-        </li>
-
-        
-          
-          <li>
-            <a href="https://github.com/bagnaram" title="Fork me on GitHub">
-              <i class="fa fa-github"></i>
-              <span class="username">bagnaram</span>
-            </a>
-          </li>
-          
-        
-          
-          <li>
-            <a href="https://www.linkedin.com/in/matt-bagnara-96a757103/" title="Connect with me on LinkedIn">
-              <i class="fa fa-linkedin"></i>
-              <span class="username">Matt Bagnara</span>
-            </a>
-          </li>
-          
-        
-          
-        
-          
-        
-          
-          <li>
-            <a href="https://www.flickr.com/photos/156324531@N04/" title="Follow me on Flickr">
-              <i class="fa fa-flickr"></i>
-              <span class="username">bagnaramatt</span>
-            </a>
-          </li>
-          
-        
-          
-        
-
-      </ul>
-    </div>
-
-    <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
-      <p class="text">This is my personal site!
-</p>
-    </div>
-
-  </div>
-
-</footer>
-
-<!-- Scripts -->
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-  // Default syntax highlighting
-  hljs.initHighlightingOnLoad();
-
-  // Header
-  var menuToggle = $('#js-mobile-menu').unbind();
-  $('#js-navigation-menu').removeClass("show");
-  menuToggle.on('click', function(e) {
-    e.preventDefault();
-    $('#js-navigation-menu').slideToggle(function(){
-      if($('#js-navigation-menu').is(':hidden')) {
-        $('#js-navigation-menu').removeAttr('style');
-      }
-    });
-  });
-});
-
-</script>
-
-
-
-
-
-
-  </body>
-
-</html>
