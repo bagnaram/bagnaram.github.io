@@ -1,16 +1,11 @@
 ---
 layout: default
 ---
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
-
-<div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
-  <div class="scrim {% if page.cover %}has-cover{% endif %}">
-    <header class="post-header">
+<div id="header_wrap" class="outer">
+  <header class="inner">
       <h1 class="title">{{ page.title }}</h1>
       <p class="info">by <strong>{{ page.author }}</strong></p>
-    </header>
-  </div>
+  </header>
 </div>
 
 <div class="wrapper">
@@ -30,10 +25,14 @@ layout: default
   </div>
 </section>
 
-<article class="post-content">
+<div id="main_content_wrap" class="outer">
+  <section id="main_content" class="inner">
   {{ content }}
-</article>
+  </section>
+</div>
 
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
 {% if site.jekyll-archives %}
 {% if page.tags.size > 0 %}
 <section class="tags">
@@ -139,6 +138,7 @@ layout: default
 {% endunless %}
 {% endif %}
 
-</div>
-</section>
+    </footer>
+  </div>
+  </div>
 </div>
