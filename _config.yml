@@ -83,13 +83,6 @@ social:
     desc: Fork me on GitHub
     share: true
 
-  - name: LinkedIn
-    icon: linkedin
-    username: Matt Bagnara
-    url: https://www.linkedin.com/in/matt-bagnara-96a757103/
-    desc: Connect with me on LinkedIn
-    share: true
-
   - name: Google+
     icon: google-plus
     username:
