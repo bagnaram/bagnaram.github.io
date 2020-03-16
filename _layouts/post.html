@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-<div id="header_wrap" class="outer">
-  <header class="inner">
-      <h1 class="title">{{ page.title }}</h1>
-      <p class="info">by <strong>{{ page.author }}</strong></p>
-  </header>
-</div>
 
 <div class="wrapper">
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="info">by <strong>{{ page.author }}</strong></p>
 
 {% unless page.cover %} {% include page_divider.html %} {% endunless %}
 
