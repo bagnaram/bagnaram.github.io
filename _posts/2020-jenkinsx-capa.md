@@ -1,0 +1,162 @@
+---
+layout: post
+author: bagnaram
+title: "JenkinsX on Kubernetes Cluster-API"
+date: 2020-03-xx
+---
+JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
+
+# Cluster-API AWS
+I'm using CAPA (Cluster-API provider for AWS) as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind.
+
+My workload CAPA cluster is configured with Contour Ingress and a wildcard `*.example.com` domain that points to the Envoy load balancer. This will be relevant when setting up JenkinsX Ingress because JenkinsX uses Nginx by default, which will need to be disabled.
+
+Likewise with Contour, I have already installed upstream [Tekton](https://github.com/tektoncd/pipeline) via the upstream installation docs. This means the bundled install of Tekton with JenkinsX will also be disabled later in this guide. Both these decisions are due to personal preference and to test integration and flexiblity with existing installations of ClusterAPI.
+
+# Install JenkinsX via JXL
+JenkinsX development is in-flux and in order to fully support necessary components such as Helm v3. JenkinsX has a bleeding-edge baseline called [JenkinsX Labs](https://jenkins-x.io/docs/labs/jxl/), or JXL. This is a separate binary released independantly of JX. I have found out that installing JXL bundles its own JX runtime inside. Therefore, if you are installing both, they will exist independently.
+
+The first step is to fetch JXL from the Labs (release page)[https://github.com/jenkins-x-labs/jxl/releases]. Again, this is activly developed, so your milage may vary. I always grab the latest release. Untar the binary and drop it into `~/bin` or wherever you drop userland binaries. 
+
+# Git Repositories
+JenkinsX relies on version control to store not only application code, but also release and installation information for JenkinsX itself. Therefore, it is necessary to have an accessable git repository available for JenkinsX. I use GitHub.
+
+First, it is necessary to create a clone of the JenkinsX version repository. This contains all the dependencies and their versions that are tested and required for JenkinsX to function. It is recommended to clone this repo because not environments will fall under the specified compatiblity matrix. I am running kubectl `v1.17.4` which is newer than the upper limit of `v1.17.0` required at the time of writing.
+
+1. Create a github repository called `jenkins-x-versions`
+2. Clone the upstream repository locally
+  ```bash
+  git clone https://github.com/jenkins-x/jenkins-x-versions
+
+  ```
+3. Create a new upstream `remote` and for merging.
+  ```bash
+  git remote remove origin
+  git remote add origin https://github.com/<USERNAME>/jenkins-x-versions
+  git remote add upstream https://github.com/jenkins-x/jenkins-x-versions
+  ```
+4. Fetch upstream
+   ```bash
+   git pull upstream master
+   ```
+5. Make any modifications to the versions. I updated the `upperLimit` of `packages/kubectl.yml` to something greater.
+  ```
+  version: 1.13.2
+  upperLimit: 1.17.4
+  gitUrl: https://github.com/kubernetes/kubectl.git
+  url: https://github.com/kubernetes/kubectl
+  ```
+A second repository will be created for JenkinsX to use for your environment, but this will be done automatically with a robot account.
+
+# Git Robot Account
+As mentioned, a robot account is required for JenkinsX to manage its baseline. In Github, this account can simply be an API token associated with a user. This is how JenkinsX will maintain the state of your CI environment. It uses Helm charts to define all its components.
+
+For my testing purpose, I will associate an API token with my regular github account. Normally you would create a separate robot account but it is only possible with GitHub enterprise.
+
+1. Log into GitHub https://github.com/settings/apps
+2. Select Personal Access Tokens
+3. Create a token called `jenkinsx` with the permissions: `delete_repo, read:org, read:user, repo, user:email, write:repo_hook`
+
+# Start JenkinsX Install
+JenkinsX install is initiated with the a boot. This boots the repository up and generates the manifests associated with the environment.
+
+1. 
+  ```bash
+  jxl boot create --version-stream-url https://github.com/bagnaram/jenkins-x-versions.git --domain example.com
+  ```
+2. Select the `kubernetes` provider
+3. Cluster name. I call mine `capi-quickstart` to match the name used by the management cluster.
+4. Git owner name will be the GitHub user ID. Mine is `bagnaram`
+5. Comma separated git provider usernames. Here I also use `bagnaram` since I am only testing with a single user.
+6. Confirm and if it asks you to upgrade the `jx` version, decline. The version bundled with `jxl` is adequate.
+7. Confirm the git server, organization, and repository name. JenkinsX will create a repository called `environment-capi-quickstart-dev` because we named the cluster `capi-quickstart` This repository doesn't exist so when JenkinsX will prompt you to log into GitHub in order to create the repository.
+  ```
+  ? git server for the new git repository: https://github.com
+  ? git owner (user/organization) for the new git repository: bagnaram
+  ? git repository name: environment-capi-quickstart-dev
+  checking git repository bagnaram/environment-capi-quickstart-dev exists on server https://github.com
+  repository already exists at https://github.com/bagnaram/environment-capi-quickstart-dev
+  pushed code to the repository
+
+  to boot your cluster run the following commands:
+
+  jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+  jxl boot run --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+  ```
+
+When the steps complete, Jenkins will provide two commands that are necessary to finalize and deploy the installation. Run the following command to provision a secret that JenkinsX will use for GitHub.
+  ```bash
+  jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+  ```
+
+1. The default Jenkins admin username can be used.
+2. Enter a secure admin password
+3. Pipeline bot Git username will be `bagnaram` for this example, because it uses the same github user.
+4. Pipeline bot Git email address will be linked to an email address associated with that Git user.
+5. Pipeline bot Git token will contain the token that was provisioned earler in the GitHub settings. You can also get an explanation by entering `?` in the prompt. Enter the token and confirm.
+
+## Disable Bundled Nginx and Tekton
+
+As mentioned earler, JenkinsX bundles its own Helm-based installation of the Nginx Ingress controller, and Tekton. I decided to supply my own installation of both of these, so it needs to be disabled from the JenkinsX deployment manifest. The `jx-apps.yml` file inside the JenkinsX environment repo contains the list of Helm apps to deploy.
+
+1. Check out the `environment-capi-quickstart-dev` repo and modify the `jx-apps.yml` to remove the `nginx-ingress` and `tekton lines`. It should be modified as follows:
+  ```
+    apps:
+  - name: jenkins-x/jxboot-helmfile-resources
+  - name: jenkins-x/nexus
+  - name: jenkins-x/lighthouse
+  - name: jenkins-x/chartmuseum
+  - name: jenkins-x/jxui
+  - name: repositories
+    repository: ".."
+  ```
+2. Save & Commit the file.
+
+## Deploy JenkinsX
+Jxl includes a `boot run` command which runs the Helm deploy against the environment repository. Simply run the command that was supplied at the end of the `boot create`.
+```bash
+jxl boot run --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+```
+
+# Expose Jenkins UI
+Create the folling HTTP Proxy resource. HttpProxy objects are similar to exposed Ingress routes, but allow for more fine-grained control over specific paths and http options. The JenkinsX UI uses WebSockets for populating front-end content which are not supported by plain Ingress in Contour. This is because http issues an `upgrade` request when WebSocket traffic initiates, following a different protocol. HttpProxy supports WebSockets.
+```
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  annotations:
+  name: ui
+  namespace: jx
+spec:
+  routes:
+  - conditions:
+    - prefix: /
+    enableWebsockets: true
+    loadBalancerPolicy:
+      strategy: Cookie
+    services:
+    - name: jxui
+      port: 80
+  virtualhost:
+    fqdn: ui-jx.example.com
+```
+
+If everything binds appropriately the HttpProxy object should produce a `valid` status. 
+```
+archlinux% kubectl get httpproxy
+NAME    FQDN                   TLS SECRET   STATUS   STATUS DESCRIPTION
+nexus   nexus-jx.example.com                valid    valid HTTPProxy
+```
+
+# Testing locally
+In my environment, I mentioned setting up an `example.com` domain on AWS. This Route53 domain is local to the VPC that CAPA is installed to. I don't want to pay for a public top-level domain so I resolve this domain locally to the VPC. This means that records can only be resolved by machines inside this VPC, or pointing to Amazon's DNS server. However we have an option to tunnel all local traffic through a bastion that lives inside that VPC. This is done using a SOCKS proxy. This is extremely useful, because it can also proxy DNS requests.
+
+Set up a SOCKS proxy locally:
+```
+ssh -D 1337 -q -C -N ubuntu@13.52.235.55 -i ~/mbagnara-key.pem
+```
+This essentially sets up an HTTP proxy locally on `127.0.0.1:1337` in which we can route requests through. For more information, please refer to <https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc>
+
+Configure your browser to use this proxy and be sure to enable the `Proxy DNS` option.
+<img src="img/jx-ui.png" alt="JenkinsX UI" class="inline"/>
+
