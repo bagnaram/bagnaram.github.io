@@ -11,6 +11,10 @@ to define the run-time configuration of you machine in a state-ful way. Combine
 that with the power of what is the Nix package manager, and you have a Linux
 distribution that follows this model for configuring the entire system.
 
+
+<img src="/img/desktop.png" alt="desktop" class="inline"/>
+My Nixos/Enlighenment desktop.
+
 # NixOS Experience
 
 I decided to test drive NixOS because the idea of defining an entire system
@@ -112,6 +116,68 @@ enable and it's finished!
 
 Lastly, I set up my user-acount using the Z-Shell declaratively.
 
+## Conclusion
+NixOS isn't without its faults. With ease of configuration, will eventually come
+problems in other areas. Specifically I experienced issues upgrading, and issues
+debugging applications such as Enlightenment. Because I was installing from an
+ISO that was based on Nixos 17, this older version had problems when I tried to
+update. I managed to break my system numerous times trying to work through
+compatibility problems related to a breaking change in the Nix package. This
+change broke the schema for the Nix configuration file, and made it difficult to
+perform an update to a newer version.
+
+A solution I managed to get running was to update the Nix package, and side-load
+it using the `nix-env` command. It allows packages to be assumed outside of the
+current runtime system and it allowed me to update the rest of my packages and
+get my system up to the latest stable NixOS release.
+
 # Enlightenment
 
 <img src="/img/icon-enlightenment.png" alt="Enlightenment" class="inline"/>
+
+Enlightenment, or E for short, is a unique piece of software. It is one of the
+earliest desktop envionments for the Linux desktop. It has gone through various
+iterations, and even experienced a fork at version 16. Enlightenment can be
+described as a full feature environment with many bells and whistles while being
+visually appealing. However, it doesn't carry the burden of dependencies and
+heavy memory usage.
+
+Now I have been using I3 as a tiling window manager on Arch Linux for some time
+and I grew accustomed to keyboard-driven navigation. One of the important
+features that brought me to try E was its new tiling module. It provides most of
+the tiling functionality someone would expect from I3, or Yabai.
+
+## Setup
+
+As mentioned above, Enlightenment is simple to include in the NixOS
+configuration because it is already a member of nixpkgs. On bootup, I was
+presented with an Enlightenment setup screen on my first login. I was asked to
+set up languages, keyboards, and even given the choice between tiling and
+standard mode. I filled in this information and was set-up with a new Enlightenment desktop.
+
+If there is any desktop environment you would like to configure and tweak, it
+would be enlightenment. While most DEs are fully customizable with
+configuration, E takes this a step furtherr and provides a rich set of
+customizations and options to configure it to your preference.
+
+<img src="/img/enlightenment-01.png" alt="E Config" class="inline"/>
+
+And you will want to configure Enlightenment from its default. There are small
+nuances of the desktop experience I didn't want to give up, and many nice tweaks
+to improve workflow. For example, I set up a series of keyboard shortcuts to
+switch desktops, and to move focused applications to verious desktops like in
+I3.
+
+## Conclusion
+
+Enlightenment is nice. It took some time to customize and work through some
+issues. I like its relative obscurity and the community isn't tossed to and fro
+from the waves of the sea, like Gnome. Things that I found joy setting up like
+ACPI shortcuts for screen brightness and battery notifications were brittle
+custom scripts, and these seem to just work with E. Although wifi was tricky
+setting up because of b43 drivers, I was able to make use of the up and coming
+IWD with Enlightenment's connman wifi selector. It is easy and just works. Not
+all applications support EFL, Enlightenments toolkit. This means apps like
+Firefox don't maintain the exact styling as native enlightenment, including
+cursors. I wish this was more seamless. But overall, E is great, has a great
+community.
