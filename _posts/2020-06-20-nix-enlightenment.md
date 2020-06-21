@@ -169,6 +169,15 @@ to improve workflow. For example, I set up a series of keyboard shortcuts to
 switch desktops, and to move focused applications to verious desktops like in
 I3.
 
+Enlightenment theme icons took some work to get working. Using XDG icon themes
+on enlightenment will follow the specification by searching `XDG_DATA_DIRS` for
+location of icon themes. Because NixOS handles this directory differently, it
+lays down symlinks to the icon package and appends those to the `XDG_DATA_DIRS`
+variable. NixOS also forces `mtime` of all its packages to 0, at the time of
+writing, breaks how E indexes the icon database. I reached out to IRC, and was
+generously helped by one of the E devs Carsten Haitzler with a
+[patch](https://github.com/NixOS/nixpkgs/pull/90687)!
+
 ## Conclusion
 
 Enlightenment is nice. It took some time to customize and work through some
