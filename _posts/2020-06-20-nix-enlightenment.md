@@ -149,18 +149,18 @@ its own wrappers. All in all, give Nix a go and see for yourself!
 piece of software. It is one of the earliest desktop envionments for the Linux
 desktop. It has gone through various iterations, and even experienced a fork at
 version 16. It has a very colorful history and helped to shape what desktops
-could do with its compositing window manager. There are many outragous
-screenshots of highly customized desktops that may very well have been more
-over-the-top visuals than anything. However, this demonstration carried
-Enlightenment into its relatively niche yet powerful space it finds itself in
-today.
+could do, using its compositing window manager. There are many outragous
+screenshots of highly customized desktops that may have been more over-the-top
+in visuals than usability! However, this demonstration carried Enlightenment
+into its relatively niche yet passionate space it finds itself in today.
 
 <img src="/img/enlightenment-02.jpg" alt="E16" class="inline"/>
 E16 in its hay-day
 
-Enlightenment can be described as a full feature environment with many bells and
-whistles while being visually appealing. However, it doesn't carry the burden of
-dependencies and heavy memory usage.
+Don't worry, I am installing E24, released in early June 2020. Enlightenment can
+be described as a full feature environment with many bells and whistles while
+being visually appealing. However, it doesn't carry the burden of dependencies
+and heavy memory usage.
 
 
 Now I have been using I3 as a tiling window manager on Arch Linux for some time
