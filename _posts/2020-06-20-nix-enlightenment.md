@@ -15,15 +15,16 @@ configuring the entire system.
 
 
 <a href="/img/desktop.png"><img src="/img/desktop.png" alt="desktop" class="inline"/></a>
-My Nixos/Enlighenment desktop.
+My Nixos/Enlightenment desktop.
 
 # NixOS Experience
 
-I decided to test drive NixOS because the idea of defining an entire system
-configuration from install as a file sounded like something I wanted to see for
-myself. Ideally it would take much of the difficult set-up of many things I
-typically maintain such as my [dotfiles](https://github.com/bagnaram/dotfiles/).
-These could ideally be managed across systems as a single Nix configuration.
+I decided to test drive NixOS and see what I thought. The idea of defining an
+entire system configuration from install in a single place sounded like
+something I wanted to see for myself. Ideally, it would take much of the
+difficult setup of things I typically maintain separately like my
+[dotfiles](https://github.com/bagnaram/dotfiles/). These could ideally be
+managed across systems as a single Nix configuration.
 
 NixOS uses the concept of packages which are layed down over the filesystem.
 These packages are stored in the Nix repository **under /nix/**, and are
@@ -132,6 +133,13 @@ A solution I managed to get running was to update the Nix package, and side-load
 it using the `nix-env` command. It allows packages to be assumed outside of the
 current runtime system and it allowed me to update the rest of my packages and
 get my system up to the latest stable NixOS release.
+
+Although I didn't get to merge everything from my previous system & dotfiles, I
+have a good starting place with NixOS. I have a declarative system that I can
+easily tear down and even provision as a VM while keeping my favorite settings.
+My dotfiles are still a separate repo, but I am looking at something like [Home
+manager](https://nixos.wiki/wiki/Home_Manager) as a drop-in replacement using
+its own wrappers. All in all, give Nix a go and see for yourself!
 
 # Enlightenment
 
