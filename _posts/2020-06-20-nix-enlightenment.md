@@ -144,11 +144,11 @@ version 16. It has a very colorful history and helped to shape what desktops
 could do with its compositing window manager. There are many outragous
 screenshots of highly customized desktops that may very well have been more
 over-the-top visuals than anything. However, this demonstration carried
-Enlightnemnet into its relatively niche yet powerful space it finds itself in
+Enlightenment into its relatively niche yet powerful space it finds itself in
 today.
 
 <img src="/img/enlightenment-02.jpg" alt="E16" class="inline"/>
-Enlightenment E16 in its hayday.
+E16 in its hay-day
 
 Enlightenment can be described as a full feature environment with many bells and
 whistles while being visually appealing. However, it doesn't carry the burden of
