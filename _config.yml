@@ -83,13 +83,6 @@ social:
     desc: Fork me on GitHub
     share: true
 
-  - name: Google+
-    icon: google-plus
-    username:
-    url:
-    desc: Add me to your Circles
-    share: true
-
   - name: YouTube
     icon: youtube
     username: bagnaramatt
@@ -102,14 +95,6 @@ social:
     username: bagnaramatt
     url: https://www.flickr.com/photos/156324531@N04/
     desc: Follow me on Flickr
-    share: true
-
-
-  - name: Reddit
-    icon: reddit
-    username: j6jr85ehb7
-    url:
-    desc: Share to Reddit
     share: true
 
 # Social sharing protocols
