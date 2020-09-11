@@ -1,13 +1,13 @@
 <div id="header_wrap" class="outer">
+  <header id="project_title">
+    <h1 class="title">{{ site.title }}</h1>
+    {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+  </header>
   <header class="inner">
     <a href="{{ site.baseurl }}/" class="logo">
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <header class="site-header">
-        <h1 class="title">{{ site.title }}</h1>
-        {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
-      </header>
       {% endif %}
     </a>
   </header>
