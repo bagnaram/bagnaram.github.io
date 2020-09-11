@@ -4,7 +4,10 @@
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span>{{ site.title }}</span>
+      <header class="site-header">
+        <h1 class="title">{{ site.title }}</h1>
+        {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
+      </header>
       {% endif %}
     </a>
   </header>

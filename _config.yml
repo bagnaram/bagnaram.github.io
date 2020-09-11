@@ -13,10 +13,10 @@ exclude:
   - "Rakefile"
 
 # Site settings
-title: Matt Bagnara
-subtitle: "Matt's blog"
+title: "Matt's Blog"
+# subtitle: "Matt's Blog"
 email: mbagnara@vmware.com
-name: Matt Bagnara
+name: Bagnaram
 description: >
   This is my personal site!
 theme: jekyll-theme-slate
