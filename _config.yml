@@ -85,10 +85,10 @@ social:
 
   - name: YouTube
     icon: youtube
-    username: bagnaramatt
+    username: ocotillo
     url:
     desc: Subscribe on YouTube
-    share: false
+    share: true
 
   - name: Flickr
     icon: flickr
