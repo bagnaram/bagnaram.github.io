@@ -25,7 +25,7 @@ theme: jekyll-theme-slate
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bagnaram.github.io" # the base hostname & protocol for your site
-cover: "/agave_s.svg"
+cover: "/favicon/agave_s.svg"
 #logo: "/assets/logo.png"
 
 # Build settings
