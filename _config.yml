@@ -26,7 +26,7 @@ theme: jekyll-theme-slate
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bagnaram.github.io" # the base hostname & protocol for your site
 #cover: "/favicon/agave_s.svg"
-logo: "/favicon/agave_s.svg"
+#logo: "/favicon/agave_s.svg"
 
 # Build settings
 markdown: kramdown
