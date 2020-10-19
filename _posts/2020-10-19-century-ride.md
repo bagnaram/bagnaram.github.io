@@ -21,7 +21,7 @@ photos with or without identification and the community can track and list
 different species based on location. I installed the app and set off on this
 cycle ride.
 
-<img src=https://i.redd.it/nqtrcn9mkrt51.jpg></img>
+![Cycling Route](https://i.redd.it/nqtrcn9mkrt51.jpg)
 
 If you want to follow my observations, this is my [iNaturalist
 profile](https://www.inaturalist.org/observations?user_id=mbagnara)
