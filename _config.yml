@@ -86,7 +86,7 @@ social:
   - name: YouTube
     icon: youtube
     username: ocotillo
-    url:
+    url: https://www.youtube.com/channel/UCRhnNw_9b4ys6jJcBM_hkuw
     desc: Subscribe on YouTube
     share: true
 
@@ -94,14 +94,7 @@ social:
     icon: leaf
     username: mbagnara
     url: https://www.inaturalist.org/observations?user_id=mbagnara
-    desc: iNaturalist Observations
-    share: true
-
-  - name: Flickr
-    icon: flickr
-    username: bagnaramatt
-    url: https://www.flickr.com/photos/156324531@N04/
-    desc: Follow me on Flickr
+    desc: Follow my iNaturalist Observations
     share: true
 
 # Social sharing protocols
