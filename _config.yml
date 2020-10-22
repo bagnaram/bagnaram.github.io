@@ -90,6 +90,13 @@ social:
     desc: Subscribe on YouTube
     share: true
 
+  - name: iNaturalist
+    icon: leaf
+    username: mbagnara
+    url: https://www.inaturalist.org/observations?user_id=mbagnara
+    desc: iNaturalist Observations
+    share: true
+
   - name: Flickr
     icon: flickr
     username: bagnaramatt
