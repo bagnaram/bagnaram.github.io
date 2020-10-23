@@ -4,6 +4,11 @@ author: bagnaram
 title: "Century Ride With a Twist"
 date: 2020-10-19
 published: true
+tags:
+- Century
+- Bike
+- Botany
+- Crime Pays but Botany Doesn't
 ---
 
 This weekend I decided to do another century ride on the cycle. I currently ride
