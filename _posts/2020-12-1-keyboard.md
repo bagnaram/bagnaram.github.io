@@ -61,6 +61,8 @@ the paper and see if measurements are correct.
 
 ## PCB Design
 
+![Keyboard in PCBNew](img/pcbnew.png "Keyboard in PCBNew")
+
 Taking the schematic over to PCB ended up being the most laborious exercise. I
 ended up going through several iterations of this project. Ai03's guide was
 another reference point. He also includes a set of KiCad custom libraries for MX
