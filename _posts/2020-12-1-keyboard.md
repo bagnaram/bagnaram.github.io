@@ -90,6 +90,12 @@ footprints. I decided to use the Mouser BOM tool because between them and
 DigiKey, Mouser carried all my components. I ordered all passive components,
 sockets, and the microcontroller from Mouser.
 
+My keycaps were purchased from KBDFans and I was happy to find uniform-profile
+DSA keys in [this attractive
+style](https://kbdfans.com/collections/dsa-profile/products/npkc-dsa-9009-pbt-keycaps?variant=31385567985803).
+Uniform-profile keycaps are necessary when using non-standard key layouts like
+DVORAK because you can place them anywhere.
+
 When the PCBs arrived, all components, mx switches, and stabilizers it was
 finally time for the moment of truth to see if everything physically fit. It
 did! So it was now time for the laborious yet somehow therapeutic process of
