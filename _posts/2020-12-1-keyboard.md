@@ -130,7 +130,7 @@ to use my AVR-ISP mkII programmer to flash the device directly.
 ![ISP](/img/kbprog.jpg "Keyboard ISP Programming")
 
 The QMK firmware setup is very simple. I was able to set up my keyboard mapping
-in a single evening.
+over a single evening.
 
 The process is as follows:
 
