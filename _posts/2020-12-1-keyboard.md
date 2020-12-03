@@ -135,13 +135,17 @@ The process is as follows:
 
 1. Assign the keyboard rows and columns to the GPIO pins assigned to the microcontroller.
 
-```c {data-filename="config.h"}
+<pre>config.h</pre>
+
+```c
 #define MATRIX_ROW_PINS { D4, D6, D7, B4, C6 }
 #define MATRIX_COL_PINS { B5, F0, F1, F4, F5, F6, F7, E6, B0, B7, D0, D1, D2, D3, D5, C7 } 
 ```
 2. Define the key matrix in code.
 
-```c {data-filename="ocotillo.h"}
+<pre>ocotillo.h</pre>
+
+```c
  #define LAYOUT( \
     k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k010, k011, k012, k013,       k015, \
     k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k110, k111, k112, k113,       k115, \
@@ -160,7 +164,9 @@ The process is as follows:
 
 3. Create DVORAK keymap.
 
-```c {data-filename="keymaps/dvorak/keymap.c"}
+<pre>keymaps/dvorak/keymap.c</pre>
+
+```c
  const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Base */
     [_DVORAK] = LAYOUT(
