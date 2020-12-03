@@ -2,7 +2,7 @@
 layout: post
 author: bagnaram
 title: "Building a Keyboard From Scratch"
-date: 2020-10-19
+date: 2020-12-1
 published: true
 ---
 
