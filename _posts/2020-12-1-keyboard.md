@@ -187,8 +187,8 @@ Create DVORAK keymap.
 };
 ```
 
-Assign the keymap to the default keyboard layout. This is done by defauld
-since there is only one kefmap defined.
+Assign the keymap to the default keyboard layout. (This is done by default
+since there is only one keymap defined.)
 
 With the code built it is now time to compile with avr-gcc and flash it with
 AVRDude. To compile simply run the QMK makefile and then flash.
