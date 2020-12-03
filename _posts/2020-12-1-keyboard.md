@@ -72,9 +72,10 @@ style switches which proved to be very useful. I also looked at other
 open-source keyboard projects such as
 https://github.com/coseyfannitutti/discipline. I wanted to make sure everything
 would be exactly right at this point. Once you send the PCB Gerber files over to
-be fabricated, that's it so they better be right. Laying out the traces, vias,
-and components can be considered an art, however quite mundane also. I had
-previously used Eagle PCB and before that [PCB
+be fabricated, that's it so they better be right.
+
+Laying out the traces, vias, and components can be considered an art, however
+quite mundane also. I had previously used Eagle PCB and before that [PCB
 Artist](https://www.4pcb.com/free-pcb-design-software.html). I had tried KiCad
 early on and found it to be quite lacking in features and quite buggy. That has
 all changed. After learning its shortcuts and also its library system, it has
@@ -82,7 +83,7 @@ proved to be a very worthwhile open-source tool. I ended up laying out the PCB
 with ai03's MX library, and sourcing some of the other component libraries
 directly from Mouser. Once I felt everything was ready, I exported Gerber files
 and uploaded to [JLCPCB](https://jlcpcb.com/).
-[[/img/kbpcb.jpg]]
+
 ![Designing the PCB](/img/kbpcb.jpg "PCB Layout")
 
 ## Assembly
@@ -220,3 +221,4 @@ proficient. I have open-sourced this entire project, so take a look! I hope
 others can get as much out of this hobbyist project that I have been able to!
 
 <https://github.com/bagnaram/my-keyboard>
+<https://github.com/bagnaram/qmk_firmware/tree/feature/ocotillo>
