@@ -56,7 +56,7 @@ when I construct the PCB. I would physically lay out the keyboard to determine a
 sizing that would fit, along with the help of the online [Keyboard Layout
 Editor](http://www.keyboard-layout-editor.com/#/)
 
-![Keyboard layout editor](img/kb-layout.png "Keyboard layout editor")
+![Keyboard layout editor](/img/kb-layout.png "Keyboard layout editor")
 
 By printing out PCB designs one-to-one on paper, I could lay out components on
 the paper and see if measurements are correct.
