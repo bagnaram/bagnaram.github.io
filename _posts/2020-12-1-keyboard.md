@@ -5,6 +5,7 @@ title: "Building a Keyboard From Scratch"
 date: 2020-12-1
 published: true
 ---
+###### This article was typed using the finished keyboard.
 
 Mechanical keyboards are all the rage today. Having a solid typing experience
 has never been as important to me as I have realized now. Often we are left to
