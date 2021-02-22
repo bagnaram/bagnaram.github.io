@@ -38,7 +38,7 @@ This guide goes through all the nuts and bolts of setting up a simple 4x4 key
 matrix from schematic to PCB. Do take a look at this. 
 
 I ended up designing project this around the AVR architecture. Previously built
-by Atmel before being aquired by Microchip, AVR has been a staple in my
+by Atmel before being acquired by Microchip, AVR has been a staple in my
 educational lab experience. The Atmega32u4 provides plenty of I/O for a 60% key
 design. (I had earlier wanted 75% but this was complicated by incorrectly
 purchasing the wrong keycap set from KBDFans). I centered around this

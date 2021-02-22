@@ -4,10 +4,23 @@ author: bagnaram
 title: "Tour de Taiwan Part 2"
 date: 2019-10-26
 ---
-This is a continuation of the Taiwan bicycling trip. It commences as a direct flight from Taipei to Osaka. The trip was designated an exploratory adventure in Japan, and it was convenient because the flight connection allowed this leg of the journey to take place. I likely would have not included Japan in the itinerary but because I had been given a great deal with ANA Airlines, this was made possible.
+
+This is a continuation of the Taiwan bicycling trip. It commences as a direct
+flight from Taipei to Osaka. The trip was designated an exploratory adventure in
+Japan, and it was convenient because the flight connection allowed this leg of
+the journey to take place. I likely would have not included Japan in the
+itinerary but because I had been given a great deal with ANA Airlines, this was
+made possible.
 
 # Day 1 - Arrival in Osaka
-I landed in Osaka, and what a nice experience there! This was my first impression of Japan and how it would compare with Taiwan. I was immediately impressed with the level of detail and honor put into even the mundane activities such as transferring through immigration and etc. I purchased a Japan SIM for my phone and boarded a train to Osaka. The trains took some familiarization too. I rode towards the eastern part of Osaka so that I could explore the city a little. I walked around and saw the real salary men for the first time. They were all leaving work for lunch by the time I exited the train.
+I landed in Osaka, and what a nice experience there! This was my first
+impression of Japan and how it would compare with Taiwan. I was immediately
+impressed with the level of detail and honor put into even the mundane
+activities such as transferring through immigration and etc. I purchased a Japan
+SIM for my phone and boarded a train to Osaka. The trains took some
+familiarization too. I rode towards the eastern part of Osaka so that I could
+explore the city a little. I walked around and saw the real salary men for the
+first time. They were all leaving work for lunch by the time I exited the train.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:512px; display:none;"
@@ -27,7 +40,20 @@ I landed in Osaka, and what a nice experience there! This was my first impressio
   <object data="https://lh3.googleusercontent.com/jI__KPALwu_vBwCcRSJ0hnyBzD7h4BtlJgRcVtvCJ4oguHrEF5HYgPh4lkry5hR65oUOy5o3uqL7upOu-9BrgEs0_vVXP_Ni32tLoHobnkVo8aELnhJxbZd0H362fxHo721fVpnVRA=w1920-h1080"></object>
 </div>
 
-I had the day to explore before meeting Takashi, my CouchSurfing accommodation for the night. I wanted to head towards the Royal Palace, but first I stopped in my first Udon restaurant and I also picked up a weird ice cream sandwich from a tiny stand that was crowded with business people. It must be good if there is a queue! The palace was quite large and I spent a couple hours seeing my first Japanese imperial garden, including some Shinto shrines. I walked through the arcade to Osaka station to meet Takashi, and what a great guy! We went to have Irinaki and we even sang karaoke together. He is a very good singer and we visited an game arcade afterwards to play a few games there too. I stayed in his accommodation in a suburb of Osaka. I experienced my first homestay in Japan and it was very nice. We chatted and I left him a message in his traveller's diary. What a great way to meet and exchange correspondence with fellow travellers! I was very tired from the early start and I fell fast asleep after dessert with him
+I had the day to explore before meeting Takashi, my CouchSurfing accommodation
+for the night. I wanted to head towards the Royal Palace, but first I stopped in
+my first Udon restaurant and I also picked up a weird ice cream sandwich from a
+tiny stand that was crowded with business people. It must be good if there is a
+queue! The palace was quite large and I spent a couple hours seeing my first
+Japanese imperial garden, including some Shinto shrines. I walked through the
+arcade to Osaka station to meet Takashi, and what a great guy! We went to have
+Irinaki and we even sang karaoke together. He is a very good singer and we
+visited an game arcade afterwards to play a few games there too. I stayed in his
+accommodation in a suburb of Osaka. I experienced my first homestay in Japan and
+it was very nice. We chatted and I left him a message in his traveller's diary.
+What a great way to meet and exchange correspondence with fellow travellers! I
+was very tired from the early start and I fell fast asleep after dessert with
+him
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -61,7 +87,15 @@ I had the day to explore before meeting Takashi, my CouchSurfing accommodation f
 
 # Day 2 - Friend in Osaka
 
-I rose in Takashi's accommodation. He needed to depart for work at 8AM, and I needed to be ready to depart by then, so I packed. He recommended a nice local breakfast place. It was a quaint restaurant that served Japanese toast with egg and coffee. After breakfast, I boarded the train bound for Kyoto. The ride was about 1 hour. I had all my luggage and had to haul it to my next accommodation, that had not even been booked yet! I found a nice pod accommodation called the Millennial. It was also applicable because my status as a millennial. I wanted to book a place early so I can drop my luggage off. I dislike hauling bags around for the entire day if I can help it! 
+I rose in Takashi's accommodation. He needed to depart for work at 8AM, and I
+needed to be ready to depart by then, so I packed. He recommended a nice local
+breakfast place. It was a quaint restaurant that served Japanese toast with egg
+and coffee. After breakfast, I boarded the train bound for Kyoto. The ride was
+about 1 hour. I had all my luggage and had to haul it to my next accommodation,
+that had not even been booked yet! I found a nice pod accommodation called the
+Millennial. It was also applicable because my status as a millennial. I wanted
+to book a place early so I can drop my luggage off. I dislike hauling bags
+around for the entire day if I can help it!
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:512px; display:none;"
@@ -72,7 +106,20 @@ I rose in Takashi's accommodation. He needed to depart for work at 8AM, and I ne
   <object data="https://lh3.googleusercontent.com/AdxKG14leHU-9TMWIxDbXTQYHWVuqaubvfO7-Gkw4Z4agRV2TZFpDDBGtVNj8O5V_s_VpyKTYi3CbE03X9oafG79KaU9cPlAWmI7P6DD7hVeT0JmX_Zkn9sR9XXU1DyEPK3VPZHSvA=w1920-h1080"></object>
 </div>
 
-My first destination was to see the Kyoto Imperial Palace. This was the previous capital of Japan before Tokyo. I toured the grounds and saw some beautifully kept structures and gardens. I walked the river back towards my accommodation, but quickly decided to visit the hillside, as a recommendation from another friend. I enjoyed a light snack for lunch from Family Mart, and headed up a very beautiful mountainside to see the famous temple Kiyomizu. It is actually an assortment of temples and shrines that site along a very picturesque hill side. There are many attractive shops along the elevated pathway to the temples. When I arrived at the temple, I paid to explore an underground path in pitch black to navigate some labyrinth to a Buddha monument. There was another temple at the top of the pathway around 500m from the pagoda. This was spectacular because it was so peaceful. After the mobs of Kiyomizu, one finds a nice walk with very few, if any people. This place had a very nice view of Kyoto and I purchased a sweet bun at a little stand in the woods.
+My first destination was to see the Kyoto Imperial Palace. This was the previous
+capital of Japan before Tokyo. I toured the grounds and saw some beautifully
+kept structures and gardens. I walked the river back towards my accommodation,
+but quickly decided to visit the hillside, as a recommendation from another
+friend. I enjoyed a light snack for lunch from Family Mart, and headed up a very
+beautiful mountainside to see the famous temple Kiyomizu. It is actually an
+assortment of temples and shrines that site along a very picturesque hill side.
+There are many attractive shops along the elevated pathway to the temples. When
+I arrived at the temple, I paid to explore an underground path in pitch black to
+navigate some labyrinth to a Buddha monument. There was another temple at the
+top of the pathway around 500m from the pagoda. This was spectacular because it
+was so peaceful. After the mobs of Kiyomizu, one finds a nice walk with very
+few, if any people. This place had a very nice view of Kyoto and I purchased a
+sweet bun at a little stand in the woods.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:512px; display:none;"
@@ -114,7 +161,14 @@ My first destination was to see the Kyoto Imperial Palace. This was the previous
   <object data="https://lh3.googleusercontent.com/yAt72KtLGv3W8ixN3uMa1TSJjacTafYjmVa9gmTYfB50b9pjHtthjpXLP4CLDrWeWI9MCrLasY3i937yuERtZAkwSC7iBeEVa5rf2gmK-H2kWGgy8NvJfkmscr0QSoYPoF6FiJbRlw=w1920-h1080"></object>
 </div>
 
-I descended the hill to visit a few shops and had some delicious matcha and snacks before going down to my accommodation. I drank some beer for happy hour because the Millennial has free beer during this time! I met a girl from Isreal on sabbatical and learned a bit about the culture of travelling abroad during her time. For dinner, I visited a sushi conveyor and walked around the plaza arcade at night. Just like 99th street, all lit up! Later I met someone from Shanghai who shared some places to visit in Tokyo including the art museum to see the cityscape from the rooftop, and she even shared some rice wine with me.
+I descended the hill to visit a few shops and had some delicious matcha and
+snacks before going down to my accommodation. I drank some beer for happy hour
+because the Millennial has free beer during this time! I met a girl from Isreal
+on sabbatical and learned a bit about the culture of traveling abroad during
+her time. For dinner, I visited a sushi conveyor and walked around the plaza
+arcade at night. Just like 99th street, all lit up! Later I met someone from
+Shanghai who shared some places to visit in Tokyo including the art museum to
+see the cityscape from the rooftop, and she even shared some rice wine with me.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -134,7 +188,21 @@ I descended the hill to visit a few shops and had some delicious matcha and snac
 
 
 # Day 3 - ♨
-The plan for this day was to meet with a friend from Texas and her sister. We were both in the same city for a day and it would be great to meet. I was headed for Gero Onsen that day. I had breakfast at my pod hotel and checked out. This also means I would have to carry my luggage :( After some coordination and unexpected delays, we met at Japanese organic donut shop. I got the matcha, because JAPAN! We walked the market which contained some interesting snacks and much seafood. At around noon, we headed towards the rail station so that I could head towards Gero. I said goodbye and boarded the Shinkansen for the first time towards Nagoya. In Nagoya I would transfer to a smaller railway towards Gero. This part of the trip was truly amazing as we rode towards the mountains on the bullet train. Very fast, even compared to Deutsche Bahn! The rolling hills and countryside in Japan was amazing, and when I arrived in Nagoya I had a little break until my next train. I grabbed some seafood in an underground restaurant in Nagoya, and headed on the train towards Gero. The train we rode appeared to be some kind of motorized one with an engine on each car. Interesting.
+The plan for this day was to meet with a friend from Texas and her sister. We
+were both in the same city for a day and it would be great to meet. I was headed
+for Gero Onsen that day. I had breakfast at my pod hotel and checked out. This
+also means I would have to carry my luggage :( After some coordination and
+unexpected delays, we met at Japanese organic donut shop. I got the matcha,
+because JAPAN! We walked the market which contained some interesting snacks and
+much seafood. At around noon, we headed towards the rail station so that I could
+head towards Gero. I said goodbye and boarded the Shinkansen for the first time
+towards Nagoya. In Nagoya I would transfer to a smaller railway towards Gero.
+This part of the trip was truly amazing as we rode towards the mountains on the
+bullet train. Very fast, even compared to Deutsche Bahn! The rolling hills and
+countryside in Japan was amazing, and when I arrived in Nagoya I had a little
+break until my next train. I grabbed some seafood in an underground restaurant
+in Nagoya, and headed on the train towards Gero. The train we rode appeared to
+be some kind of motorized one with an engine on each car. Interesting.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -158,7 +226,19 @@ The plan for this day was to meet with a friend from Texas and her sister. We we
   <object data="https://lh3.googleusercontent.com/3-5pL6OkQvCfCYjfTiWLB3SHP7Yhvla4sf5K5geS287QWKh_U9Lc0pDfRVbSmC2pswHjaX2EZyYF27DZK0hKFCvE-JOdFp6WheSQKlX719IRXW0N-WqB8mNkeGw8ZsxFOC9kc18--A=w1920-h1080"></object>
 </div>
 
-I arrived in Gero and rode a shuttle to my accommodation, the Sumeikan. This is a traditional Ryokan hot spring accommodation. It was quite nice, and just the experience I wanted in Japan. The room had a tatami, which is the matted floor you sit and sleep on! I was given robes to wear around, and once I checked in I headed straight to the Onsen. I had experienced Onsen in Taiwan before, but this was a truly Japanese experience. The onsen was so relaxing and purifying. The water was crisp and refreshing. After bathing, I became hungry and ventured out in Gero for food. Unfortunately, Gero is very small and many places close early, so that left me only with Family Mart or Sumeikan. I wet for the latter, in a hotel restaurant. It ended up being quite pricey, but delicious. I don't know if worth it, but hey, have to have one expensive meal on a trip right? They included eel with egg inside of it! Talk about variety. I went up to my room to sleep on the floor tatami.
+I arrived in Gero and rode a shuttle to my accommodation, the Sumeikan. This is
+a traditional Ryokan hot spring accommodation. It was quite nice, and just the
+experience I wanted in Japan. The room had a tatami, which is the matted floor
+you sit and sleep on! I was given robes to wear around, and once I checked in I
+headed straight to the Onsen. I had experienced Onsen in Taiwan before, but this
+was a truly Japanese experience. The onsen was so relaxing and purifying. The
+water was crisp and refreshing. After bathing, I became hungry and ventured out
+in Gero for food. Unfortunately, Gero is very small and many places close early,
+so that left me only with Family Mart or Sumeikan. I wet for the latter, in a
+hotel restaurant. It ended up being quite pricey, but delicious. I don't know if
+worth it, but hey, have to have one expensive meal on a trip right? They
+included eel with egg inside of it! Talk about variety. I went up to my room to
+sleep on the floor tatami.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -182,7 +262,22 @@ I arrived in Gero and rode a shuttle to my accommodation, the Sumeikan. This is 
 
 # Day 4 - Gero to Takayama
 
-The day began as I rose in my Ryokan accommodation. I enjoyed a nice seat on the outdoor porch and viewed the mountain landscape while enjoying a pot of tea. The plan for today would be to explore the Gero area and then make the journey back to Nagoya and on to Tokyo. I had checked out of the Sumeikan and left my luggage behind the counter to grab later. I also purchased an onsen pass. This inscribed piece of wood is used to gain entry to one of the many onsens in Gero. Many of them run by hotels. For me it was as good as a souvenir that I can put on my display at home. I wandered into the town and found a quaint farmer's market with some friendly vendors. I then journeyed up the steep hill to check out a scenic view of the valley of Gero. Not only that, but there was a very scenic shrine at the top of the hill too. Gero was a very quiet village with not many tourists at all. In fact, much of my explorations were on my own at this juncture. I descended the mountain and walked around and found a nice bento restaurant. They serve bentos to-go but they also had seating inside. The food consisted of a tempura with rice and curry. Quite delicious. I headed to a few onsen after lunch and continued exploring some temples and shops in Gero.
+The day began as I rose in my Ryokan accommodation. I enjoyed a nice seat on the
+outdoor porch and viewed the mountain landscape while enjoying a pot of tea. The
+plan for today would be to explore the Gero area and then make the journey back
+to Nagoya and on to Tokyo. I had checked out of the Sumeikan and left my luggage
+behind the counter to grab later. I also purchased an onsen pass. This inscribed
+piece of wood is used to gain entry to one of the many onsens in Gero. Many of
+them run by hotels. For me it was as good as a souvenir that I can put on my
+display at home. I wandered into the town and found a quaint farmer's market
+with some friendly vendors. I then journeyed up the steep hill to check out a
+scenic view of the valley of Gero. Not only that, but there was a very scenic
+shrine at the top of the hill too. Gero was a very quiet village with not many
+tourists at all. In fact, much of my explorations were on my own at this
+juncture. I descended the mountain and walked around and found a nice bento
+restaurant. They serve bentos to-go but they also had seating inside. The food
+consisted of a tempura with rice and curry. Quite delicious. I headed to a few
+onsen after lunch and continued exploring some temples and shops in Gero.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:512px; display:none;"
@@ -226,7 +321,21 @@ The day began as I rose in my Ryokan accommodation. I enjoyed a nice seat on the
 </div>
 
 
-At this point, I needed to determine what my plan for departing Gero would be. I had planned to head back towards Tokyo, but to my surprise there was another typhoon ready to make a direct hit on the southern sea of Japan. I talked to my friend Takuya, whom I would be visiting, and I came to the realization it would be safer to stay on higher ground during the storm. Because I was already in the mountains, I decided to venture further towards the city of Takayama. It would be safer this way. I boarded the train around 3PM to Takayama. Takayama was a much larger city, but still nestled in the mountains. I booked accommodation at Tomaratto. This was a nice quaint accommodation situated above a coffee shop with a friendly owner. I checked in the evening and was treated to some delicious sake. I was recommended a local izakaya by the owner of my accommodation. In fact the restaurant was owned by his friend. Everyone in Takayama are so friendly and it was great to enjoy the company of the local people. After I ate, I spent the evening walking the narrow streets and even enjoying some Japanese archery. Quite fun!
+At this point, I needed to determine what my plan for departing Gero would be. I
+had planned to head back towards Tokyo, but to my surprise there was another
+typhoon ready to make a direct hit on the southern sea of Japan. I talked to my
+friend Takuya, whom I would be visiting, and I came to the realization it would
+be safer to stay on higher ground during the storm. Because I was already in the
+mountains, I decided to venture further towards the city of Takayama. It would
+be safer this way. I boarded the train around 3PM to Takayama. Takayama was a
+much larger city, but still nestled in the mountains. I booked accommodation at
+Tomaratto. This was a nice quaint accommodation situated above a coffee shop
+with a friendly owner. I checked in the evening and was treated to some
+delicious sake. I was recommended a local izakaya by the owner of my
+accommodation. In fact the restaurant was owned by his friend. Everyone in
+Takayama are so friendly and it was great to enjoy the company of the local
+people. After I ate, I spent the evening walking the narrow streets and even
+enjoying some Japanese archery. Quite fun!
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:512px; display:none;"
@@ -243,7 +352,25 @@ At this point, I needed to determine what my plan for departing Gero would be. I
 
 # Day 5 - Typhoon
 
-I started the day at my accommodation and I met some visitors from Thailand who invited me to explore the city with them. They were in a similar situation, being displaced because of the typhoon. At this juncture, the rain had began, and the storm was bringing in some cooler weather. I joined my new friends for a walk around Takayama in the rain. To our surprise, many of the shops, and market were closed because the storm. However, we found a delicious place for breakfast that serves soup and the most pure apple juice I ever tasted. We explored many of the temples and shrines in the city. It was continuing to rain this day, but we managed to have a pretty extensive tour of the city despite the rainy weather. The old historic wooden architecture really pops out in this city, with some primitive construction shops. We walked towards the main shopping area, and some shops were open. I purchased some sake before saying goodbye to my new friends and heading back. The rest of the evening I spent hanging out in a nice foot bath near my accommodation. I had some beer and relaxed under the covered foot spa as the typhoon came through. I met some friends from Taiwan, and more people from Shanghai at this foot spa. Later that evening, I decided to meet my friends at their accommodation for dinner at the izakaya and we then visited another bar for drinks and enjoyment despite the weather. Overall, not a bad day despite the crummy weather!
+I started the day at my accommodation and I met some visitors from Thailand who
+invited me to explore the city with them. They were in a similar situation,
+being displaced because of the typhoon. At this juncture, the rain had began,
+and the storm was bringing in some cooler weather. I joined my new friends for a
+walk around Takayama in the rain. To our surprise, many of the shops, and market
+were closed because the storm. However, we found a delicious place for breakfast
+that serves soup and the most pure apple juice I ever tasted. We explored many
+of the temples and shrines in the city. It was continuing to rain this day, but
+we managed to have a pretty extensive tour of the city despite the rainy
+weather. The old historic wooden architecture really pops out in this city, with
+some primitive construction shops. We walked towards the main shopping area, and
+some shops were open. I purchased some sake before saying goodbye to my new
+friends and heading back. The rest of the evening I spent hanging out in a nice
+foot bath near my accommodation. I had some beer and relaxed under the covered
+foot spa as the typhoon came through. I met some friends from Taiwan, and more
+people from Shanghai at this foot spa. Later that evening, I decided to meet my
+friends at their accommodation for dinner at the izakaya and we then visited
+another bar for drinks and enjoyment despite the weather. Overall, not a bad day
+despite the crummy weather!
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -299,7 +426,15 @@ I started the day at my accommodation and I met some visitors from Thailand who 
 
 # Day 6 - Journey Through the Mountains
 
-I started this day off at Tomorato, playing Nintendo Switch with the owner's son. This was quite an experience. We played Mario Kart with two detached controllers and he set the game console on a table inside the first level coffee shop. This was a treat, getting to know the family of the owner, and Hiro, his son was so cute. I messaged my new friends from Thailand because they were planning to head back to Tokyo. I joined them in what turned to be a day-long adventure. We had purchased a series of bus tickets that would transfer in a region called Kamakochi. This is a very beautiful mountain resort. The transfer would continue to Motsumoto. This pass would allow us to reach Tokyo.
+I started this day off at Tomorato, playing Nintendo Switch with the owner's
+son. This was quite an experience. We played Mario Kart with two detached
+controllers and he set the game console on a table inside the first level coffee
+shop. This was a treat, getting to know the family of the owner, and Hiro, his
+son was so cute. I messaged my new friends from Thailand because they were
+planning to head back to Tokyo. I joined them in what turned to be a day-long
+adventure. We had purchased a series of bus tickets that would transfer in a
+region called Kamakochi. This is a very beautiful mountain resort. The transfer
+would continue to Motsumoto. This pass would allow us to reach Tokyo.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -315,7 +450,18 @@ I started this day off at Tomorato, playing Nintendo Switch with the owner's son
 </div>
 
 
-We boarded the bus and the ride through many treacherous valleys and pristine mountains. We really gained elevation, and the climate became cooler, while the trees becomming more beautiful. The weather was still cloudy, so we couldn't see the peaks. The trees were starting to change to a spectrum of gold and ruby colors. We reached the Kamikichi bus terminal around 11AM and we all rented luggage storage for a few hours. We would walk around Kamikochi and enjoy the scenic views before boarding the second bus to Motsumoto. And the views were incredible. The short hike brought us to a river split between two mountains. The river featured a bright red suspension bridge to walk across and take photos. And boy did we take lots and lots of them! We spent some time enjoying the majesty of it all, and before long, boarded the bus headed towards Motsumoto.
+We boarded the bus and the ride through many treacherous valleys and pristine
+mountains. We really gained elevation, and the climate became cooler, while the
+trees becoming more beautiful. The weather was still cloudy, so we couldn't see
+the peaks. The trees were starting to change to a spectrum of gold and ruby
+colors. We reached the Kamikichi bus terminal around 11AM and we all rented
+luggage storage for a few hours. We would walk around Kamikochi and enjoy the
+scenic views before boarding the second bus to Motsumoto. And the views were
+incredible. The short hike brought us to a river split between two mountains.
+The river featured a bright red suspension bridge to walk across and take
+photos. And boy did we take lots and lots of them! We spent some time enjoying
+the majesty of it all, and before long, boarded the bus headed towards
+Motsumoto.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -339,7 +485,23 @@ We boarded the bus and the ride through many treacherous valleys and pristine mo
 </div>
 
 
-This leg of the journey featured a bus, and second train to reach the final destination. It was cooler and I did not bring any jackets on this long trip! Oh well, nothing that corn soup cannot fix. There was plenty of vending machines, anyway. When we reached Motsumoto, the girls had taken the liberty to book accommodation for us all for one night here. I joined in and paid for my slice of the stay. The place was very nice, large, and featured a large tatami room, kitchen, and triple bunk room. We dropped off the luggage, and headed out for a night on the town. I met some friendly local people on the streets, and caught up to my Thai friends who were looking for a local Izakaya. And boy did we find one! It was large hall filled with many smaller izakayas. But the real treat was the self-service takuyaki. We cooked it at our own table. We quickly made friends with the people sitting at the table across and it turned out to be a very enjoyable night. I met a Japanese guy who lived in Ohio for a year, and some ladies who were students as well. After dinner, we went over to karaoke and rented a room. We sang out our hearts, all friends! What a night! I love Motsumotto! When we returned to the accommodation it was becoming more clear that I may not make it to Tokyo for my flight.
+This leg of the journey featured a bus, and second train to reach the final
+destination. It was cooler and I did not bring any jackets on this long trip! Oh
+well, nothing that corn soup cannot fix. There was plenty of vending machines,
+anyway. When we reached Motsumoto, the girls had taken the liberty to book
+accommodation for us all for one night here. I joined in and paid for my slice
+of the stay. The place was very nice, large, and featured a large tatami room,
+kitchen, and triple bunk room. We dropped off the luggage, and headed out for a
+night on the town. I met some friendly local people on the streets, and caught
+up to my Thai friends who were looking for a local Izakaya. And boy did we find
+one! It was large hall filled with many smaller izakayas. But the real treat was
+the self-service takuyaki. We cooked it at our own table. We quickly made
+friends with the people sitting at the table across and it turned out to be a
+very enjoyable night. I met a Japanese guy who lived in Ohio for a year, and
+some ladies who were students as well. After dinner, we went over to karaoke and
+rented a room. We sang out our hearts, all friends! What a night! I love
+Motsumotto! When we returned to the accommodation it was becoming more clear
+that I may not make it to Tokyo for my flight.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -373,12 +535,46 @@ This leg of the journey featured a bus, and second train to reach the final dest
 
 # Day 7 - Travel Adjustments
 
-At this point, the railways and many buses were being suspended. We all needed to return to Tokyo for our flights out of Japan. My flight was this evening from Narita. We visited the bus terminal in Motsumoto to be told that the buses were sold out. The railway had notices stating that the trains were suspended on the Chuo line. It was increasingly clear that I would not make my flight. I had family call the airline on my behalf to work out a delayed departure. After some hours of waiting, the flight was rescheduled for the 18th! Thank you American! I know this would not have even been remote possible if I did not have airline status though. This would also mean that I would miss an important work conference, but I would deal with that when I could. 
+At this point, the railways and many buses were being suspended. We all needed
+to return to Tokyo for our flights out of Japan. My flight was this evening from
+Narita. We visited the bus terminal in Motsumoto to be told that the buses were
+sold out. The railway had notices stating that the trains were suspended on the
+Chuo line. It was increasingly clear that I would not make my flight. I had
+family call the airline on my behalf to work out a delayed departure. After some
+hours of waiting, the flight was rescheduled for the 18th! Thank you American! I
+know this would not have even been remote possible if I did not have airline
+status though. This would also mean that I would miss an important work
+conference, but I would deal with that when I could.
 
 
-We found a bus to Nagano, that would provide Shinkansen service back into Tokyo. That was the plan. We had spent too much time walking around the bus terminal, back to the train, and back again. This was the plan, and I waited in a long queue to buy the tickets. I said goodbye to my new Thai friends, and boarded the bus to Nagano. The bus to Nagano, would then switch and I would ride Shinkansen to Shinjuko. It was a relief to board the high speed train after the past days adventures. I arrived in Tokyo in the night and was immediately met with light and people everywhere! It really was the time square of Japan. I checked into an accommodation called 9Hours(Actually recommended by that Chinese lady from Kyoto). This was a capsule accommodation with a little frills. The hangout and checkin room was spartan. Just seats and nothing else. However, that is all I really wanted. Just a place to crash for the night.This is where I would meet my next friend Duncan. We ran into each other in the elevator and we planned to hang out the next few days.
+We found a bus to Nagano, that would provide Shinkansen service back into Tokyo.
+That was the plan. We had spent too much time walking around the bus terminal,
+back to the train, and back again. This was the plan, and I waited in a long
+queue to buy the tickets. I said goodbye to my new Thai friends, and boarded the
+bus to Nagano. The bus to Nagano, would then switch and I would ride Shinkansen
+to Shinjuko. It was a relief to board the high speed train after the past days
+adventures. I arrived in Tokyo in the night and was immediately met with light
+and people everywhere! It really was the time square of Japan. I checked into an
+accommodation called 9Hours(Actually recommended by that Chinese lady from
+Kyoto). This was a capsule accommodation with a little frills. The hangout and
+checkin room was spartan. Just seats and nothing else. However, that is all I
+really wanted. Just a place to crash for the night.This is where I would meet my
+next friend Duncan. We ran into each other in the elevator and we planned to
+hang out the next few days.
 
-We stayed in Shinjuko, which happens to be a huge Korean town. I even bought one of those corn on a stick after awkwardly standing around the stall, waiting for a purchase. I ended up needing to insert money into a machine for a ticket! That is quite a different experience! My friend Duncan had a book with some suggested spots to visit in Tokyo. I am lucky, because he found us some really neat spots. Including Yakitori Alley. We ate dinner at a really cramped Izakaya that housed space for 6 people and that was it. Very cramped, but also quite the experience. We ordered some skewers, typical at most izakayas, and drank with some beer. Afterwards we went to another suggested area called Golden Gai. The walk over we were ambushed by so many night clubs and lady bars, but we brushed it off and found the most quaint set of tiny bars. Each bar was very narrow and could fit maybe a few people. We found a place with a covor charge, but that didn't stop us from entering such a nice quaint little place.
+We stayed in Shinjuko, which happens to be a huge Korean town. I even bought one
+of those corn on a stick after awkwardly standing around the stall, waiting for
+a purchase. I ended up needing to insert money into a machine for a ticket! That
+is quite a different experience! My friend Duncan had a book with some suggested
+spots to visit in Tokyo. I am lucky, because he found us some really neat spots.
+Including Yakitori Alley. We ate dinner at a really cramped Izakaya that housed
+space for 6 people and that was it. Very cramped, but also quite the experience.
+We ordered some skewers, typical at most izakayas, and drank with some beer.
+Afterwards we went to another suggested area called Golden Gai. The walk over we
+were ambushed by so many night clubs and lady bars, but we brushed it off and
+found the most quaint set of tiny bars. Each bar was very narrow and could fit
+maybe a few people. We found a place with a cover charge, but that didn't stop
+us from entering such a nice quaint little place.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -409,7 +605,24 @@ We stayed in Shinjuko, which happens to be a huge Korean town. I even bought one
 
 # Day 8 - Tokyo
 
-I rose from my accommodation and headed towards the ANA Intercontinental. But not before enjoying breakfast at Komeda's Coffee. I decided to stay at ANA because I wanted to see another part of Tokyo, while burning some of my Holiday Inn hotel points. The walk over with luggage was pretty tiresome, but it was all worth it when entering and checking into the hotel. It was very fancy and offered the amenities I needed. After a quick shower, I headed off to Shibuya to explore and grab some local food. In the quest for Ramen, we ended up in a cold noodle restaurant. Interesting flavor. We ordered from a vending machine and they brought the bowls to us. My friend Takuya joined and that started the journay of exploring and catching up with my good friend I had met previously in Taiwan. We finished noodles and Takuya and I visited the Namimese Shopping Street and Temple. This part of Tokyo was totally different compared to the crowds experienced the first night. Much more chill and relaxing. Takuya showed me the market streets and I felt like I was back in Kyoto for a time. The market was wide and featured many tourist shops, however it was an interesting site. Afterwards, we visited the temple and shrine before I headed back to ANA. I went up to the top floor bar for drinks and had a spectacular view of the city skylines!
+I rose from my accommodation and headed towards the ANA Intercontinental. But
+not before enjoying breakfast at Komeda's Coffee. I decided to stay at ANA
+because I wanted to see another part of Tokyo, while burning some of my Holiday
+Inn hotel points. The walk over with luggage was pretty tiresome, but it was all
+worth it when entering and checking into the hotel. It was very fancy and
+offered the amenities I needed. After a quick shower, I headed off to Shibuya to
+explore and grab some local food. In the quest for Ramen, we ended up in a cold
+noodle restaurant. Interesting flavor. We ordered from a vending machine and
+they brought the bowls to us. My friend Takuya joined and that started the
+journey of exploring and catching up with my good friend I had met previously in
+Taiwan. We finished noodles and Takuya and I visited the Namimese Shopping
+Street and Temple. This part of Tokyo was totally different compared to the
+crowds experienced the first night. Much more chill and relaxing. Takuya showed
+me the market streets and I felt like I was back in Kyoto for a time. The market
+was wide and featured many tourist shops, however it was an interesting site.
+Afterwards, we visited the temple and shrine before I headed back to ANA. I went
+up to the top floor bar for drinks and had a spectacular view of the city
+skylines!
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -432,7 +645,9 @@ I rose from my accommodation and headed towards the ANA Intercontinental. But no
 </div>
 
 
-I decided to explore the area near the accommodation for dinner. I walked around some streets in Akasaka and stumbled into a basement sushi restaurant. It was a treat! The rolls were delicious. I then went back to my accommodation to rest.
+I decided to explore the area near the accommodation for dinner. I walked around
+some streets in Akasaka and stumbled into a basement sushi restaurant. It was a
+treat! The rolls were delicious. I then went back to my accommodation to rest.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -453,7 +668,20 @@ I decided to explore the area near the accommodation for dinner. I walked around
 
 # Day 9 - Last Day
 
-I rose from ANA and headed to the Shinjuko garden to meet my friend Duncan. We enjoyed some tea at a traditional tea house while exploring the sanctuary inside such a busy city. We found a famous tempura restaurant in the area and had an early lunch. I would also meet my friend Takuya again. Takuya joined Duncan and I to explore the Ameyoko marketplace near Ueno station. This features some attractive shops and taverns too. This is where I loaded up on snacks that I would bring back to the U.S. Takuya showed us around a temple here, and then we visited one izakaya for beer and sake. Later that evening Takuya would take us to the famous Anime district in Japan. I didn't want to visit Tokyo without seeing this. Although I am not the biggest follower of animation, this was quite the sight. We went in one tower full of merchandise, and it was sensory overload! We could only stay inside for a short bit before turning back and visiting the next. Takuya had to leave us, so I said my goodbyes to him and Duncan. I headed to my last accommodation, a hostel in Tatama.
+I rose from ANA and headed to the Shinjuko garden to meet my friend Duncan. We
+enjoyed some tea at a traditional tea house while exploring the sanctuary inside
+such a busy city. We found a famous tempura restaurant in the area and had an
+early lunch. I would also meet my friend Takuya again. Takuya joined Duncan and
+I to explore the Ameyoko marketplace near Ueno station. This features some
+attractive shops and taverns too. This is where I loaded up on snacks that I
+would bring back to the U.S. Takuya showed us around a temple here, and then we
+visited one izakaya for beer and sake. Later that evening Takuya would take us
+to the famous Anime district in Japan. I didn't want to visit Tokyo without
+seeing this. Although I am not the biggest follower of animation, this was quite
+the sight. We went in one tower full of merchandise, and it was sensory
+overload! We could only stay inside for a short bit before turning back and
+visiting the next. Takuya had to leave us, so I said my goodbyes to him and
+Duncan. I headed to my last accommodation, a hostel in Tatama.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
@@ -493,7 +721,13 @@ I rose from ANA and headed to the Shinjuko garden to meet my friend Duncan. We e
 </div>
 
 
-The hostel was nearby the previous Namimese street, but in a more residential area. This is where I would spend my last night in Japan. I was recommended a nice onsen to visit my last night. It was called Akebonoyu. After eating some delicious ramen at a local place. (I somehow managed to skip ramen until my last night) I entered the onsen for one last relaxing night at the spa. This would finalize the trip for me. The night I walked around a bit and packed up my belongings before heading to the airport for my flight back to the US.
+The hostel was nearby the previous Namimese street, but in a more residential
+area. This is where I would spend my last night in Japan. I was recommended a
+nice onsen to visit my last night. It was called Akebonoyu. After eating some
+delicious ramen at a local place. (I somehow managed to skip ramen until my last
+night) I entered the onsen for one last relaxing night at the spa. This would
+finalize the trip for me. The night I walked around a bit and packed up my
+belongings before heading to the airport for my flight back to the US.
 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-gallery-player-widget" style="width:960px; height:512px; display:none;"
@@ -526,9 +760,19 @@ The hostel was nearby the previous Namimese street, but in a more residential ar
 </div>
 
 
-# Finalizations
+# Finalization
 
-All in all, this was definitely a level-setting experience for me. Between the week long cycling trip, to meeting and seeing old friends in Japan, it was truly an experience to take me out of my setting. I used the opportunity to have some context change and think about life and some of the key decisions and pathway my life had to offer. Above all, it was an experience to enjoy and cherish. These types of trips are enjoyable to me because it opens the eyes to new life experiences that we don't get just in the workplace. It set a sense of purpose in my life and a renewed vigor to my future. I hope a similar experience can be had to all folks, but in reality it isn't the case. I am truly blessed to have the resources to go on such an adventure, and I hope this can inspire some future adventurers, and also meet new friends along the way!
+All in all, this was definitely a level-setting experience for me. Between the
+week long cycling trip, to meeting and seeing old friends in Japan, it was truly
+an experience to take me out of my setting. I used the opportunity to have some
+context change and think about life and some of the key decisions and pathway my
+life had to offer. Above all, it was an experience to enjoy and cherish. These
+types of trips are enjoyable to me because it opens the eyes to new life
+experiences that we don't get just in the workplace. It set a sense of purpose
+in my life and a renewed vigor to my future. I hope a similar experience can be
+had to all folks, but in reality it isn't the case. I am truly blessed to have
+the resources to go on such an adventure, and I hope this can inspire some
+future adventurers, and also meet new friends along the way!
 
 ## Here is a link to the entire album
 

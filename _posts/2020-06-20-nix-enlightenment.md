@@ -26,7 +26,7 @@ difficult setup of things I typically maintain separately like my
 [dotfiles](https://github.com/bagnaram/dotfiles/). These could ideally be
 managed across systems as a single Nix configuration.
 
-NixOS uses the concept of packages which are layed down over the filesystem.
+NixOS uses the concept of packages which are laid down over the filesystem.
 These packages are stored in the Nix repository **under /nix/**, and are
 symlinked over their expected locations on the filesystem. Whenever Nix sets up
 your system, it reads through its master configuration file and grabs the
@@ -146,10 +146,10 @@ its own wrappers. All in all, give Nix a go and see for yourself!
 <img src="/img/icon-enlightenment.png" alt="Enlightenment" class="inline"/>
 
 [Enlightenment](https://www.enlightenment.org/), or E for short, is a unique
-piece of software. It is one of the earliest desktop envionments for the Linux
+piece of software. It is one of the earliest desktop environments for the Linux
 desktop. It has gone through various iterations, and even experienced a fork at
 version 16. It has a very colorful history and helped to shape what desktops
-could do, using its compositing window manager. There are many outragous
+could do, using its compositing window manager. There are many outrageous
 screenshots of highly customized desktops that may have been more over-the-top
 in visuals than usability! However, this demonstration carried Enlightenment
 into its relatively niche yet passionate space it finds itself in today.
@@ -178,7 +178,7 @@ standard mode. I filled in this information and was set-up with a new Enlightenm
 
 If there is any desktop environment you would like to configure and tweak, it
 would be enlightenment. While most DEs are fully customizable with
-configuration, E takes this a step furtherr and provides a rich set of
+configuration, E takes this a step further and provides a rich set of
 customizations and options to configure it to your preference.
 
 <img src="/img/enlightenment-01.png" alt="E Config" class="inline"/>
@@ -186,7 +186,7 @@ customizations and options to configure it to your preference.
 And you will want to configure Enlightenment from its default. There are small
 nuances of the desktop experience I didn't want to give up, and many nice tweaks
 to improve workflow. For example, I set up a series of keyboard shortcuts to
-switch desktops, and to move focused applications to verious desktops like in
+switch desktops, and to move focused applications to various desktops like in
 I3.
 
 Enlightenment theme icons took some work to get working. Using XDG icon themes

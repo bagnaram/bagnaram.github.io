@@ -7,12 +7,31 @@ date: 2019-10-18
 This is a Giant Cycling Adventures trip that was inspired from my first trip to Taiwan and biking the countryside. This trip is a formal tour that circles the entire island! 
 
 # Day 1 - Starting in Florida
-My trip began as a business trip in Tampa. I woke up around 4AM and caught a taxi to the airport to get on a flight Houston. The trip connected in Houston and then to Japan via ANA Airlines. I visited the airport lounge for some coffee and boarded my flight. The flight was nice. However, I sat next to some pretty talkative people and made the flight a drag. 13 hours of nonstop talking! Once I reached Japan, I entered the ANA lounge for a very refreshing shower & tried some plum wine. The short to Taipei got me in around 8PM. I had kept my MRT card from my last Taiwan trip, which is the metro system smart card for payments. I had decided to book a same accommodation as my last trip because I liked it and it was nearby the departure for my bicycle tour, the Sleepy Dragon Hostel. The trip would depart from Songshan MRT. When I arrived in Taiwan, it was raining because a typhoon had come off the Pacific ocean. I made plans to meet my local Taiwanese friend Lili at Raohe Night Market. We caught up over some street food and I picked up some last minute supplies for my cycling adventure.
+My trip began as a business trip in Tampa. I woke up around 4AM and caught a
+taxi to the airport to get on a flight Houston. The trip connected in Houston
+and then to Japan via ANA Airlines. I visited the airport lounge for some coffee
+and boarded my flight. The flight was nice. However, I sat next to some pretty
+talkative people and made the flight a drag. 13 hours of nonstop talking! Once I
+reached Japan, I entered the ANA lounge for a very refreshing shower & tried
+some plum wine. The short to Taipei got me in around 8PM. I had kept my MRT card
+from my last Taiwan trip, which is the metro system smart card for payments. I
+had decided to book a same accommodation as my last trip because I liked it and
+it was nearby the departure for my bicycle tour, the Sleepy Dragon Hostel. The
+trip would depart from Songshan MRT. When I arrived in Taiwan, it was raining
+because a typhoon had come off the Pacific ocean. I made plans to meet my local
+Taiwanese friend Lili at Raohe Night Market. We caught up over some street food
+and I picked up some last minute supplies for my cycling adventure.
 
 
 # Day 2 - Tour de Taiwan
 
-The meeting time for the Giant cycling tour was 7AM at Songshan MRT. Sadly it was pouring rain still from the typhoon. I did have the rain poncho on, and my friend Lili even met me in the morning to lend me a rain jacket to use on the trip. At 7AM the Giant staff assigned us our bikes, helmet, & info packs. The trip began, and I met a few folks that I would get to know over the course of my trip. We headed of on our bikes to commence the ride towards te south towards Taoyuan.
+The meeting time for the Giant cycling tour was 7AM at Songshan MRT. Sadly it
+was pouring rain still from the typhoon. I did have the rain poncho on, and my
+friend Lili even met me in the morning to lend me a rain jacket to use on the
+trip. At 7AM the Giant staff assigned us our bikes, helmet, & info packs. The
+trip began, and I met a few folks that I would get to know over the course of my
+trip. We headed of on our bikes to commence the ride towards te south towards
+Taoyuan.
 
 <div class="pa-carousel-widget" style="width:960px; height:512px; display:none;"
   data-link="https://photos.app.goo.gl/9HcwqspUy92yXLcA9"
@@ -29,7 +48,13 @@ The meeting time for the Giant cycling tour was 7AM at Songshan MRT. Sadly it wa
   <object data="https://lh3.googleusercontent.com/23jvLuEW_OfhYez3X16GkGQNo317idzkJTn-rX9vX1_lYgoXnxCZJvuJr2CTR9u8KSfr-qGgt5QVqoLKsfS6YZQBbM8o5eIGTAmJ9ptFhftn6UIAhiXElImBR6MGFDVBTvhIWznYnQ=w1920-h1080"></object>
 </div>
 
-The first part of the journey was soaking as we rode the streets around treacherous buses and vehicles. We crossed the great Taipei bridge and saw a small festival going on under the bridge. We also notice quite a number of rotund stray dogs around this area. As we reached closer to Taoyuan, the rain began to let up a little bit. This was welcome, because the rain ponchos made me feel like a rain forest of sweat. The first meal was at a famous rooster restaurant along the countryside. 
+The first part of the journey was soaking as we rode the streets around
+treacherous buses and vehicles. We crossed the great Taipei bridge and saw a
+small festival going on under the bridge. We also notice quite a number of
+rotund stray dogs around this area. As we reached closer to Taoyuan, the rain
+began to let up a little bit. This was welcome, because the rain ponchos made me
+feel like a rain forest of sweat. The first meal was at a famous rooster
+restaurant along the countryside.
 
 <div class="pa-carousel-widget" style="width:960px; height:512px; display:none;"
   data-link="https://photos.app.goo.gl/ZvBDSNCcBbUg7K42A"
@@ -52,7 +77,14 @@ The first part of the journey was soaking as we rode the streets around treacher
   <object data="https://lh3.googleusercontent.com/ZOTc4GWZkpjfdCkE4ADRCn-Sy5ZiW0Drgg4K-tW98V03x91PTABFDMPMXg2qg7wb6h6EPjOeO7lFR-StyAl3WmsnlXXv1DwBGeLWncPMrC-rJuKh0PNMXA2uJJdfd3SVpSLznq3eHQ=w1920-h1080"></object>
 </div>
 
-We stayed at Howard Hotel and I met my roommates Wenghan, and one of the Giant staff. This also began my adventure of room keys. We only received 2 and one of them needs to be inserted into the room to power the electricity. This left me without one, and I quickly forgot my room number. When we arrived, we would ride to the hotel underground parking to line up the bikes. We were tired after the first day, and I still had jet lag. I met some bikers from Hong Kong, and a few others at dinner in Hinchu. We even tried some betelnut which is a mild stimulant.
+We stayed at Howard Hotel and I met my roommates Wenghan, and one of the Giant
+staff. This also began my adventure of room keys. We only received 2 and one of
+them needs to be inserted into the room to power the electricity. This left me
+without one, and I quickly forgot my room number. When we arrived, we would ride
+to the hotel underground parking to line up the bikes. We were tired after the
+first day, and I still had jet lag. I met some bikers from Hong Kong, and a few
+others at dinner in Hinchu. We even tried some betelnut which is a mild
+stimulant.
 
 <div class="pa-carousel-widget" style="width:960px; height:512px; display:none;"
   data-link="https://photos.app.goo.gl/4rtVxxmDwG6nb3gg6"
@@ -74,7 +106,29 @@ We stayed at Howard Hotel and I met my roommates Wenghan, and one of the Giant s
 </div>
 
 # Day 3 - Hsinchu to Lukang
-The breakfast in Hsinchu was at the hotel. This was my first experience with the Taiwanese breakfast spread. This hotel had quite an assortment of breakfast choices. I ended up trying the congee and egg omelettes. We loaded the bikes and started for our ride continuing south. We rode out towards the sea and broke view of the ocean for the first time! The trail paralleled the ocean for quite a while. During our resting spots, we had passion fruits to try for the first time. It was a good refreshment because the inside of the fruit is light and juicy. You suck it out by puncturing a hole. As we continued riding, we saw some nice countryside for the first time and we stopped at a famous salt factory called Taiyen Tongxiao Tourist Park. This area has many salt-related products including coffee and ice cream! We continued riding and the scenery opened up to rice fields and narrow country roads. The next stop was Giant manufacturing facility. Although many bicycles are presently built in China, it was a nice experience to see the headquarters of Giant Cycling World. Our lunch was at another roadside restaurant which we ate family style. We continued riding the afternoon through vast landscapes and stopped at various convince stores along the way. Our accommodation was in Lukang at the Unified Lugang Cultural and Creative Center. It is directly across from Lukang Stadium. We arrived in the evening in time to rest and have a nice banquet family style dinner. This place had some delicious pork soup and a few other items like tea. We were able to explore the city after dinner. I needed sunglasses and surprisingly, the local Giant store was still open. I purchased some and met the rest of the group to eat pork buns, explore a local temple, and try oyster omelette street food. 
+The breakfast in Hsinchu was at the hotel. This was my first experience with the
+Taiwanese breakfast spread. This hotel had quite an assortment of breakfast
+choices. I ended up trying the congee and egg omelets. We loaded the bikes and
+started for our ride continuing south. We rode out towards the sea and broke
+view of the ocean for the first time! The trail paralleled the ocean for quite a
+while. During our resting spots, we had passion fruits to try for the first
+time. It was a good refreshment because the inside of the fruit is light and
+juicy. You suck it out by puncturing a hole. As we continued riding, we saw some
+nice countryside for the first time and we stopped at a famous salt factory
+called Taiyen Tongxiao Tourist Park. This area has many salt-related products
+including coffee and ice cream! We continued riding and the scenery opened up to
+rice fields and narrow country roads. The next stop was Giant manufacturing
+facility. Although many bicycles are presently built in China, it was a nice
+experience to see the headquarters of Giant Cycling World. Our lunch was at
+another roadside restaurant which we ate family style. We continued riding the
+afternoon through vast landscapes and stopped at various convince stores along
+the way. Our accommodation was in Lukang at the Unified Lugang Cultural and
+Creative Center. It is directly across from Lukang Stadium. We arrived in the
+evening in time to rest and have a nice banquet family style dinner. This place
+had some delicious pork soup and a few other items like tea. We were able to
+explore the city after dinner. I needed sunglasses and surprisingly, the local
+Giant store was still open. I purchased some and met the rest of the group to
+eat pork buns, explore a local temple, and try oyster omelet street food.
 
 <div class="pa-carousel-widget" style="width:960px; height: 512px; display:none;"
   data-link="https://photos.app.goo.gl/HmgXxZVAhq4n23ts7"
@@ -152,7 +206,19 @@ The breakfast in Hsinchu was at the hotel. This was my first experience with the
 
 # Day 4 - Lukang to Chiayi
 
-We rose from our sleep and headed down to another delicious breakfast before loading onto the bikes to continue the journey south. Our first stop was a very famous temple in Lukang called Lukang Lungshan Temple. It was built in 1786 and remains a very important cultural landmark for Taiwan. We rode for a while along city streets and ate some ice cream crackers. They are ice cream between two salt crackers. Quite refreshing! During the next portion of the ride, we entered more agricultural areas in Taiwan. The landscape really opened up to crops and rice fields. I spent much of this day getting to know a new friend Jason as we talked about life and admired the natural beauty of the part of the country. Our first stop was the very famous red bridge in Taiwan. This is called Xiluo Bridge and is very famous for being an incredibly long truss bridge structure. We stopped here to take our official photos in front of the bridge. This was definitely a highlight!
+We rose from our sleep and headed down to another delicious breakfast before
+loading onto the bikes to continue the journey south. Our first stop was a very
+famous temple in Lukang called Lukang Lungshan Temple. It was built in 1786 and
+remains a very important cultural landmark for Taiwan. We rode for a while along
+city streets and ate some ice cream crackers. They are ice cream between two
+salt crackers. Quite refreshing! During the next portion of the ride, we entered
+more agricultural areas in Taiwan. The landscape really opened up to crops and
+rice fields. I spent much of this day getting to know a new friend Jason as we
+talked about life and admired the natural beauty of the part of the country. Our
+first stop was the very famous red bridge in Taiwan. This is called Xiluo Bridge
+and is very famous for being an incredibly long truss bridge structure. We
+stopped here to take our official photos in front of the bridge. This was
+definitely a highlight!
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/Tfgd1Pg6qk4ntyRv5"
@@ -187,7 +253,14 @@ We rose from our sleep and headed down to another delicious breakfast before loa
   <object data="https://lh3.googleusercontent.com/c9sFJBG2oSeTVI1x8_8zpN7ap9quKyEu3pi4uMflJwTGdA2YdCJQCDLWvpakiVLEG0ygPjeq8kSSBaYTFeRos4V5eOixcQgpkOPcPVTsSqmytrnUBzLFuXksHx-u8PTylGh5IuEr-A=w1920-h1080"></object>
 </div>
 
-Lunch was in the town of Xiluo. We ate some form of savory rice cakes and I purchased some deer antler wine close by. We continued riding in the afternoon and stopped at a local arts park that was previously a sugar plantation. We arrived at our luxury accommodation in Chiayi and were able to freshen up after a more difficult day of riding. That evening was free for dinner, so we ate a local fish stew in the city center. We later visited a stand with some sort of dessert soup. Very delicious. We found a local pub to have some drinks and later we finished the night off by visiting a foot massage. 
+Lunch was in the town of Xiluo. We ate some form of savory rice cakes and I
+purchased some deer antler wine close by. We continued riding in the afternoon
+and stopped at a local arts park that was previously a sugar plantation. We
+arrived at our luxury accommodation in Chiayi and were able to freshen up after
+a more difficult day of riding. That evening was free for dinner, so we ate a
+local fish stew in the city center. We later visited a stand with some sort of
+dessert soup. Very delicious. We found a local pub to have some drinks and later
+we finished the night off by visiting a foot massage.
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/3tSi91Z5D6vxAcDe8"
@@ -247,7 +320,20 @@ Lunch was in the town of Xiluo. We ate some form of savory rice cakes and I purc
 
 # Day 5 - Chiayi to Kiaoshung
 
-We departed Chiayi after another swell breakfast and hit the road to continue the ride. We went through some smaller villages like Houbi. This area is very famous for pomelos and we started seeing a lot of pomelo groves along the roadside. We rode along highway during this portion of the trip, and passed many beeping trucks. Taiwan has a lot of traffic despite being a smaller island country! As we neared Kiaoshung, the scenery changed and we began to notice many small ponds with some sort of water cycling devices inside. I wouldn't have guessed that this is how they farm shrimp and prawns in the area. I started seeing many of these pools in this region. Tainan was the largest city we saw since leaving Taipei. We met a large river that flows through the downtown of the city. There were many nice groves of trees and buildings along this river. By this point in the day, it was time for lunch so we all headed to our southern Taiwan lunch at a famous restaurant. The menu featured a lot of southern dishes like the coffin bread, and some sort of dry pork and even a gelatin.
+We departed Chiayi after another swell breakfast and hit the road to continue
+the ride. We went through some smaller villages like Houbi. This area is very
+famous for pomelos and we started seeing a lot of pomelo groves along the
+roadside. We rode along highway during this portion of the trip, and passed many
+beeping trucks. Taiwan has a lot of traffic despite being a smaller island
+country! As we neared Kiaoshung, the scenery changed and we began to notice many
+small ponds with some sort of water cycling devices inside. I wouldn't have
+guessed that this is how they farm shrimp and prawns in the area. I started
+seeing many of these pools in this region. Tainan was the largest city we saw
+since leaving Taipei. We met a large river that flows through the downtown of
+the city. There were many nice groves of trees and buildings along this river.
+By this point in the day, it was time for lunch so we all headed to our southern
+Taiwan lunch at a famous restaurant. The menu featured a lot of southern dishes
+like the coffin bread, and some sort of dry pork and even a gelatin.
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/hxjc9AW7XD7kxHny7"
@@ -288,7 +374,20 @@ We departed Chiayi after another swell breakfast and hit the road to continue th
   <object data="https://lh3.googleusercontent.com/UXQaqHOO3wvdauhlya_-ER4jLKC1VVeRshtBx5IsWCX9TlExatMG_-PGTqu19XSFYHb3yD7asfS0mVZNAb-rDGyj7QmMCq6cQOIRQbabXbJD4Igux36c8l87Ki65tW_9R0giuj5NGw=w1920-h1080"></object>
 </div>
 
-We left Tainan and headed towards the coast for a scenic ride along the sea. We stopped again for a rest in a large harbor for some famous winter melon tea. This was so satisfying! The winter melon was not too sweet like it is in Taipei. It was very refreshing. As we neared Kiaoshung, the day grew into evening as we rode through the large city. The city is situated along a small mountain ridge, and as the evening sun cast shadows across them, it made for a very pleased ride into the evening. We reached our accommodation and my friend Nomo offered me a sasparilla drink to celebrate reaching this point in the trip! We had dinner together but I could tell we were all very tired, including myself! However, that wasn't going to stop me and some friends from exploring the night market of Kiaoshung. This night market was much more spacious than the ones in Taipei. The market consisted of a large avenue with seats along the center. There I tried a few southern snacks like sushi-on-a-stick! Lots of fresh seafood and even papaya milk were available. We finished the night at a sake bar in the city.
+We left Tainan and headed towards the coast for a scenic ride along the sea. We
+stopped again for a rest in a large harbor for some famous winter melon tea.
+This was so satisfying! The winter melon was not too sweet like it is in Taipei.
+It was very refreshing. As we neared Kiaoshung, the day grew into evening as we
+rode through the large city. The city is situated along a small mountain ridge,
+and as the evening sun cast shadows across them, it made for a very pleased ride
+into the evening. We reached our accommodation and my friend Nomo offered me a
+sasparilla drink to celebrate reaching this point in the trip! We had dinner
+together but I could tell we were all very tired, including myself! However,
+that wasn't going to stop me and some friends from exploring the night market of
+Kiaoshung. This night market was much more spacious than the ones in Taipei. The
+market consisted of a large avenue with seats along the center. There I tried a
+few southern snacks like sushi-on-a-stick! Lots of fresh seafood and even papaya
+milk were available. We finished the night at a sake bar in the city.
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/QhVnm1tvbXrwCosB6"
@@ -338,7 +437,23 @@ We left Tainan and headed towards the coast for a scenic ride along the sea. We 
 
 # Day 6 - Kiaoshung to Pingtung
 
-At this point in the trip, the fatigue was becoming real! But that wouldn't stop us from making the most of this adventure! With breakfast and stretches off to a start, we hit the road yet again to head towards the southernmost point of the trip. Kiaoshung was a large city, and we had some riding to do in order to pass through. It is a beautiful city though, with plenty of green space and a waterfront. We rode along an old railroad converted to a trail that ran us out of the city. We reached a part of the trip where we were riding along an elevated highway for a good portion. This highway would cast a shadow in just a way to keep us out of the sun for a majority of the morning! We reached our first rest stop of the day, and it featured a sort of snow soup that is famous in the region. We continued to ride through sparsely populated countrysides and rural highways until reaching our lunch spot at a famous roasted rooster restaurant. This place cooked the rooster to make it crispy as opposed to the typical greasy and fried chicken. They would deliver an entire roasted rooster and break it apart in front of us on the table. After, I had the pleasure of tasting the most delicious papaya and mango of my life at a nearby fruit stand! Truly decadent. 
+At this point in the trip, the fatigue was becoming real! But that wouldn't stop
+us from making the most of this adventure! With breakfast and stretches off to a
+start, we hit the road yet again to head towards the southernmost point of the
+trip. Kiaoshung was a large city, and we had some riding to do in order to pass
+through. It is a beautiful city though, with plenty of green space and a
+waterfront. We rode along an old railroad converted to a trail that ran us out
+of the city. We reached a part of the trip where we were riding along an
+elevated highway for a good portion. This highway would cast a shadow in just a
+way to keep us out of the sun for a majority of the morning! We reached our
+first rest stop of the day, and it featured a sort of snow soup that is famous
+in the region. We continued to ride through sparsely populated countrysides and
+rural highways until reaching our lunch spot at a famous roasted rooster
+restaurant. This place cooked the rooster to make it crispy as opposed to the
+typical greasy and fried chicken. They would deliver an entire roasted rooster
+and break it apart in front of us on the table. After, I had the pleasure of
+tasting the most delicious papaya and mango of my life at a nearby fruit stand!
+Truly decadent.
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/nym6A7mdijUNd2rz7"
@@ -380,7 +495,16 @@ At this point in the trip, the fatigue was becoming real! But that wouldn't stop
   <object data="https://lh3.googleusercontent.com/lJKUQ0KOtCKvGToA6OUE_MacGqB1JbSqRPdFzBG45OeNEdma8bsJiZfDdaKJsr_eAeyLK8ZvlgBWgJzUp45Xlkljfaf-ptR64FRFcTmnFmYu56G1KlArZROTpJXg6nXsyjPOx7DaPg=w1920-h1080"></object>
 </div>
 
-We rode along the sea shore for a little bit and stopped at a famous beach. I decided to go for a plunge! I was so hot, and when I see water, I'm all in! Quite refreshing to swim for a bit in the sea. This leg of the trip we were unchained as we neared a few hills along the coast. The Giant staff allowed us to go full speed at this point and "catch the hare". The hare being one of the Giant staff bikers. This livened up the challenge and made the last leg of this long day a bit more exciting! We reached our accommodation in Pingtung and relaxed for a bit after the exhausting day. Dinner was at the hotel, and a group of us decided to explore the city and see the old fortified gate during the Japanese residency of the area. We even made friends with a local stray dog!
+We rode along the sea shore for a little bit and stopped at a famous beach. I
+decided to go for a plunge! I was so hot, and when I see water, I'm all in!
+Quite refreshing to swim for a bit in the sea. This leg of the trip we were
+unchained as we neared a few hills along the coast. The Giant staff allowed us
+to go full speed at this point and "catch the hare". The hare being one of the
+Giant staff bikers. This livened up the challenge and made the last leg of this
+long day a bit more exciting! We reached our accommodation in Pingtung and
+relaxed for a bit after the exhausting day. Dinner was at the hotel, and a group
+of us decided to explore the city and see the old fortified gate during the
+Japanese residency of the area. We even made friends with a local stray dog!
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/s4AC8bCAHXM3sz189"
@@ -434,7 +558,15 @@ We rode along the sea shore for a little bit and stopped at a famous beach. I de
 
 # Day 7 - Pingtung to Taitung
 
-We started from the coastal city ad rode towards inland. Very quickly we entered mountainous regions. This part of Taiwan has many aboriginals and our first entry to the region was through a large archway dedicated to one of the tribes. We rested by a massive dam and I downloaded an app because we wanted to identify some of the plants in the region. We started up an ascent up a quite challenging mountain. We would always rest up on top and make notice of the beautiful landscape and different style of houses there. We climbed another ascent and stopped by a famous rest stop for bikers and finally reached our anticipated lunch.
+We started from the coastal city ad rode towards inland. Very quickly we entered
+mountainous regions. This part of Taiwan has many aboriginals and our first
+entry to the region was through a large archway dedicated to one of the tribes.
+We rested by a massive dam and I downloaded an app because we wanted to identify
+some of the plants in the region. We started up an ascent up a quite challenging
+mountain. We would always rest up on top and make notice of the beautiful
+landscape and different style of houses there. We climbed another ascent and
+stopped by a famous rest stop for bikers and finally reached our anticipated
+lunch.
 
 <div class="pa-gallery-player-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/u924UqFrkQNXAFyA6"
@@ -477,7 +609,14 @@ We started from the coastal city ad rode towards inland. Very quickly we entered
   <object data="https://lh3.googleusercontent.com/oS1txqLpw2juMPqgxDGXCLBO8_rTjEVRTXHdjP89DQwAxzPNrxa_yyAabgHG-kfeynSRRdlIhrQiLbjM7mJHMTx4l-X-24mHcfZtA3dKlwUOsutt8u14U4ihDD4Zk5JFJ3KbYb0UPw=w1920-h1080"></object>
 </div>
 
-Lunch was family style again with some delicious Taiwanese dishes and a specialty honey tea. Once we reached the east coast, the sea really opened up. This was one of the most beautiful parts of the ride along the mountain cliff. We stopped various points and I bought a shi-ja. It is known as the Buddha's head. This region of Taiwan appears to be quite famous for this fruit. We finally reached our first spa accommodation ad night! We ate and I bought a cap so that I could enter the spa due to Taiwan regulation requiring one. Finally, I got ice cream with a friend and hung out in the spa to relax.
+Lunch was family style again with some delicious Taiwanese dishes and a
+specialty honey tea. Once we reached the east coast, the sea really opened up.
+This was one of the most beautiful parts of the ride along the mountain cliff.
+We stopped various points and I bought a shi-ja. It is known as the Buddha's
+head. This region of Taiwan appears to be quite famous for this fruit. We
+finally reached our first spa accommodation ad night! We ate and I bought a cap
+so that I could enter the spa due to Taiwan regulation requiring one. Finally, I
+got ice cream with a friend and hung out in the spa to relax.
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/njQHy1DMPwZkrupX8"
@@ -529,7 +668,14 @@ Lunch was family style again with some delicious Taiwanese dishes and a specialt
 
 # Day 8 - Taitung to Hualien
 
-I rose for breakfast and we headed out of the hotspring hotel. We rode along the valley on a relatively flat route. The route took us over many dried rivers because the dry season. We also say many more rice fields and our first break stop featured some shi-ja ice cream. It contains many seeds! This area of Taiwan also featured many pineapple fields. We rode to the railroad station and we had real wooden bento boxes for lunch! We ate it inside of the station even though we were not planning to take the train. Afterwards, we walked down the street to eat some shaved ice. 
+I rose for breakfast and we headed out of the hotspring hotel. We rode along the
+valley on a relatively flat route. The route took us over many dried rivers
+because the dry season. We also say many more rice fields and our first break
+stop featured some shi-ja ice cream. It contains many seeds! This area of Taiwan
+also featured many pineapple fields. We rode to the railroad station and we had
+real wooden bento boxes for lunch! We ate it inside of the station even though
+we were not planning to take the train. Afterwards, we walked down the street to
+eat some shaved ice.
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/b9ZJMY4mhzke8KYH8"
@@ -591,7 +737,14 @@ I rose for breakfast and we headed out of the hotspring hotel. We rode along the
   <object data="https://lh3.googleusercontent.com/2dVhA7lr1wDL859CAEnudtQi_r1_tvASDRvDZ6JZlE15MCtOFw88_Y4JUIL7HFtQAge205FEW2CtgiroN4u8RY23rnItKWvrdwVJjiqrSmB1l1NmkwOmKPt7NIMdKg--_o8rGHjMZw=w1920-h1080"></object>
 </div>
 
-After the stop, we rode along a bike path this portion and stopped at a famous cycling rest stop. I joined Mark's family for coffee that was being served by the indigenous staff of this region. They showed us some painted pomelos and famous landmarks of the area, including a mountain in the distance that looks like a sleeping dragon. We reached the accommodation around dusk and checked into the lobby filled with pomelos! The accommodation was another hot spring but the rooms were detached, and surrounded by a large garden. This accommodation was certainly my favorite one of the whole trip!
+After the stop, we rode along a bike path this portion and stopped at a famous
+cycling rest stop. I joined Mark's family for coffee that was being served by
+the indigenous staff of this region. They showed us some painted pomelos and
+famous landmarks of the area, including a mountain in the distance that looks
+like a sleeping dragon. We reached the accommodation around dusk and checked
+into the lobby filled with pomelos! The accommodation was another hot spring but
+the rooms were detached, and surrounded by a large garden. This accommodation
+was certainly my favorite one of the whole trip!
 
 <div class="pa-carousel-widget" style="width:960px; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/XC8D4CEtAvj8ZP9M9"
@@ -635,9 +788,32 @@ After the stop, we rode along a bike path this portion and stopped at a famous c
 
 # Day 9 - Hualien to Jiaoxi
 
-I woke up early to enjoy some peace and quiet in the beautifal landscape. There was a pond swimming with carp, and even pomelos growing from a tree. We readied the bikes after breakfast for a slightly less intense ride. The ride took us through the valley away from the sea. We stopped at a 7-11 for our first stop, and later on stopped at a remote temple to use its restrooms. We arrived in Hualien around 11AM and was quite hungry. It was a nice sea city with many shops and stands all around. We rode down the main street and took a while to get throught the entire city to the train station. We would have lunch inside the Giant store consisting of bento boxes and milk tea. We were still a bit hungry, so a group of 4 of us took our bikes and rode pretty dangerously across town to a famous bun stand. We ate it on a stick dipping it in soy and vinegar. We got juice there too, and rode back to board our train to Yilan. I recall the journey of loading the bikes from the shop, through the train station, and onto the car was just as exhausting as the bike ride!
+I woke up early to enjoy some peace and quiet in the beautiful landscape. There
+was a pond swimming with carp, and even pomelos growing from a tree. We readied
+the bikes after breakfast for a slightly less intense ride. The ride took us
+through the valley away from the sea. We stopped at a 7-11 for our first stop,
+and later on stopped at a remote temple to use its restrooms. We arrived in
+Hualien around 11AM and was quite hungry. It was a nice sea city with many shops
+and stands all around. We rode down the main street and took a while to get
+throughout the entire city to the train station. We would have lunch inside the
+Giant store consisting of bento boxes and milk tea. We were still a bit hungry,
+so a group of 4 of us took our bikes and rode pretty dangerously across town to
+a famous bun stand. We ate it on a stick dipping it in soy and vinegar. We got
+juice there too, and rode back to board our train to Yilan. I recall the journey
+of loading the bikes from the shop, through the train station, and onto the car
+was just as exhausting as the bike ride!
 
-We all rested and slept on the train until reaching Yilan. We road from Yilan to Jiaoxi. It felt great to be back in that area. I recalled my first trip to Taiwan when I visited this famous spa town. We had some street food here, ice cream burritos, and jianbing. I joined friends at a steak place too. However, it was so much food and I got the squid instead. Afterwards, I met my roommate to have a Thai style massage. It was so hard because I don't understand Chinese but managed to figure out the instructions by them showing me through gestures. It was a very nice relaxing massage. Afterwards, I talked with Jason and he showed me some shops giving samples, and I picked up some beef tongue cookies. When we got back to the accommodation, we finished the day by going to the roof for a great city skyline, and visited the spa afterwards.
+We all rested and slept on the train until reaching Yilan. We road from Yilan to
+Jiaoxi. It felt great to be back in that area. I recalled my first trip to
+Taiwan when I visited this famous spa town. We had some street food here, ice
+cream burritos, and jianbing. I joined friends at a steak place too. However, it
+was so much food and I got the squid instead. Afterwards, I met my roommate to
+have a Thai style massage. It was so hard because I don't understand Chinese but
+managed to figure out the instructions by them showing me through gestures. It
+was a very nice relaxing massage. Afterwards, I talked with Jason and he showed
+me some shops giving samples, and I picked up some beef tongue cookies. When we
+got back to the accommodation, we finished the day by going to the roof for a
+great city skyline, and visited the spa afterwards.
 
 <div class="pa-carousel-widget" style="width:960px; height: 512px; display:none;"
   data-link="https://photos.app.goo.gl/5PsstDLyFvJBd4vcA"
@@ -705,8 +881,26 @@ We all rested and slept on the train until reaching Yilan. We road from Yilan to
 
 # Day 10 - Jiaoxi to Taipei
 
-Last day of the ride! We woke up from the Sunspring resort in Jiaoxi. The breakfast was satisfying but I was feeling the fatigue from the week and also feeling a bit sore from the massage. We loaded the bikes on e last time and headed out of Jiaoxi along the coast. This segment of ride was a reminder of my visit with my Yilan friend last time. We passed the large fish market and some winding cliffs and seasides. We rode along the coast and stopped at a few scenic cliffs for rest & photos. We took the Old Caoling tunnel back inland to ride towards Keeling and into Taipei. The tunnel was like Disney with music playing about the rain drops.  We rode through some pretty intense hills. At one point, I was ascending the hill and the lead rider heard the creaking of my bike approaching. That was instruction to speed up or be caught! We rested here until hitting Pinxi. We had lunch of some chicken rice curry and we got to explore the narrow railroad village some. Japanese tourists related lanterns of their wishes and many photos on the railroad, and we even met a turtle friend in Pinxi. 
-After Pinxi, there was a large ascent until we reached highway riding until Taipei. My friend Mark was brilliant and was able to identify so many aircraft he saw in the sky!  We finally arrived back at Songshan and we stretched and said our goodbyes. We all had different places to go, and mine was La Meridian Taipei. It took a while to get there and was quite sweaty, but I made it around Taiwan. I showered and rested and met my friend Lili for some dinner in the city. I slept.
+Last day of the ride! We woke up from the Sunspring resort in Jiaoxi. The
+breakfast was satisfying but I was feeling the fatigue from the week and also
+feeling a bit sore from the massage. We loaded the bikes on e last time and
+headed out of Jiaoxi along the coast. This segment of ride was a reminder of my
+visit with my Yilan friend last time. We passed the large fish market and some
+winding cliffs and seasides. We rode along the coast and stopped at a few scenic
+cliffs for rest & photos. We took the Old Caoling tunnel back inland to ride
+towards Keeling and into Taipei. The tunnel was like Disney with music playing
+about the rain drops. We rode through some pretty intense hills. At one point, I
+was ascending the hill and the lead rider heard the creaking of my bike
+approaching. That was instruction to speed up or be caught! We rested here until
+hitting Pinxi. We had lunch of some chicken rice curry and we got to explore the
+narrow railroad village some. Japanese tourists related lanterns of their wishes
+and many photos on the railroad, and we even met a turtle friend in Pinxi. After
+Pinxi, there was a large ascent until we reached highway riding until Taipei. My
+friend Mark was brilliant and was able to identify so many aircraft he saw in
+the sky! We finally arrived back at Songshan and we stretched and said our
+goodbyes. We all had different places to go, and mine was La Meridian Taipei. It
+took a while to get there and was quite sweaty, but I made it around Taiwan. I
+showered and rested and met my friend Lili for some dinner in the city. I slept.
 
 <div class="pa-carousel-widget" style="width:960px; height: 512px; display:none;"
   data-link="https://photos.app.goo.gl/spgawpUpStqJ5kYk7"
@@ -752,7 +946,26 @@ After Pinxi, there was a large ascent until we reached highway riding until Taip
 
 # Day 11 - Friends & City
 
-This final day in Taiwan would be a free day that I can meet with some friends in the area. There are 3 friends I planned to see this day, including a local tea shop. HO-CHI tea. This was my first stop. I decided to walk over there for some reason and it took a couple hours but it was great to see parts of Taipei that I was familiar with again. I was greeted by my old friends in the shop, the owner and daughter. It was so nice, I shared with them my adventures on the bicycle tour, and they shared some tea with me. My other friend met me at the tea shop and joined for a little while before taking me around various parts of Taipei. He showed me a really neat part of the Songshan airport where you can get right up to the barrier and watch the planes land and take off. Really neat! There were some propeller planes and some airliners too. Later he took me up the volcano mountain to see some of the geothermal activity, including sulphur springs. It was a bit cloudy at the top, but the views in certain areas was still incredible, especially from Chinese Cultural University. Last stop was to visit Datou Park for the sunset. This park is right at the confluence of Tamsui and Keelung Rivers. My final stop was to meet another friend at Bistro bar to catch up and try many foods. We had a good time trying some delicious drinks too. She had to go back to Yilan that night, so we shared a cab and said goodbyes. I found a new accommodation near the bus station for my early flight the next day.
+This final day in Taiwan would be a free day that I can meet with some friends
+in the area. There are 3 friends I planned to see this day, including a local
+tea shop. HO-CHI tea. This was my first stop. I decided to walk over there for
+some reason and it took a couple hours but it was great to see parts of Taipei
+that I was familiar with again. I was greeted by my old friends in the shop, the
+owner and daughter. It was so nice, I shared with them my adventures on the
+bicycle tour, and they shared some tea with me. My other friend met me at the
+tea shop and joined for a little while before taking me around various parts of
+Taipei. He showed me a really neat part of the Songshan airport where you can
+get right up to the barrier and watch the planes land and take off. Really neat!
+There were some propeller planes and some airliners too. Later he took me up the
+volcano mountain to see some of the geothermal activity, including sulfur
+springs. It was a bit cloudy at the top, but the views in certain areas was
+still incredible, especially from Chinese Cultural University. Last stop was to
+visit Datou Park for the sunset. This park is right at the confluence of Tamsui
+and Keelung Rivers. My final stop was to meet another friend at Bistro bar to
+catch up and try many foods. We had a good time trying some delicious drinks
+too. She had to go back to Yilan that night, so we shared a cab and said
+goodbyes. I found a new accommodation near the bus station for my early flight
+the next day.
 
 <div class="pa-carousel-widget" style="width:960px; height: 512px; display:none;"
   data-link="https://photos.app.goo.gl/1TsD8nZTYWvZ7TC56"

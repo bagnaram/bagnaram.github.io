@@ -7,7 +7,7 @@ published: true
 ---
 
 This weekend I decided to do another century ride on the cycle. I currently ride
-an early 80s Panasonic Sport LX. This ride will take me through some beautifal
+an early 80s Panasonic Sport LX. This ride will take me through some beautiful
 hilly areas in central Texas. This trip was a little different though. I've been
 getting into botanising lately, and this trip was going to be a way to get out
 and make some plant observations while on the bike ride. 
