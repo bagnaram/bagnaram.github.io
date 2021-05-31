@@ -1,0 +1,9 @@
+#+TITLE: bagnaram.github.io
+* About
+This is a static Github Pages website. All content is under ~_posts~ in their
+respective postings. This site is built using Github's built-in Jekyll static
+page generator.
+
+* Notice
+Embed google photos using this script
+https://www.publicalbum.org/blog/embedding-google-photos-albums
