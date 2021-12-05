@@ -1,47 +1,46 @@
----
-layout: post
-author: bagnaram
-title: "Kube Sticky Project"
-date: 2021-7-7
-published: true
----
+#+title: Kube Sticky Project
+#+author: bagnaram
+#+lastmod: [2021-07-07 Thu 12:37]
+#+date: 2021-07-07
+#+categories[]: emacs hugo org-mode
+#+draft: false
 
 One of the main things I missed going from RedHat Openshift to vanilla
 Kubernetes is the concept of switching projects. An Openshift project is simply
 a context associated with a particular namespace. However projects/namespaces
 can be switched and all subsequent commands will inherit that namespace scope.
-This saves me the trouble of attaching `-n namespace` to each and every command.
+This saves me the trouble of attaching ~-n namespace~ to each and every command.
 I decided to write a quick and dirty ZSH plugin to take care of this by adding a
-`kubectl project` command.
+~kubectl project~ command.
 
-Getting the current project.
+1. Getting the current project.
 
-```text
+#+BEGIN_SRC sh :results verbatim :exports both
 kubectl project
 Current project: default
 Usage: _kcl project <namespace>
-```
+#+END_SRC
 
-```text
+#+BEGIN_SRC sh :results verbatim :exports both
 kubectl get pods
 No resources found in default namespace.
-```
+#+END_SRC
 
-Switching project
-```text
+2. Switching project
+#+BEGIN_SRC sh :results verbatim :exports both
 kubectl project test
 Set current project to test
-```
+#+END_SRC
 
 All subsequent commands inherit the project's namespace.
-```text
+#+BEGIN_SRC sh :results verbatim :exports both
 kubectl get pods
 NAME                              READY   STATUS    RESTARTS   AGE
 test-fddbfcd5c-kjmvk              1/1     Running   1          13m
-```
+#+END_SRC
 
 The plugin that can be added to your shell init.
-```bash
+#+BEGIN_SRC sh
 function _kcl() {
   if [[ -z "$1" && -z "$2" ]]; then
     \kubectl -n $KUBESPACE "$@"
@@ -62,4 +61,4 @@ function _kcl() {
   fi
 }
 alias kubectl='_kcl'
-```
+#+END_SRC

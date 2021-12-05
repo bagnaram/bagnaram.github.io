@@ -1,11 +1,11 @@
----
-layout: post
-author: bagnaram
-title: "Building a Keyboard From Scratch"
-date: 2020-12-1
-published: true
----
-###### This article was typed using the finished keyboard.
+#+title: Building a Keyboard From Scratch
+#+author: bagnaram
+#+lastmod: [2020-12-01]
+#+date: 2020-12-01
+#+categories[]: keyboard 
+#+draft: false
+
+** This article was typed using the finished keyboard.
 
 Mechanical keyboards are all the rage today. Having a solid typing experience
 has never been as important to me as I have realized now. Often we are left to
@@ -15,7 +15,10 @@ tires for a car, or good running shoes. This is the peripheral we interface the
 most as humans. Doesn't it make sense for this interface to not just be usable,
 but also pleasant and ergonomic?
 
-![Keyboard](/img/kb.jpg "Keyboard")
+
+#+attr_html: alt: Alternative text title: Image Title :width 800
+#+caption: Keyboard
+[[/kb.jpg]]
 
 This is where we begin an overview of my keyboard project called "Ocotillo".
 This idea to build a fully-custom keyboard would re-invigorate my electrical
@@ -25,17 +28,14 @@ early decisions:
 
 1. I would be using KiCad for the schematic capture, and PCB design.
 2. The keyboard would have custom mechanical switches.
-3. It would natively support the [DVORAK key
-   layout](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard).
+3. It would natively support the [[https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard][DVORAK key layout]]
 
-## Schematic
+** Schematic
 
-The journey begins with the design of the schematic. I stumbled across the [ai03
-PCB Designer
-Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide), which
-is a very thorough introduction to designing mechanical keyboards using KiCad.
-This guide goes through all the nuts and bolts of setting up a simple 4x4 key
-matrix from schematic to PCB. Do take a look at this. 
+The journey begins with the design of the schematic. I stumbled across the [[https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide][ai03
+PCB Designer]], which is a very thorough introduction to designing mechanical
+keyboards using KiCad. This guide goes through all the nuts and bolts of setting
+up a simple 4x4 key matrix from schematic to PCB. Do take a look at this.
 
 I ended up designing project this around the AVR architecture. Previously built
 by Atmel before being acquired by Microchip, AVR has been a staple in my
@@ -47,24 +47,30 @@ keyboard with USB-C interface and a dedicated ISP programming interface. This is
 a simple schematic and is further simplified by the examples given in the
 datasheet.
 
-![Schematic](/img/kb-schematic.png "ESchema Schematic")
+#+attr_html: alt: Alternative text title: Image Title :width 800
+#+caption: Schematic
+[[/kb-schematic.png]]
 
 After completing the schematic, it was time to decide on a few things. I was not
 fully familiar with keyboard switch sizes and how they would be placed in the
 completed product and if everything would fit. After researching a bit, I
-decided to purchase the keycaps and switches next. This would prove useful later,
-when I construct the PCB. I would physically lay out the keyboard to determine a
-sizing that would fit, along with the help of the online [Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/)
+decided to purchase the keycaps and switches next. This would prove useful
+later, when I construct the PCB. I would physically lay out the keyboard to
+determine a sizing that would fit, along with the help of the online [[http://www.keyboard-layout-editor.com/#/][Keyboard
+Layout Editor]]
 
-![Keyboard layout editor](/img/kb-layout.png "Keyboard layout editor")
+#+attr_html: alt: Alternative text title: Image Title :width 800
+#+caption: Keyboard Layout Editor
+[[/kb-layout.png]]
 
 By printing out PCB designs one-to-one on paper, I could lay out components on
 the paper and see if measurements are correct.
 
-## PCB Design
+** PCB Design
 
-![Keyboard in PCBNew](/img/pcbnew.png "Keyboard in PCBNew")
+#+attr_html: alt: Alternative text title: Image Title :width 800
+#+caption: Keyboard in PCBNew
+[[/pcbnew.png]]
 
 Taking the schematic over to PCB ended up being the most laborious exercise. I
 ended up going through several iterations of this project. Ai03's guide was
@@ -83,11 +89,13 @@ all changed. After learning its shortcuts and also its library system, it has
 proved to be a very worthwhile open-source tool. I ended up laying out the PCB
 with ai03's MX library, and sourcing some of the other component libraries
 directly from Mouser. Once I felt everything was ready, I exported Gerber files
-and uploaded to [JLCPCB](https://jlcpcb.com/).
+and uploaded to [[https://jlcpcb.com/][JLCPCB]].
 
-![Designing the PCB](/img/kbpcb.jpg "PCB Layout")
+#+attr_html: :width 800
+#+caption: Designing the PCB
+[[/kbpcb.jpg]]
 
-## Assembly
+** Assembly
 
 Constructing the final product required me to assemble a BOM from all my
 footprints. I decided to use the Mouser BOM tool because between them and
@@ -95,10 +103,8 @@ DigiKey, Mouser carried all my components. I ordered all passive components,
 sockets, and the microcontroller from Mouser.
 
 My keycaps were purchased from KBDFans and I was happy to find uniform-profile
-DSA keys in [this attractive
-style](https://kbdfans.com/collections/dsa-profile/products/npkc-dsa-9009-pbt-keycaps?variant=31385567985803).
-Uniform-profile keycaps are necessary when using non-standard key layouts like
-DVORAK because you can place them anywhere.
+DSA keys in [[https://kbdfans.com/collections/dsa-profile/products/npkc-dsa-9009-pbt-keycaps?variant=31385567985803][this attractive style]]. Uniform-profile keycaps are necessary when
+using non-standard key layouts like DVORAK because you can place them anywhere.
 
 When the PCBs arrived, all components, mx switches, and stabilizers it was
 finally time for the moment of truth to see if everything physically fit. It
@@ -110,25 +116,30 @@ where you tack one end of the component with solder to the board to keep it put.
 Then, flow the other end while the first end while still warm and it will "slide"
 into place.
 
-![Soldering Components](/img/kbsolder.jpg "Soldering Components")
+#+attr_html: :width 800
+#+caption: Soldering Components
+[[/kbsolder.jpg]]
 
-The TQFP was based on thu [Flux
-Glide](https://www.youtube.com/watch?v=6PB0u8irn-4) method. The most incredibly
-difficult part was soldering the USB-C plug with its tiny pitch leads and
-through-hole leads. After 3 or so attempts of failed bridging leads, I finally
-got some clean solder joints. I don't suggest doing this by hand without flux,
-and a solder sucking tool!
+The TQFP was based on the [[https://www.youtube.com/watch?v=6PB0u8irn-4][Flux Glide]] method. The most incredibly difficult part
+was soldering the USB-C plug with its tiny pitch leads and through-hole leads.
+After 3 or so attempts of failed bridging leads, I finally got some clean solder
+joints. I don't suggest doing this by hand without flux, and a solder sucking
+tool!
 
-![Assembly](/img/kbassembled.jpg "Assembly Complete")
+#+attr_html: :width 800
+#+caption: Assembly Complete
+[[/kbassembled.jpg]]
 
-## Programming
+** Programming
 
-The firmware for this project is based on the [QMK Firmware](https://qmk.fm/)
-project which offers an extensible framework for AVR-based keyboards. Because I
-provided this board with a dedicated ISP programming interface, I will be able
-to use my AVR-ISP mkII programmer to flash the device directly.
+The firmware for this project is based on the [[https://qmk.fm/][QMK Firmware]] project which offers
+an extensible framework for AVR-based keyboards. Because I provided this board
+with a dedicated ISP programming interface, I will be able to use my AVR-ISP
+mkII programmer to flash the device directly.
 
-![ISP](/img/kbprog.jpg "Keyboard ISP Programming")
+#+attr_html: :width 800
+#+caption: Keyboard ISP Programming
+[[/kbprog.jpg]]
 
 The QMK firmware setup is very simple. I was able to set up my keyboard mapping
 over a single evening.
@@ -137,18 +148,18 @@ The process is as follows:
 
 Assign the keyboard rows and columns to the GPIO pins assigned to the microcontroller.
 
-<pre>config.h</pre>
+~config.h~
 
-```c
+#+BEGIN_SRC c
 #define MATRIX_ROW_PINS { D4, D6, D7, B4, C6 }
-#define MATRIX_COL_PINS { B5, F0, F1, F4, F5, F6, F7, E6, B0, B7, D0, D1, D2, D3, D5, C7 } 
-```
+#define MATRIX_COL_PINS { B5, F0, F1, F4, F5, F6, F7, E6, B0, B7, D0, D1, D2, D3, D5, C7 }
+#+END_SRC
 Define the key matrix in code.
 
-<pre>ocotillo.h</pre>
+~ocotillo.h~
 
-```c
- #define LAYOUT( \
+#+BEGIN_SRC c
+#define LAYOUT( \
     k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k010, k011, k012, k013,       k015, \
     k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k110, k111, k112, k113,       k115, \
     k20, k21, k22, k23, k24, k25, k26, k27, k28, k29, k210, k211, k212,             k215, \
@@ -161,14 +172,14 @@ Define the key matrix in code.
     {k20, k21, k22, k23, k24, k25, k26, k27, k28, k29, k210, k211, k212, KC_NO, KC_NO, k215 }, \
     {k30, KC_NO, k32, k33, k34, k35, k36, k37, k38, k39, k310, k311, k312,KC_NO, k314, k315 }, \
     {k40, k41, k42, KC_NO, KC_NO, KC_NO, k46, KC_NO, KC_NO, KC_NO, k410, k411, KC_NO, k413, k414, k415 } \
-} 
-```
+}
+#+END_SRC
 
 Create DVORAK keymap.
 
-<pre>keymaps/dvorak/keymap.c</pre>
+~keymaps/dvorak/keymap.c~
 
-```c
+#+BEGIN_SRC c
  const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Base */
     [_DVORAK] = LAYOUT(
@@ -186,7 +197,7 @@ Create DVORAK keymap.
         _______, _______, _______, _______, _______, _______, _______, _______, _______
     )
 };
-```
+#+END_SRC
 
 Assign the keymap to the default keyboard layout. (This is done by default
 since there is only one keymap defined.)
@@ -194,12 +205,12 @@ since there is only one keymap defined.)
 With the code built it is now time to compile with avr-gcc and flash it with
 AVRDude. To compile simply run the QMK makefile and then flash.
 
-```shell
+#+BEGIN_SRC sh
 sudo avrdude -c avrispmkII -P usb: -p atmega32u4 -U flash:w:ocotillo_dvorak.hex
-```
+#+END_SRC
 
 
-## Trial and Error
+** Trial and Error
 
 When flashing the board and powering the keyboard, I hooked it up and ...
 nothing. Something must be wrong. The ISP programming interface worked so I knew
@@ -208,12 +219,12 @@ multimeter, I found that my USB D+ and D- pins were open.(one of them was
 shorted to ground it that pesky USB connector) I re-soldered the data pins and
 also found a misaligned GPIO pin(incorrectly assigned to AREF) in the
 microcontroller. I tacked a jumper wire to that and my RC oscillator on the MCU
-finally worked! After messing with the fuse settings in the [AVR Fuse
-Calculator](https://www.engbedded.com/fusecalc/) I found the proper
-configuration for my 16MHz clock crystal. With that, the device plugged into my
-PC and it finally was detected as an input device! It works!
+finally worked! After messing with the fuse settings in the [[https://www.engbedded.com/fusecalc/][AVR Fuse Calculator]]
+I found the proper configuration for my 16MHz clock crystal. With that, the
+device plugged into my PC and it finally was detected as an input device! It
+works!
 
-## Success
+** Success
 
 All in all, I would say this first revision was a success. Yes, there was some
 bodging done, but it still looks clean and I am happy with the final product. It
@@ -221,5 +232,6 @@ is great to finally have a native DVORAK keyboard I can use to become more
 proficient. I have open-sourced this entire project, so take a look! I hope
 others can get as much out of this hobbyist project that I have been able to!
 
-<https://github.com/bagnaram/my-keyboard>
-<https://github.com/bagnaram/qmk_firmware/tree/feature/ocotillo>
+[[https://github.com/bagnaram/my-keyboard]]
+
+[[https://github.com/bagnaram/qmk_firmware/tree/feature/ocotillo]]

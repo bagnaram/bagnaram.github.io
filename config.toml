@@ -1,0 +1,27 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Bagnaram Blog'
+theme = "anubis"
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+    lineNos = true
+
+[params]
+  author = "bagnaram"
+  dateFormat =   "January 1 2006"
+  style = "auto-without-switcher"
+  [params.social]
+    [params.social.github]
+      id = "github"
+      name= "bagnaram"
+    [params.social.youtube]
+      id= "youtube"
+      name= "UCRhnNw_9b4ys6jJcBM_hkuw"
+    [params.social.inat]
+      id= "iNaturalist"
+      emoji= "🍃"
+      username= "mbagnara"
+      link= "https://www.inaturalist.org/observations?user_id=mbagnara"
+[markup.goldmark.renderer]
+unsafe= true
