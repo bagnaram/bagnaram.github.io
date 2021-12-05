@@ -15,32 +15,34 @@ I decided to write a quick and dirty ZSH plugin to take care of this by adding a
 
 1. Getting the current project.
 
-#+BEGIN_SRC sh :results verbatim :exports both
-kubectl project
-Current project: default
-Usage: _kcl project <namespace>
-#+END_SRC
+    #+BEGIN_SRC text
+    kubectl project
+    Current project: default
+    Usage: kubectl project <namespace>
+    #+END_SRC
 
-#+BEGIN_SRC sh :results verbatim :exports both
-kubectl get pods
-No resources found in default namespace.
-#+END_SRC
+2. Getting the pods in the project
 
-2. Switching project
-#+BEGIN_SRC sh :results verbatim :exports both
-kubectl project test
-Set current project to test
-#+END_SRC
+    #+BEGIN_SRC text
+    kubectl get pods
+    No resources found in default namespace.
+    #+END_SRC
 
-All subsequent commands inherit the project's namespace.
-#+BEGIN_SRC sh :results verbatim :exports both
-kubectl get pods
-NAME                              READY   STATUS    RESTARTS   AGE
-test-fddbfcd5c-kjmvk              1/1     Running   1          13m
-#+END_SRC
+3. Switching project
+    #+BEGIN_SRC text
+    kubectl project test
+    Set current project to test
+    #+END_SRC
+
+4. All subsequent commands inherit the project's namespace.
+    #+BEGIN_SRC text
+    kubectl get pods
+    NAME                              READY   STATUS    RESTARTS   AGE
+    test-fddbfcd5c-kjmvk              1/1     Running   1          13m
+    #+END_SRC
 
 The plugin that can be added to your shell init.
-#+BEGIN_SRC sh
+#+BEGIN_SRC shell
 function _kcl() {
   if [[ -z "$1" && -z "$2" ]]; then
     \kubectl -n $KUBESPACE "$@"
@@ -62,3 +64,6 @@ function _kcl() {
 }
 alias kubectl='_kcl'
 #+END_SRC
+
+#+RESULTS:
+:
