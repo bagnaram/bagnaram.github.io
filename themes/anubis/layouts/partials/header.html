@@ -1,0 +1,19 @@
+<div class="header-top">
+    <div class="container">
+    <h1 class="site-title">
+        <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+    </h1>
+    </div>
+</div>
+{{ if .Site.Menus.main }}
+    <nav>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+{{ else }}
+    <nav></nav>
+{{ end }}
+
+{{ partial "header-extra.html" . }}
