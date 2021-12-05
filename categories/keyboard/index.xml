@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>keyboard on Bagnaram Blog</title><link>http://example.org/categories/keyboard/</link><description>Bagnaram Blog (keyboard)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/categories/keyboard/index.xml" rel="self" type="application/rss+xml"/><item><title>Building a Keyboard From Scratch</title><link>http://example.org/posts/2020-12-01-keyboard/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>http://example.org/posts/2020-12-01-keyboard/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>keyboard on Bagnaram Blog</title><link>http://bagnaram.github.io/categories/keyboard/</link><description>Bagnaram Blog (keyboard)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://bagnaram.github.io/categories/keyboard/index.xml" rel="self" type="application/rss+xml"/><item><title>Building a Keyboard From Scratch</title><link>http://bagnaram.github.io/posts/2020-12-01-keyboard/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>http://bagnaram.github.io/posts/2020-12-01-keyboard/</guid><description>
 &lt;div id="outline-container-headline-1" class="outline-3">
 &lt;h3 id="headline-1">
 This article was typed using the finished keyboard.
@@ -13,7 +13,7 @@ tires for a car, or good running shoes. This is the peripheral we interface the
 most as humans. Doesn&amp;#39;t it make sense for this interface to not just be usable,
 but also pleasant and ergonomic?&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kb.jpg" alt="/kb.jpg" title="/kb.jpg" width="800"/>
+&lt;img src="http://bagnaram.github.io/kb.jpg" alt="/kb.jpg" title="/kb.jpg" width="800"/>
 &lt;figcaption>
 Keyboard
 &lt;/figcaption>
@@ -58,7 +58,7 @@ keyboard with USB-C interface and a dedicated ISP programming interface. This is
 a simple schematic and is further simplified by the examples given in the
 datasheet.&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kb-schematic.png" alt="/kb-schematic.png" title="/kb-schematic.png" width="800"/>
+&lt;img src="http://bagnaram.github.io/kb-schematic.png" alt="/kb-schematic.png" title="/kb-schematic.png" width="800"/>
 &lt;figcaption>
 Schematic
 &lt;/figcaption>
@@ -72,7 +72,7 @@ later, when I construct the PCB. I would physically lay out the keyboard to
 determine a sizing that would fit, along with the help of the online &lt;a href="http://www.keyboard-layout-editor.com/#/">Keyboard
 Layout Editor&lt;/a>&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kb-layout.png" alt="/kb-layout.png" title="/kb-layout.png" width="800"/>
+&lt;img src="http://bagnaram.github.io/kb-layout.png" alt="/kb-layout.png" title="/kb-layout.png" width="800"/>
 &lt;figcaption>
 Keyboard Layout Editor
 &lt;/figcaption>
@@ -88,7 +88,7 @@ PCB Design
 &lt;/h3>
 &lt;div id="outline-text-headline-3" class="outline-text-3">
 &lt;figure>
-&lt;img src="http://example.org/pcbnew.png" alt="/pcbnew.png" title="/pcbnew.png" width="800"/>
+&lt;img src="http://bagnaram.github.io/pcbnew.png" alt="/pcbnew.png" title="/pcbnew.png" width="800"/>
 &lt;figcaption>
 Keyboard in PCBNew
 &lt;/figcaption>
@@ -113,7 +113,7 @@ with ai03&amp;#39;s MX library, and sourcing some of the other component librari
 directly from Mouser. Once I felt everything was ready, I exported Gerber files
 and uploaded to &lt;a href="https://jlcpcb.com/">JLCPCB&lt;/a>.&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kbpcb.jpg" alt="/kbpcb.jpg" title="/kbpcb.jpg" width="800"/>
+&lt;img src="http://bagnaram.github.io/kbpcb.jpg" alt="/kbpcb.jpg" title="/kbpcb.jpg" width="800"/>
 &lt;figcaption>
 Designing the PCB
 &lt;/figcaption>
@@ -145,7 +145,7 @@ where you tack one end of the component with solder to the board to keep it put.
 Then, flow the other end while the first end while still warm and it will &amp;#34;slide&amp;#34;
 into place.&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kbsolder.jpg" alt="/kbsolder.jpg" title="/kbsolder.jpg" width="800"/>
+&lt;img src="http://bagnaram.github.io/kbsolder.jpg" alt="/kbsolder.jpg" title="/kbsolder.jpg" width="800"/>
 &lt;figcaption>
 Soldering Components
 &lt;/figcaption>
@@ -157,7 +157,7 @@ After 3 or so attempts of failed bridging leads, I finally got some clean solder
 joints. I don&amp;#39;t suggest doing this by hand without flux, and a solder sucking
 tool!&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kbassembled.jpg" alt="/kbassembled.jpg" title="/kbassembled.jpg" width="800"/>
+&lt;img src="http://bagnaram.github.io/kbassembled.jpg" alt="/kbassembled.jpg" title="/kbassembled.jpg" width="800"/>
 &lt;figcaption>
 Assembly Complete
 &lt;/figcaption>
@@ -175,7 +175,7 @@ an extensible framework for AVR-based keyboards. Because I provided this board
 with a dedicated ISP programming interface, I will be able to use my AVR-ISP
 mkII programmer to flash the device directly.&lt;/p>
 &lt;figure>
-&lt;img src="http://example.org/kbprog.jpg" alt="/kbprog.jpg" title="/kbprog.jpg" width="800"/>
+&lt;img src="http://bagnaram.github.io/kbprog.jpg" alt="/kbprog.jpg" title="/kbprog.jpg" width="800"/>
 &lt;figcaption>
 Keyboard ISP Programming
 &lt;/figcaption>
