@@ -63,9 +63,7 @@ I decided to write a quick and dirty ZSH plugin to take care of this by adding a
 <ol>
 <li>
 <p>Getting the current project.</p>
-</li>
-</ol>
-<div class="src src-sh">
+<div class="src src-text">
 <div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
 <table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
 <pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
@@ -73,44 +71,46 @@ I decided to write a quick and dirty ZSH plugin to take care of this by adding a
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>kubectl project
+<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>kubectl project
 Current project: default
-Usage: _kcl project &lt;namespace&gt;</code></pre></td></tr></table>
+Usage: kubectl project &lt;namespace&gt;</code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<div class="src src-sh">
+</li>
+<li>
+<p>Getting the pods in the project</p>
+<div class="src src-text">
 <div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
 <table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
 <pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>kubectl get pods
+<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>kubectl get pods
 No resources found in default namespace.</code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<ol>
+</li>
 <li>
 <p>Switching project</p>
-</li>
-</ol>
-<div class="src src-sh">
+<div class="src src-text">
 <div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
 <table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
 <pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>kubectl project <span style=color:#8be9fd;font-style:italic>test</span>
+<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>kubectl project test
 Set current project to test</code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<p>
-All subsequent commands inherit the project's namespace.</p>
-<div class="src src-sh">
+</li>
+<li>
+<p>All subsequent commands inherit the project's namespace.</p>
+<div class="src src-text">
 <div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
 <table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
 <pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
@@ -118,15 +118,16 @@ All subsequent commands inherit the project's namespace.</p>
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>kubectl get pods
+<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-text data-lang=text>kubectl get pods
 NAME                              READY   STATUS    RESTARTS   AGE
-test-fddbfcd5c-kjmvk              1/1     Running   <span style=color:#bd93f9>1</span>          13m</code></pre></td></tr></table>
+test-fddbfcd5c-kjmvk              1/1     Running   1          13m</code></pre></td></tr></table>
 </div>
 </div>
 </div>
-<p>
-The plugin that can be added to your shell init.</p>
-<div class="src src-sh">
+</li>
+</ol>
+<p>The plugin that can be added to your shell init.</p>
+<div class="src src-shell">
 <div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
 <table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
 <pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
@@ -151,7 +152,7 @@ The plugin that can be added to your shell init.</p>
 </span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">20
 </span></code></pre></td>
 <td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#ff79c6>function</span> _kcl<span style=color:#ff79c6>()</span> <span style=color:#ff79c6>{</span>
+<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#ff79c6>function</span> _kcl<span style=color:#ff79c6>()</span> <span style=color:#ff79c6>{</span>
   <span style=color:#ff79c6>if</span> <span style=color:#ff79c6>[[</span> -z <span style=color:#f1fa8c>&#34;</span><span style=color:#8be9fd;font-style:italic>$1</span><span style=color:#f1fa8c>&#34;</span> <span style=color:#ff79c6>&amp;&amp;</span> -z <span style=color:#f1fa8c>&#34;</span><span style=color:#8be9fd;font-style:italic>$2</span><span style=color:#f1fa8c>&#34;</span> <span style=color:#ff79c6>]]</span>; <span style=color:#ff79c6>then</span>
     <span style=color:#f1fa8c>\k</span>ubectl -n <span style=color:#8be9fd;font-style:italic>$KUBESPACE</span> <span style=color:#f1fa8c>&#34;</span><span style=color:#8be9fd;font-style:italic>$@</span><span style=color:#f1fa8c>&#34;</span>
     <span style=color:#ff79c6>return</span> <span style=color:#bd93f9>0</span>
@@ -174,6 +175,9 @@ The plugin that can be added to your shell init.</p>
 </div>
 </div>
 </div>
+<pre class=example>
+
+</pre>
 </div>
 </article>
 </main>

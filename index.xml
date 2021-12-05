@@ -9,9 +9,7 @@ I decided to write a quick and dirty ZSH plugin to take care of this by adding a
 &lt;ol>
 &lt;li>
 &lt;p>Getting the current project.&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="src src-sh">
+&lt;div class="src src-text">
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -19,44 +17,46 @@ I decided to write a quick and dirty ZSH plugin to take care of this by adding a
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">kubectl project
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl project
 Current project: default
-Usage: _kcl project &amp;lt;namespace&amp;gt;&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+Usage: kubectl project &amp;lt;namespace&amp;gt;&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;div class="src src-sh">
+&lt;/li>
+&lt;li>
+&lt;p>Getting the pods in the project&lt;/p>
+&lt;div class="src src-text">
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">kubectl get pods
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl get pods
 No resources found in default namespace.&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;ol>
+&lt;/li>
 &lt;li>
 &lt;p>Switching project&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="src src-sh">
+&lt;div class="src src-text">
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">kubectl project &lt;span style="color:#8be9fd;font-style:italic">test&lt;/span>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl project test
 Set current project to test&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;p>
-All subsequent commands inherit the project&amp;#39;s namespace.&lt;/p>
-&lt;div class="src src-sh">
+&lt;/li>
+&lt;li>
+&lt;p>All subsequent commands inherit the project&amp;#39;s namespace.&lt;/p>
+&lt;div class="src src-text">
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -64,15 +64,16 @@ All subsequent commands inherit the project&amp;#39;s namespace.&lt;/p>
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">kubectl get pods
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl get pods
 NAME READY STATUS RESTARTS AGE
-test-fddbfcd5c-kjmvk 1/1 Running &lt;span style="color:#bd93f9">1&lt;/span> 13m&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+test-fddbfcd5c-kjmvk 1/1 Running 1 13m&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;p>
-The plugin that can be added to your shell init.&lt;/p>
-&lt;div class="src src-sh">
+&lt;/li>
+&lt;/ol>
+&lt;p>The plugin that can be added to your shell init.&lt;/p>
+&lt;div class="src src-shell">
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
 &lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -97,7 +98,7 @@ The plugin that can be added to your shell init.&lt;/p>
 &lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">&lt;span style="color:#ff79c6">function&lt;/span> _kcl&lt;span style="color:#ff79c6">()&lt;/span> &lt;span style="color:#ff79c6">{&lt;/span>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">&lt;span style="color:#ff79c6">function&lt;/span> _kcl&lt;span style="color:#ff79c6">()&lt;/span> &lt;span style="color:#ff79c6">{&lt;/span>
 &lt;span style="color:#ff79c6">if&lt;/span> &lt;span style="color:#ff79c6">[[&lt;/span> -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$1&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">&amp;amp;&amp;amp;&lt;/span> -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$2&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">]]&lt;/span>; &lt;span style="color:#ff79c6">then&lt;/span>
 &lt;span style="color:#f1fa8c">\k&lt;/span>ubectl -n &lt;span style="color:#8be9fd;font-style:italic">$KUBESPACE&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$@&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>
 &lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span>
@@ -119,7 +120,9 @@ The plugin that can be added to your shell init.&lt;/p>
 &lt;span style="color:#8be9fd;font-style:italic">alias&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">kubectl&lt;/span>&lt;span style="color:#ff79c6">=&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;_kcl&amp;#39;&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Building a Keyboard From Scratch</title><link>https://bagnaram.github.io/posts/2020-12-01-keyboard/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2020-12-01-keyboard/</guid><description>
+&lt;/div>
+&lt;pre class="example">
+&lt;/pre></description></item><item><title>Building a Keyboard From Scratch</title><link>https://bagnaram.github.io/posts/2020-12-01-keyboard/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2020-12-01-keyboard/</guid><description>
 &lt;div id="outline-container-headline-1" class="outline-3">
 &lt;h3 id="headline-1">
 This article was typed using the finished keyboard.
