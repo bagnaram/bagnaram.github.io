@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bagnaram Blog</title><link>https://bagnaram.github.io/</link><description>Bagnaram Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bagnaram.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Kube Sticky Project</title><link>https://bagnaram.github.io/posts/2021-07-07-kube-project/</link><pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-07-07-kube-project/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bagnaram Blog</title><link>https://bagnaram.github.io/</link><description>Bagnaram Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bagnaram.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Platform to org-mode</title><link>https://bagnaram.github.io/posts/2021-12-4-blog/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-12-4-blog/</guid><description>
+&lt;p>
+I have been using emacs for a while now and have been becoming more and more
+familiar with its plugins. &lt;code>magit&lt;/code> is a daily driver for projects at work.
+&lt;code>org-mode&lt;/code> has been a nice addition for document formatting and organization.
+Recently I found out that&lt;/p>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+Jekyll Markdown
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>I had previously used Jekyll along with custom templating to author posts to
+this blog because of Github Pages native support. I found this tool to be
+extensive, but it seems that development on Jekyll has sort of stalemated, with
+things like SVG support being less intuitive.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-2" class="outline-2">
+&lt;h2 id="headline-2">
+Hugo
+&lt;/h2>
+&lt;div id="outline-text-headline-2" class="outline-text-2">
+&lt;p>Everyone these days is talking about Hugo for static website generation. This
+tool operates similar to Jekyll and is a comparable tool for the same purpose of
+static website generation. The reason for my move to Hugo is its use &lt;a href="https://github.com/niklasfasching/go-org">go-org&lt;/a> to
+generate each page from org-mode syntax. This supports nearly all the
+functionality that org-mode has to offer like images, source code blocks, and
+regular text formatting. Practically all the features I would expect to use
+writing blog content. In addition, regular HTML can also be escaped within the
+document for direct rendering.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-2">
+&lt;h2 id="headline-3">
+Setting it all up
+&lt;/h2>
+&lt;div id="outline-text-headline-3" class="outline-text-2">
+&lt;div id="outline-container-headline-4" class="outline-3">
+&lt;h3 id="headline-4">
+Set up Hugo
+&lt;/h3>
+&lt;div id="outline-text-headline-4" class="outline-text-3">
+&lt;ol>
+&lt;li>
+&lt;p>I navigated to the repository and created a new working branch for hugo&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Genearate Hugo base site for repository&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="src src-shell">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">hugo new site .&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;pre class="example">
+Congratulations! Your new Hugo site is created in /home/bagnaram/bagnaram.github.io.
+Just a few more steps and you&amp;#39;re ready to go:
+1. Download a theme into the same-named folder.
+Choose a theme from https://themes.gohugo.io/ or
+create your own with the &amp;#34;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;#34; command.
+2. Perhaps you want to add some content. You can add single files
+with &amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;#34;.
+3. Start the built-in live server via &amp;#34;hugo server&amp;#34;.
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+&lt;/pre>
+&lt;ol>
+&lt;li>
+&lt;p>Import and customize &lt;a href="https://themes.gohugo.io/">Hugo themes&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Begin importing existing content from Jekyll under &lt;code>_posts&lt;/code> to the Hugo &lt;code>content/posts&lt;/code> directories.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>New content can be written to these directories with org-mode by naming them &lt;code>.org&lt;/code> suffix!&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-5" class="outline-3">
+&lt;h3 id="headline-5">
+Github Actions
+&lt;/h3>
+&lt;div id="outline-text-headline-5" class="outline-text-3">
+&lt;p>In order to support Hugo dynamic generation, we will need to use Github Actions
+(CI/CD) because Github Pages does not natively support Hugo. I followed the
+&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Official Hugo Github Setup Guide&lt;/a>. The changes needed all boils down to the following steps:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Create the &lt;code>.github/workflows/gh-pages.yml&lt;/code> workflow in my repository&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Change the Github Pages source branch to &lt;code>gh-pages&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Configure the Hugo &lt;code>baseURL&lt;/code> to point to &lt;code>https://bagnaram.github.io&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-6" class="outline-2">
+&lt;h2 id="headline-6">
+In Closing
+&lt;/h2>
+&lt;div id="outline-text-headline-6" class="outline-text-2">
+&lt;p>By converting this blog to Hugo, I have gained support for native org-mode
+posts. Emacs can new be used to write blog posts in native org-mode, and using
+&lt;code>magit&lt;/code>, I can publish new posts entirely from within emacs! This is all a
+matter of personal preference, but I have boosted my productivity so maybe you
+will start seeing more content here!&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Kube Sticky Project</title><link>https://bagnaram.github.io/posts/2021-07-07-kube-project/</link><pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-07-07-kube-project/</guid><description>&lt;p>
 One of the main things I missed going from RedHat Openshift to vanilla
 Kubernetes is the concept of switching projects. An Openshift project is simply
 a context associated with a particular namespace. However projects/namespaces
