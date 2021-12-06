@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>emacs on Bagnaram Blog</title><link>https://bagnaram.github.io/categories/emacs/</link><description>Bagnaram Blog (emacs)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bagnaram.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Platform to org-mode</title><link>https://bagnaram.github.io/posts/2021-12-4-blog/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-12-4-blog/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>emacs on Bagnaram Blog</title><link>https://bagnaram.github.io/categories/emacs/</link><description>Bagnaram Blog (emacs)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bagnaram.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml"/><item><title>Emacs org-mode For Authoring Blog Posts</title><link>https://bagnaram.github.io/posts/2021-12-4-blog/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-12-4-blog/</guid><description>
 &lt;p>
 I have been using emacs for a while now and have been becoming more and more
-familiar with its plugins. &lt;code>magit&lt;/code> is a daily driver for projects at work.
-&lt;code>org-mode&lt;/code> has been a nice addition for document formatting and organization.
-Recently I found out that&lt;/p>
+familiar with its plugins. &lt;code>magit&lt;/code> is my daily driver for managing &lt;code>git&lt;/code>
+projects at work. &lt;code>org-mode&lt;/code> has been a nice addition for document formatting,
+note taking and organization. Recently I found out that it can also be
+integrated with static website generation such as blogs. Time to convert this
+blog to use org-mode!&lt;/p>
 &lt;div id="outline-container-headline-1" class="outline-2">
 &lt;h2 id="headline-1">
 Jekyll Markdown
@@ -46,8 +48,6 @@ Set up Hugo
 &lt;/li>
 &lt;li>
 &lt;p>Genearate Hugo base site for repository&lt;/p>
-&lt;/li>
-&lt;/ol>
 &lt;div class="src src-shell">
 &lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -69,7 +69,7 @@ with &amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp
 3. Start the built-in live server via &amp;#34;hugo server&amp;#34;.
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 &lt;/pre>
-&lt;ol>
+&lt;/li>
 &lt;li>
 &lt;p>Import and customize &lt;a href="https://themes.gohugo.io/">Hugo themes&lt;/a>&lt;/p>
 &lt;/li>
