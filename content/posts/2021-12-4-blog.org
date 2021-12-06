@@ -1,7 +1,7 @@
 #+title: Emacs org-mode For Authoring Blog Posts
 #+author: bagnaram
+#+DATE: 2021-12-04
 #+lastmod: [2021-12-04 Thu 12:37]
-#+date: 2021-12-04
 #+categories[]: emacs hugo org-mode
 #+draft: false
 

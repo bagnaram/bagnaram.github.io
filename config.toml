@@ -9,7 +9,6 @@ theme = "anubis"
 
 [params]
   author = "bagnaram"
-  dateFormat =   "January 1 2006"
   style = "auto-without-switcher"
   [params.social]
     [params.social.github]
