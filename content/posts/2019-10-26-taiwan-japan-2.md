@@ -3,6 +3,8 @@ layout: post
 author: bagnaram
 title: "Tour de Taiwan Part 2"
 date: 2019-10-26
+categories: 
+- travel
 ---
 
 This is a continuation of the Taiwan bicycling trip. It commences as a direct

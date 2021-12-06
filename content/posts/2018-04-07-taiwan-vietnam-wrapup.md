@@ -3,6 +3,8 @@ layout: post
 author: bagnaram
 title: "My trip to Taiwan and Việt Nam - Closing"
 date: 2018-04-07
+categories:
+- travel
 ---
 
 ## Closing Remarks & Wrap-up

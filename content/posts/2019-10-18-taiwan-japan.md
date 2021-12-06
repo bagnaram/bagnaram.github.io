@@ -3,6 +3,9 @@ layout: post
 author: bagnaram
 title: "Tour de Taiwan"
 date: 2019-10-18
+categories:
+- cycling
+- travel
 ---
 This is a Giant Cycling Adventures trip that was inspired from my first trip to Taiwan and biking the countryside. This trip is a formal tour that circles the entire island! 
 

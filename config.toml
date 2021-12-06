@@ -25,3 +25,7 @@ theme = "anubis"
       link= "https://www.inaturalist.org/observations?user_id=mbagnara"
 [markup.goldmark.renderer]
 unsafe= true
+
+[taxonomies]
+category = "categories"
+tag = "tags"

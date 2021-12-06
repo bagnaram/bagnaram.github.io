@@ -2,7 +2,7 @@
 #+author: bagnaram
 #+lastmod: [2020-12-01]
 #+date: 2020-12-01
-#+categories[]: keyboard 
+#+categories[]: keyboard pcb AVR
 #+draft: false
 
 ** This article was typed using the finished keyboard.

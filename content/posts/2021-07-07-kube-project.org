@@ -2,7 +2,7 @@
 #+author: bagnaram
 #+lastmod: [2021-07-07 Thu 12:37]
 #+date: 2021-07-07
-#+categories[]: emacs hugo org-mode
+#+categories[]: kubernetes work shell
 #+draft: false
 
 One of the main things I missed going from RedHat Openshift to vanilla

@@ -3,6 +3,8 @@ layout: post
 author: bagnaram
 title: "My trip to Taiwan and Việt Nam - Part 2"
 date: 2018-03-31
+categories:
+- travel
 ---
 
 ## Day 7 Taiwan

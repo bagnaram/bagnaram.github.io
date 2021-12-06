@@ -4,6 +4,8 @@ author: bagnaram
 title: "Century Ride With a Twist"
 date: 2020-10-19
 published: true
+categories: 
+- cycling
 ---
 
 This weekend I decided to do another century ride on the cycle. I currently ride
