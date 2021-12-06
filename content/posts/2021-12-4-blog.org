@@ -1,4 +1,4 @@
-#+title: Blog Platform to org-mode
+#+title: Emacs org-mode For Authoring Blog Posts
 #+author: bagnaram
 #+lastmod: [2021-12-04 Thu 12:37]
 #+date: 2021-12-04
@@ -6,9 +6,11 @@
 #+draft: false
 
 I have been using emacs for a while now and have been becoming more and more
-familiar with its plugins. ~magit~ is a daily driver for projects at work.
-~org-mode~ has been a nice addition for document formatting and organization.
-Recently I found out that
+familiar with its plugins. ~magit~ is my daily driver for managing ~git~
+projects at work. ~org-mode~ has been a nice addition for document formatting,
+note taking and organization. Recently I found out that it can also be
+integrated with static website generation such as blogs. Time to convert this
+blog to use org-mode!
 
 * Jekyll Markdown
 I had previously used Jekyll along with custom templating to author posts to
@@ -34,23 +36,23 @@ document for direct rendering.
 
 2. Genearate Hugo base site for repository
 
-#+BEGIN_SRC shell
-hugo new site .
-#+END_SRC
+    #+BEGIN_SRC shell
+    hugo new site .
+    #+END_SRC
 
-#+RESULTS:
-: Congratulations! Your new Hugo site is created in /home/bagnaram/bagnaram.github.io.
-:
-: Just a few more steps and you're ready to go:
-:
-: 1. Download a theme into the same-named folder.
-:    Choose a theme from https://themes.gohugo.io/ or
-:    create your own with the "hugo new theme <THEMENAME>" command.
-: 2. Perhaps you want to add some content. You can add single files
-:    with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
-: 3. Start the built-in live server via "hugo server".
-:
-: Visit https://gohugo.io/ for quickstart guide and full documentation.
+    #+RESULTS:
+    : Congratulations! Your new Hugo site is created in /home/bagnaram/bagnaram.github.io.
+    :
+    : Just a few more steps and you're ready to go:
+    :
+    : 1. Download a theme into the same-named folder.
+    :    Choose a theme from https://themes.gohugo.io/ or
+    :    create your own with the "hugo new theme <THEMENAME>" command.
+    : 2. Perhaps you want to add some content. You can add single files
+    :    with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+    : 3. Start the built-in live server via "hugo server".
+    :
+    : Visit https://gohugo.io/ for quickstart guide and full documentation.
 
 3. Import and customize [[https://themes.gohugo.io/][Hugo themes]]
 
