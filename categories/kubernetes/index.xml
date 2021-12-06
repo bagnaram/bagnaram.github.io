@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kubernetes on Bagnaram Blog</title><link>https://bagnaram.github.io/categories/kubernetes/</link><description>Bagnaram Blog (kubernetes)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bagnaram.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Kube Sticky Project</title><link>https://bagnaram.github.io/posts/2021-07-07-kube-project/</link><pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-07-07-kube-project/</guid><description>&lt;p>
+One of the main things I missed going from RedHat Openshift to vanilla
+Kubernetes is the concept of switching projects. An Openshift project is simply
+a context associated with a particular namespace. However projects/namespaces
+can be switched and all subsequent commands will inherit that namespace scope.
+This saves me the trouble of attaching &lt;code>-n namespace&lt;/code> to each and every command.
+I decided to write a quick and dirty ZSH plugin to take care of this by adding a
+&lt;code>kubectl project&lt;/code> command.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Getting the current project.&lt;/p>
+&lt;div class="src src-text">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl project
+Current project: default
+Usage: kubectl project &amp;lt;namespace&amp;gt;&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Getting the pods in the project&lt;/p>
+&lt;div class="src src-text">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl get pods
+No resources found in default namespace.&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Switching project&lt;/p>
+&lt;div class="src src-text">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl project test
+Set current project to test&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>All subsequent commands inherit the project&amp;#39;s namespace.&lt;/p>
+&lt;div class="src src-text">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-text" data-lang="text">kubectl get pods
+NAME READY STATUS RESTARTS AGE
+test-fddbfcd5c-kjmvk 1/1 Running 1 13m&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;p>The plugin that can be added to your shell init.&lt;/p>
+&lt;div class="src src-shell">
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">&lt;span style="color:#ff79c6">function&lt;/span> _kcl&lt;span style="color:#ff79c6">()&lt;/span> &lt;span style="color:#ff79c6">{&lt;/span>
+&lt;span style="color:#ff79c6">if&lt;/span> &lt;span style="color:#ff79c6">[[&lt;/span> -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$1&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">&amp;amp;&amp;amp;&lt;/span> -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$2&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">]]&lt;/span>; &lt;span style="color:#ff79c6">then&lt;/span>
+&lt;span style="color:#f1fa8c">\k&lt;/span>ubectl -n &lt;span style="color:#8be9fd;font-style:italic">$KUBESPACE&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$@&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>
+&lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span>
+&lt;span style="color:#ff79c6">fi&lt;/span>
+&lt;span style="color:#ff79c6">if&lt;/span> &lt;span style="color:#ff79c6">[[&lt;/span> ! -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$1&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$1&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">==&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;project&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">&amp;amp;&amp;amp;&lt;/span> -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$2&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">]]&lt;/span>; &lt;span style="color:#ff79c6">then&lt;/span>
+&lt;span style="color:#8be9fd;font-style:italic">echo&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;Current project: &lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$KUBESPACE&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>
+&lt;span style="color:#8be9fd;font-style:italic">echo&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;Usage: &lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$0&lt;/span>&lt;span style="color:#f1fa8c"> project &amp;lt;namespace&amp;gt;&amp;#34;&lt;/span>
+&lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#bd93f9">1&lt;/span>
+&lt;span style="color:#ff79c6">fi&lt;/span>
+&lt;span style="color:#ff79c6">if&lt;/span> &lt;span style="color:#ff79c6">[[&lt;/span> ! -z &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$1&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$1&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">==&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;project&amp;#34;&lt;/span> &lt;span style="color:#ff79c6">&amp;amp;&amp;amp;&lt;/span> ! -z &lt;span style="color:#8be9fd;font-style:italic">$2&lt;/span> &lt;span style="color:#ff79c6">]]&lt;/span>; &lt;span style="color:#ff79c6">then&lt;/span>
+&lt;span style="color:#8be9fd;font-style:italic">export&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">KUBESPACE&lt;/span>&lt;span style="color:#ff79c6">=&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$2&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>
+&lt;span style="color:#8be9fd;font-style:italic">echo&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;Set current project to &lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$KUBESPACE&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>
+&lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span>
+&lt;span style="color:#ff79c6">else&lt;/span>
+&lt;span style="color:#f1fa8c">\k&lt;/span>ubectl -n &lt;span style="color:#8be9fd;font-style:italic">$KUBESPACE&lt;/span> &lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">$@&lt;/span>&lt;span style="color:#f1fa8c">&amp;#34;&lt;/span>
+&lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span>
+&lt;span style="color:#ff79c6">fi&lt;/span>
+&lt;span style="color:#ff79c6">}&lt;/span>
+&lt;span style="color:#8be9fd;font-style:italic">alias&lt;/span> &lt;span style="color:#8be9fd;font-style:italic">kubectl&lt;/span>&lt;span style="color:#ff79c6">=&lt;/span>&lt;span style="color:#f1fa8c">&amp;#39;_kcl&amp;#39;&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;pre class="example">
+&lt;/pre></description></item><item><title>JenkinsX on Kubernetes Cluster-API</title><link>https://bagnaram.github.io/posts/2020-03-23-capa/</link><pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2020-03-23-capa/</guid><description>&lt;p>&lt;a href="https://jenkins-x.io">JenkinsX&lt;/a> is the next iteration of the Jenkins CI engine
+that is geared towards a cloud-native kubernetes setting. Instead of the more
+broad approach taken previously, JenkinsX focuses on Kubernetes native
+continuous-integration by relying on an engine
+&lt;a href="https://github.com/tektoncd/pipeline#-tekton-pipelines">Tekton&lt;/a> to define its
+jobs and pipelines inside of kubernetes.&lt;/p>
+&lt;h1 id="cluster-api-aws">Cluster-API AWS&lt;/h1>
+&lt;p>I&amp;rsquo;m using CAPA &lt;a href="https://github.com/kubernetes-sigs/cluster-api-provider-aws">Cluster-API provider for
+AWS&lt;/a> as my workload
+Kubernetes cluster. I manage this cluster locally with a control plane defined
+using Kind.&lt;/p>
+&lt;p>My workload CAPA cluster is configured with &lt;a href="https://projectcontour.io">Contour
+Ingress&lt;/a> and a wildcard &lt;code>*.example.com&lt;/code> domain that
+points to the Envoy load balancer. This will be relevant when setting up
+JenkinsX Ingress because JenkinsX uses Nginx by default, which will need to be
+disabled.&lt;/p>
+&lt;p>Likewise with Contour, I have already installed upstream
+&lt;a href="https://github.com/tektoncd/pipeline">Tekton&lt;/a> via the upstream installation
+docs. This means the bundled install of Tekton with JenkinsX will also be
+disabled later in this guide. Both these decisions are due to personal
+preference and to test integration and flexibility with existing installations
+of ClusterAPI.&lt;/p>
+&lt;h1 id="install-jenkinsx-via-jxl">Install JenkinsX via JXL&lt;/h1>
+&lt;p>JenkinsX development is in-flux and in order to fully support necessary
+components such as Helm v3. JenkinsX has a bleeding-edge baseline called
+&lt;a href="https://jenkins-x.io/docs/labs/jxl/">JenkinsX Labs&lt;/a>, or JXL. This is a separate
+binary released independantly of JX. I have found out that installing JXL
+bundles its own JX runtime inside. Therefore, if you are installing both, they
+will exist independently.&lt;/p>
+&lt;p>The first step is to fetch JXL from the Labs &lt;a href="https://github.com/jenkins-x-labs/jxl/releases">release
+page&lt;/a>. Again, this is activly
+developed, so your mileage may vary. I always grab the latest release. Untar the
+binary and drop it into &lt;code>~/bin&lt;/code> or wherever you drop userland binaries.&lt;/p>
+&lt;h1 id="git-repositories">Git Repositories&lt;/h1>
+&lt;p>JenkinsX relies on version control to store not only application code, but also
+release and installation information for JenkinsX itself. Therefore, it is
+necessary to have an accessible git repository available for JenkinsX. I use
+GitHub.&lt;/p>
+&lt;p>First, it is necessary to create a clone of the JenkinsX version repository.
+This contains all the dependencies and their versions that are tested and
+required for JenkinsX to function. It is recommended to clone this repo because
+not environments will fall under the specified compatibility matrix. I am running
+kubectl &lt;code>v1.17.4&lt;/code> which is newer than the upper limit of &lt;code>v1.17.0&lt;/code> required at
+the time of writing.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Create a github repository called &lt;code>jenkins-x-versions&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Clone the upstream repository locally&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git clone https://github.com/jenkins-x/jenkins-x-versions
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Create a new upstream &lt;code>remote&lt;/code> and for merging.&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git remote remove origin
+git remote add origin https://github.com/&amp;lt;USERNAME&amp;gt;/jenkins-x-versions
+git remote add upstream https://github.com/jenkins-x/jenkins-x-versions
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Fetch upstream&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">git pull upstream master
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Make any modifications to the versions. I updated the &lt;code>upperLimit&lt;/code> of &lt;code>packages/kubectl.yml&lt;/code> to something greater.&lt;/p>
+&lt;pre tabindex="0">&lt;code>version: 1.13.2
+upperLimit: 1.17.4
+gitUrl: https://github.com/kubernetes/kubectl.git
+url: https://github.com/kubernetes/kubectl
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ol>
+&lt;p>A second repository will be created for JenkinsX to use for your environment, but this will be done automatically with a robot account.&lt;/p>
+&lt;h1 id="git-robot-account">Git Robot Account&lt;/h1>
+&lt;p>As mentioned, a robot account is required for JenkinsX to manage its baseline. In Github, this account can simply be an API token associated with a user. This is how JenkinsX will maintain the state of your CI environment. It uses Helm charts to define all its components.&lt;/p>
+&lt;p>For my testing purpose, I will associate an API token with my regular github account. Normally you would create a separate robot account but it is only possible with GitHub enterprise.&lt;/p>
+&lt;ol>
+&lt;li>Log into GitHub &lt;a href="https://github.com/settings/apps">https://github.com/settings/apps&lt;/a>&lt;/li>
+&lt;li>Select Personal Access Tokens&lt;/li>
+&lt;li>Create a token called &lt;code>jenkinsx&lt;/code> with the permissions: &lt;code>delete_repo, read:org, read:user, repo, user:email, write:repo_hook&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h1 id="start-jenkinsx-install">Start JenkinsX Install&lt;/h1>
+&lt;p>JenkinsX install is initiated with the a boot. This boots the repository up and generates the manifests associated with the environment.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">jxl boot create --version-stream-url https://github.com/bagnaram/jenkins-x-versions.git --domain example.com
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>Select the &lt;code>kubernetes&lt;/code> provider&lt;/li>
+&lt;li>Cluster name. I call mine &lt;code>capi-quickstart&lt;/code> to match the name used by the management cluster.&lt;/li>
+&lt;li>Git owner name will be the GitHub user ID. Mine is &lt;code>bagnaram&lt;/code>&lt;/li>
+&lt;li>Comma separated git provider usernames. Here I also use &lt;code>bagnaram&lt;/code> since I am only testing with a single user.&lt;/li>
+&lt;li>Confirm and if it asks you to upgrade the &lt;code>jx&lt;/code> version, decline. The version bundled with &lt;code>jxl&lt;/code> is adequate.&lt;/li>
+&lt;li>Confirm the git server, organization, and repository name. JenkinsX will create a repository called &lt;code>environment-capi-quickstart-dev&lt;/code> because we named the cluster &lt;code>capi-quickstart&lt;/code> This repository doesn&amp;rsquo;t exist so when JenkinsX will prompt you to log into GitHub in order to create the repository.
+&lt;pre tabindex="0">&lt;code>? git server for the new git repository: https://github.com
+? git owner (user/organization) for the new git repository: bagnaram
+? git repository name: environment-capi-quickstart-dev
+checking git repository bagnaram/environment-capi-quickstart-dev exists on server https://github.com
+repository already exists at https://github.com/bagnaram/environment-capi-quickstart-dev
+pushed code to the repository
+to boot your cluster run the following commands:
+jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+jxl boot run --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ol>
+&lt;p>When the steps complete, Jenkins will provide two commands that are necessary to finalize and deploy the installation. Run the following command to provision a secret that JenkinsX will use for GitHub.&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>The default Jenkins admin username can be used.&lt;/li>
+&lt;li>Enter a secure admin password&lt;/li>
+&lt;li>Pipeline bot Git username will be &lt;code>bagnaram&lt;/code> for this example, because it uses the same github user.&lt;/li>
+&lt;li>Pipeline bot Git email address will be linked to an email address associated with that Git user.&lt;/li>
+&lt;li>Pipeline bot Git token will contain the token that was provisioned earler in the GitHub settings. You can also get an explanation by entering &lt;code>?&lt;/code> in the prompt. Enter the token and confirm.&lt;/li>
+&lt;/ol>
+&lt;h2 id="disable-bundled-nginx-and-tekton">Disable Bundled Nginx and Tekton&lt;/h2>
+&lt;p>As mentioned earlier, JenkinsX bundles its own Helm-based installation of the
+Nginx Ingress controller, and Tekton. I decided to supply my own installation of
+both of these, so it needs to be disabled from the JenkinsX deployment manifest.
+The &lt;code>jx-apps.yml&lt;/code> file inside the JenkinsX environment repo contains the list of
+Helm apps to deploy.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Check out the &lt;code>environment-capi-quickstart-dev&lt;/code> repo and modify the &lt;code>jx-apps.yml&lt;/code> to remove the &lt;code>nginx-ingress&lt;/code> and &lt;code>tekton lines&lt;/code>. It should be modified as follows:&lt;/p>
+&lt;pre tabindex="0">&lt;code>&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ol>
+&lt;p>apps:&lt;/p>
+&lt;ul>
+&lt;li>name: jenkins-x/jxboot-helmfile-resources&lt;/li>
+&lt;li>name: jenkins-x/nexus&lt;/li>
+&lt;li>name: jenkins-x/lighthouse&lt;/li>
+&lt;li>name: jenkins-x/chartmuseum&lt;/li>
+&lt;li>name: jenkins-x/jxui&lt;/li>
+&lt;li>name: repositories
+repository: &amp;ldquo;..&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>2. Save &amp;amp; Commit the file.
+## Deploy JenkinsX
+Jxl includes a `boot run` command which runs the Helm deploy against the environment repository. Simply run the command that was supplied at the end of the `boot create`.
+```bash
+jxl boot run --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+&lt;/code>&lt;/pre>&lt;h1 id="expose-jenkins-ui">Expose Jenkins UI&lt;/h1>
+&lt;p>Create the following HTTP Proxy resource. HttpProxy objects are similar to exposed
+Ingress routes, but allow for more fine-grained control over specific paths and
+http options. The JenkinsX UI uses WebSockets for populating front-end content
+which are not supported by plain Ingress in Contour. This is because http issues
+an &lt;code>upgrade&lt;/code> request when WebSocket traffic initiates, following a different
+protocol. HttpProxy supports WebSockets.&lt;/p>
+&lt;pre tabindex="0">&lt;code>apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+annotations:
+name: ui
+namespace: jx
+spec:
+routes:
+- conditions:
+- prefix: /
+enableWebsockets: true
+loadBalancerPolicy:
+strategy: Cookie
+services:
+- name: jxui
+port: 80
+virtualhost:
+fqdn: ui-jx.example.com
+&lt;/code>&lt;/pre>&lt;p>If everything binds appropriately the HttpProxy object should produce a &lt;code>valid&lt;/code> status.&lt;/p>
+&lt;pre tabindex="0">&lt;code>archlinux% kubectl get httpproxy
+NAME FQDN TLS SECRET STATUS STATUS DESCRIPTION
+nexus nexus-jx.example.com valid valid HTTPProxy
+&lt;/code>&lt;/pre>&lt;h1 id="testing-locally">Testing locally&lt;/h1>
+&lt;p>In my environment, I mentioned setting up an &lt;code>example.com&lt;/code> domain on AWS. This
+Route53 domain is local to the VPC that CAPA is installed to. I don&amp;rsquo;t want to
+pay for a public top-level domain so I resolve this domain locally to the VPC.
+This means that records can only be resolved by machines inside this VPC, or
+pointing to Amazon&amp;rsquo;s DNS server. However we have an option to tunnel all local
+traffic through a bastion that lives inside that VPC. This is done using a SOCKS
+proxy. This is extremely useful, because it can also proxy DNS requests.&lt;/p>
+&lt;p>Set up a SOCKS proxy locally:&lt;/p>
+&lt;pre tabindex="0">&lt;code>ssh -D 1337 -q -C -N ubuntu@xxx.xxx.xxx.xxx -i ~/mbagnara-key.pem
+&lt;/code>&lt;/pre>&lt;p>This essentially sets up an HTTP proxy locally on &lt;code>127.0.0.1:1337&lt;/code> in which we can route requests through. For more information, please refer to &lt;a href="https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc">https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc&lt;/a>&lt;/p>
+&lt;p>Configure your browser to use this proxy and be sure to enable the &lt;code>Proxy DNS&lt;/code> option.
+&lt;img src="https://bagnaram.github.io/img/jx-ui.png" alt="JenkinsX UI" class="inline"/>&lt;/p></description></item></channel></rss>
