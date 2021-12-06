@@ -1,0 +1,75 @@
+#+title: Blog Platform to org-mode
+#+author: bagnaram
+#+lastmod: [2021-12-04 Thu 12:37]
+#+date: 2021-12-04
+#+categories[]: emacs hugo org-mode
+#+draft: false
+
+I have been using emacs for a while now and have been becoming more and more
+familiar with its plugins. ~magit~ is a daily driver for projects at work.
+~org-mode~ has been a nice addition for document formatting and organization.
+Recently I found out that
+
+* Jekyll Markdown
+I had previously used Jekyll along with custom templating to author posts to
+this blog because of Github Pages native support. I found this tool to be
+extensive, but it seems that development on Jekyll has sort of stalemated, with
+things like SVG support being less intuitive.
+
+* Hugo
+Everyone these days is talking about Hugo for static website generation. This
+tool operates similar to Jekyll and is a comparable tool for the same purpose of
+static website generation. The reason for my move to Hugo is its use [[https://github.com/niklasfasching/go-org][go-org]] to
+generate each page from org-mode syntax. This supports nearly all the
+functionality that org-mode has to offer like images, source code blocks, and
+regular text formatting. Practically all the features I would expect to use
+writing blog content. In addition, regular HTML can also be escaped within the
+document for direct rendering.
+
+* Setting it all up
+
+** Set up Hugo
+
+1. I navigated to the repository and created a new working branch for hugo
+
+2. Genearate Hugo base site for repository
+
+#+BEGIN_SRC shell
+hugo new site .
+#+END_SRC
+
+#+RESULTS:
+: Congratulations! Your new Hugo site is created in /home/bagnaram/bagnaram.github.io.
+:
+: Just a few more steps and you're ready to go:
+:
+: 1. Download a theme into the same-named folder.
+:    Choose a theme from https://themes.gohugo.io/ or
+:    create your own with the "hugo new theme <THEMENAME>" command.
+: 2. Perhaps you want to add some content. You can add single files
+:    with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+: 3. Start the built-in live server via "hugo server".
+:
+: Visit https://gohugo.io/ for quickstart guide and full documentation.
+
+3. Import and customize [[https://themes.gohugo.io/][Hugo themes]]
+
+4. Begin importing existing content from Jekyll under ~_posts~ to the Hugo ~content/posts~ directories.
+
+5. New content can be written to these directories with org-mode by naming them ~.org~ suffix!
+
+** Github Actions
+In order to support Hugo dynamic generation, we will need to use Github Actions
+(CI/CD) because Github Pages does not natively support Hugo. I followed the
+[[https://gohugo.io/hosting-and-deployment/hosting-on-github/][Official Hugo Github Setup Guide]]. The changes needed all boils down to the following steps:
+
+1. Create the ~.github/workflows/gh-pages.yml~ workflow in my repository
+2. Change the Github Pages source branch to ~gh-pages~
+3. Configure the Hugo ~baseURL~ to point to ~https://bagnaram.github.io~
+
+* In Closing
+By converting this blog to Hugo, I have gained support for native org-mode
+posts. Emacs can new be used to write blog posts in native org-mode, and using
+~magit~, I can publish new posts entirely from within emacs! This is all a
+matter of personal preference, but I have boosted my productivity so maybe you
+will start seeing more content here!
