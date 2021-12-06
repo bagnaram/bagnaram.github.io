@@ -80,6 +80,7 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 &lt;p>New content can be written to these directories with org-mode by naming them &lt;code>.org&lt;/code> suffix!&lt;/p>
 &lt;/li>
 &lt;/ol>
+&lt;p>For an example of what this post looks like, visit the source, located at &lt;a href="https://github.com/bagnaram/bagnaram.github.io/blob/org-mode/content/posts/2021-12-4-blog.org">2021-12-4-blog.org&lt;/a>&lt;/p>
 &lt;/div>
 &lt;/div>
 &lt;div id="outline-container-headline-5" class="outline-3">
