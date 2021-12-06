@@ -60,6 +60,8 @@ document for direct rendering.
 
 5. New content can be written to these directories with org-mode by naming them ~.org~ suffix!
 
+For an example of what this post looks like, visit the source, located at [[https://github.com/bagnaram/bagnaram.github.io/blob/org-mode/content/posts/2021-12-4-blog.org][2021-12-4-blog.org]]
+
 ** Github Actions
 In order to support Hugo dynamic generation, we will need to use Github Actions
 (CI/CD) because Github Pages does not natively support Hugo. I followed the
