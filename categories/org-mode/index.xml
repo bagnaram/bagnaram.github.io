@@ -43,18 +43,16 @@ Set up Hugo
 &lt;/h3>
 &lt;div id="outline-text-headline-4" class="outline-text-3">
 &lt;ol>
-&lt;li>
-&lt;p>I navigated to the repository and created a new working branch for hugo&lt;/p>
-&lt;/li>
+&lt;li>I navigated to the repository and created a new working branch for hugo&lt;/li>
 &lt;li>
 &lt;p>Genearate Hugo base site for repository&lt;/p>
 &lt;div class="src src-shell">
-&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code>&lt;span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;div class="highlight">&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-shell" data-lang="shell">hugo new site .&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>hugo new site .&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -70,15 +68,9 @@ with &amp;#34;hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 &lt;/pre>
 &lt;/li>
-&lt;li>
-&lt;p>Import and customize &lt;a href="https://themes.gohugo.io/">Hugo themes&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Begin importing existing content from Jekyll under &lt;code>_posts&lt;/code> to the Hugo &lt;code>content/posts&lt;/code> directories.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>New content can be written to these directories with org-mode by naming them &lt;code>.org&lt;/code> suffix!&lt;/p>
-&lt;/li>
+&lt;li>Import and customize &lt;a href="https://themes.gohugo.io/">Hugo themes&lt;/a>&lt;/li>
+&lt;li>Begin importing existing content from Jekyll under &lt;code>_posts&lt;/code> to the Hugo &lt;code>content/posts&lt;/code> directories.&lt;/li>
+&lt;li>New content can be written to these directories with org-mode by naming them &lt;code>.org&lt;/code> suffix!&lt;/li>
 &lt;/ol>
 &lt;p>For an example of what this post looks like, visit the source, located at &lt;a href="https://github.com/bagnaram/bagnaram.github.io/blob/org-mode/content/posts/2021-12-4-blog.org">2021-12-4-blog.org&lt;/a>&lt;/p>
 &lt;/div>
@@ -92,15 +84,9 @@ Github Actions
 (CI/CD) because Github Pages does not natively support Hugo. I followed the
 &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Official Hugo Github Setup Guide&lt;/a>. The changes needed all boils down to the following steps:&lt;/p>
 &lt;ol>
-&lt;li>
-&lt;p>Create the &lt;code>.github/workflows/gh-pages.yml&lt;/code> workflow in my repository&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Change the Github Pages source branch to &lt;code>gh-pages&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Configure the Hugo &lt;code>baseURL&lt;/code> to point to &lt;code>https://bagnaram.github.io&lt;/code>&lt;/p>
-&lt;/li>
+&lt;li>Create the &lt;code>.github/workflows/gh-pages.yml&lt;/code> workflow in my repository&lt;/li>
+&lt;li>Change the Github Pages source branch to &lt;code>gh-pages&lt;/code>&lt;/li>
+&lt;li>Configure the Hugo &lt;code>baseURL&lt;/code> to point to &lt;code>https://bagnaram.github.io&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;/div>
 &lt;/div>

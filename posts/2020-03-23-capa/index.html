@@ -1,181 +1,58 @@
-<!doctype html><html lang=en-us data-theme>
-<head>
-<meta charset=utf-8>
-<meta name=HandheldFriendly content="True">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=referrer content="no-referrer-when-downgrade">
-<title>JenkinsX on Kubernetes Cluster-API - Bagnaram Blog</title>
-<meta name=description content="JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
-Cluster-API AWS I&rsquo;m using CAPA Cluster-API provider for AWS as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind.">
-<link rel=icon type=image/x-icon href=https://bagnaram.github.io/favicon/favicon.ico>
-<link rel=apple-touch-icon-precomposed href=https://bagnaram.github.io/favicon/agave.svg>
-<link rel=stylesheet href=https://bagnaram.github.io/css/style.min.f9d3d620ba8a65f935249c651818d15eeb814de14e6915fa7204b59f0c507f9b.css integrity="sha256-+dPWILqKZfk1JJxlGBjRXuuBTeFOaRX6cgS1nwxQf5s=">
-<meta property="og:title" content="JenkinsX on Kubernetes Cluster-API">
-<meta property="og:description" content="JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
-Cluster-API AWS I&rsquo;m using CAPA Cluster-API provider for AWS as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://bagnaram.github.io/posts/2020-03-23-capa/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2020-03-23T00:00:00+00:00">
-<meta property="article:modified_time" content="2020-03-23T00:00:00+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="JenkinsX on Kubernetes Cluster-API">
-<meta name=twitter:description content="JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
-Cluster-API AWS I&rsquo;m using CAPA Cluster-API provider for AWS as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind.">
-<script src=https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js async></script>
-</head>
-<body>
-<a class=skip-main href=#main>Skip to main content</a>
-<header class=common-header>
-<div class=header-top>
-<div class=container>
-<h1 class=site-title>
-<a href=/>Bagnaram Blog</a>
-</h1>
-</div>
-</div>
-<nav></nav>
-</header>
-<div class=container>
-<main id=main tabindex=-1>
-<article class="post h-entry">
-<header class=post-header>
-<h1 class="p-name post-title">JenkinsX on Kubernetes Cluster-API</h1>
-</header>
-<div class=post-info>
-<a class="post-hidden-url u-url" href=https://bagnaram.github.io/posts/2020-03-23-capa/>https://bagnaram.github.io/posts/2020-03-23-capa/</a>
+<!doctype html><html lang=en-us data-theme><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer-when-downgrade"><title>JenkinsX on Kubernetes Cluster-API - Bagnaram Blog</title><meta name=description content="JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
+Cluster-API AWS I&rsquo;m using CAPA Cluster-API provider for AWS as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind."><link rel=icon type=image/x-icon href=https://bagnaram.github.io/favicon/favicon.ico><link rel=apple-touch-icon-precomposed href=https://bagnaram.github.io/favicon/agave.svg><link rel=stylesheet href=https://bagnaram.github.io/css/style.min.f9d3d620ba8a65f935249c651818d15eeb814de14e6915fa7204b59f0c507f9b.css integrity="sha256-+dPWILqKZfk1JJxlGBjRXuuBTeFOaRX6cgS1nwxQf5s="><meta property="og:title" content="JenkinsX on Kubernetes Cluster-API"><meta property="og:description" content="JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
+Cluster-API AWS I&rsquo;m using CAPA Cluster-API provider for AWS as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind."><meta property="og:type" content="article"><meta property="og:url" content="https://bagnaram.github.io/posts/2020-03-23-capa/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-03-23T00:00:00+00:00"><meta property="article:modified_time" content="2020-03-23T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="JenkinsX on Kubernetes Cluster-API"><meta name=twitter:description content="JenkinsX is the next iteration of the Jenkins CI engine that is geared towards a cloud-native kubernetes setting. Instead of the more broad approach taken previously, JenkinsX focuses on Kubernetes native continuous-integration by relying on an engine Tekton to define its jobs and pipelines inside of kubernetes.
+Cluster-API AWS I&rsquo;m using CAPA Cluster-API provider for AWS as my workload Kubernetes cluster. I manage this cluster locally with a control plane defined using Kind."><script src=https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js async></script></head><body><a class=skip-main href=#main>Skip to main content</a><header class=common-header><div class=header-top><div class=container><h1 class=site-title><a href=/>Bagnaram Blog</a></h1></div></div><nav></nav></header><div class=container><main id=main tabindex=-1><article class="post h-entry"><header class=post-header><h1 class="p-name post-title">JenkinsX on Kubernetes Cluster-API</h1></header><div class=post-info><a class="post-hidden-url u-url" href=https://bagnaram.github.io/posts/2020-03-23-capa/>https://bagnaram.github.io/posts/2020-03-23-capa/</a>
 by <strong>bagnaram</strong>
-<a href=https://bagnaram.github.io/ class="p-name p-author post-hidden-author h-card" rel=me>bagnaram</a>
-<div class="post-date dt-published">March 23, 2020</div>
-<div class=post-taxonomies>
-<ul class=post-categories>
-<li><a href=https://bagnaram.github.io/categories/kubernetes>kubernetes</a></li>
-<li><a href=https://bagnaram.github.io/categories/work>work</a></li>
-</ul>
-</div>
-</div>
-<div class="content e-content">
-<p><a href=https://jenkins-x.io>JenkinsX</a> is the next iteration of the Jenkins CI engine
+<a href=https://bagnaram.github.io/ class="p-name p-author post-hidden-author h-card" rel=me>bagnaram</a><div class="post-date dt-published">March 23, 2020</div><div class=post-taxonomies><ul class=post-categories><li><a href=https://bagnaram.github.io/categories/kubernetes>kubernetes</a></li><li><a href=https://bagnaram.github.io/categories/work>work</a></li></ul></div></div><div class="content e-content"><p><a href=https://jenkins-x.io>JenkinsX</a> is the next iteration of the Jenkins CI engine
 that is geared towards a cloud-native kubernetes setting. Instead of the more
 broad approach taken previously, JenkinsX focuses on Kubernetes native
 continuous-integration by relying on an engine
 <a href=https://github.com/tektoncd/pipeline#-tekton-pipelines>Tekton</a> to define its
-jobs and pipelines inside of kubernetes.</p>
-<h1 id=cluster-api-aws>Cluster-API AWS</h1>
-<p>I&rsquo;m using CAPA <a href=https://github.com/kubernetes-sigs/cluster-api-provider-aws>Cluster-API provider for
+jobs and pipelines inside of kubernetes.</p><h1 id=cluster-api-aws>Cluster-API AWS</h1><p>I&rsquo;m using CAPA <a href=https://github.com/kubernetes-sigs/cluster-api-provider-aws>Cluster-API provider for
 AWS</a> as my workload
 Kubernetes cluster. I manage this cluster locally with a control plane defined
-using Kind.</p>
-<p>My workload CAPA cluster is configured with <a href=https://projectcontour.io>Contour
+using Kind.</p><p>My workload CAPA cluster is configured with <a href=https://projectcontour.io>Contour
 Ingress</a> and a wildcard <code>*.example.com</code> domain that
 points to the Envoy load balancer. This will be relevant when setting up
 JenkinsX Ingress because JenkinsX uses Nginx by default, which will need to be
-disabled.</p>
-<p>Likewise with Contour, I have already installed upstream
+disabled.</p><p>Likewise with Contour, I have already installed upstream
 <a href=https://github.com/tektoncd/pipeline>Tekton</a> via the upstream installation
 docs. This means the bundled install of Tekton with JenkinsX will also be
 disabled later in this guide. Both these decisions are due to personal
 preference and to test integration and flexibility with existing installations
-of ClusterAPI.</p>
-<h1 id=install-jenkinsx-via-jxl>Install JenkinsX via JXL</h1>
-<p>JenkinsX development is in-flux and in order to fully support necessary
+of ClusterAPI.</p><h1 id=install-jenkinsx-via-jxl>Install JenkinsX via JXL</h1><p>JenkinsX development is in-flux and in order to fully support necessary
 components such as Helm v3. JenkinsX has a bleeding-edge baseline called
 <a href=https://jenkins-x.io/docs/labs/jxl/>JenkinsX Labs</a>, or JXL. This is a separate
 binary released independantly of JX. I have found out that installing JXL
 bundles its own JX runtime inside. Therefore, if you are installing both, they
-will exist independently.</p>
-<p>The first step is to fetch JXL from the Labs <a href=https://github.com/jenkins-x-labs/jxl/releases>release
+will exist independently.</p><p>The first step is to fetch JXL from the Labs <a href=https://github.com/jenkins-x-labs/jxl/releases>release
 page</a>. Again, this is activly
 developed, so your mileage may vary. I always grab the latest release. Untar the
-binary and drop it into <code>~/bin</code> or wherever you drop userland binaries.</p>
-<h1 id=git-repositories>Git Repositories</h1>
-<p>JenkinsX relies on version control to store not only application code, but also
+binary and drop it into <code>~/bin</code> or wherever you drop userland binaries.</p><h1 id=git-repositories>Git Repositories</h1><p>JenkinsX relies on version control to store not only application code, but also
 release and installation information for JenkinsX itself. Therefore, it is
 necessary to have an accessible git repository available for JenkinsX. I use
-GitHub.</p>
-<p>First, it is necessary to create a clone of the JenkinsX version repository.
+GitHub.</p><p>First, it is necessary to create a clone of the JenkinsX version repository.
 This contains all the dependencies and their versions that are tested and
 required for JenkinsX to function. It is recommended to clone this repo because
 not environments will fall under the specified compatibility matrix. I am running
 kubectl <code>v1.17.4</code> which is newer than the upper limit of <code>v1.17.0</code> required at
-the time of writing.</p>
-<ol>
-<li>
-<p>Create a github repository called <code>jenkins-x-versions</code></p>
-</li>
-<li>
-<p>Clone the upstream repository locally</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git clone https://github.com/jenkins-x/jenkins-x-versions
-</code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>Create a new upstream <code>remote</code> and for merging.</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git remote remove origin
-git remote add origin https://github.com/&lt;USERNAME&gt;/jenkins-x-versions
-git remote add upstream https://github.com/jenkins-x/jenkins-x-versions
-</code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>Fetch upstream</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git pull upstream master
-</code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>Make any modifications to the versions. I updated the <code>upperLimit</code> of <code>packages/kubectl.yml</code> to something greater.</p>
-<pre tabindex=0><code>version: 1.13.2
+the time of writing.</p><ol><li><p>Create a github repository called <code>jenkins-x-versions</code></p></li><li><p>Clone the upstream repository locally</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git clone https://github.com/jenkins-x/jenkins-x-versions
+</span></span></code></pre></td></tr></table></div></div></li><li><p>Create a new upstream <code>remote</code> and for merging.</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git remote remove origin
+</span></span><span style=display:flex><span>git remote add origin https://github.com/&lt;USERNAME&gt;/jenkins-x-versions
+</span></span><span style=display:flex><span>git remote add upstream https://github.com/jenkins-x/jenkins-x-versions
+</span></span></code></pre></td></tr></table></div></div></li><li><p>Fetch upstream</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git pull upstream master
+</span></span></code></pre></td></tr></table></div></div></li><li><p>Make any modifications to the versions. I updated the <code>upperLimit</code> of <code>packages/kubectl.yml</code> to something greater.</p><pre tabindex=0><code>version: 1.13.2
 upperLimit: 1.17.4
 gitUrl: https://github.com/kubernetes/kubectl.git
 url: https://github.com/kubernetes/kubectl
-</code></pre></li>
-</ol>
-<p>A second repository will be created for JenkinsX to use for your environment, but this will be done automatically with a robot account.</p>
-<h1 id=git-robot-account>Git Robot Account</h1>
-<p>As mentioned, a robot account is required for JenkinsX to manage its baseline. In Github, this account can simply be an API token associated with a user. This is how JenkinsX will maintain the state of your CI environment. It uses Helm charts to define all its components.</p>
-<p>For my testing purpose, I will associate an API token with my regular github account. Normally you would create a separate robot account but it is only possible with GitHub enterprise.</p>
-<ol>
-<li>Log into GitHub <a href=https://github.com/settings/apps>https://github.com/settings/apps</a></li>
-<li>Select Personal Access Tokens</li>
-<li>Create a token called <code>jenkinsx</code> with the permissions: <code>delete_repo, read:org, read:user, repo, user:email, write:repo_hook</code></li>
-</ol>
-<h1 id=start-jenkinsx-install>Start JenkinsX Install</h1>
-<p>JenkinsX install is initiated with the a boot. This boots the repository up and generates the manifests associated with the environment.</p>
-<ol>
-<li>
-<div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>jxl boot create --version-stream-url https://github.com/bagnaram/jenkins-x-versions.git --domain example.com
-</code></pre></td></tr></table>
-</div>
-</div></li>
-<li>Select the <code>kubernetes</code> provider</li>
-<li>Cluster name. I call mine <code>capi-quickstart</code> to match the name used by the management cluster.</li>
-<li>Git owner name will be the GitHub user ID. Mine is <code>bagnaram</code></li>
-<li>Comma separated git provider usernames. Here I also use <code>bagnaram</code> since I am only testing with a single user.</li>
-<li>Confirm and if it asks you to upgrade the <code>jx</code> version, decline. The version bundled with <code>jxl</code> is adequate.</li>
-<li>Confirm the git server, organization, and repository name. JenkinsX will create a repository called <code>environment-capi-quickstart-dev</code> because we named the cluster <code>capi-quickstart</code> This repository doesn&rsquo;t exist so when JenkinsX will prompt you to log into GitHub in order to create the repository.
-<pre tabindex=0><code>? git server for the new git repository: https://github.com
+</code></pre></li></ol><p>A second repository will be created for JenkinsX to use for your environment, but this will be done automatically with a robot account.</p><h1 id=git-robot-account>Git Robot Account</h1><p>As mentioned, a robot account is required for JenkinsX to manage its baseline. In Github, this account can simply be an API token associated with a user. This is how JenkinsX will maintain the state of your CI environment. It uses Helm charts to define all its components.</p><p>For my testing purpose, I will associate an API token with my regular github account. Normally you would create a separate robot account but it is only possible with GitHub enterprise.</p><ol><li>Log into GitHub <a href=https://github.com/settings/apps>https://github.com/settings/apps</a></li><li>Select Personal Access Tokens</li><li>Create a token called <code>jenkinsx</code> with the permissions: <code>delete_repo, read:org, read:user, repo, user:email, write:repo_hook</code></li></ol><h1 id=start-jenkinsx-install>Start JenkinsX Install</h1><p>JenkinsX install is initiated with the a boot. This boots the repository up and generates the manifests associated with the environment.</p><ol><li><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>jxl boot create --version-stream-url https://github.com/bagnaram/jenkins-x-versions.git --domain example.com
+</span></span></code></pre></td></tr></table></div></div></li><li>Select the <code>kubernetes</code> provider</li><li>Cluster name. I call mine <code>capi-quickstart</code> to match the name used by the management cluster.</li><li>Git owner name will be the GitHub user ID. Mine is <code>bagnaram</code></li><li>Comma separated git provider usernames. Here I also use <code>bagnaram</code> since I am only testing with a single user.</li><li>Confirm and if it asks you to upgrade the <code>jx</code> version, decline. The version bundled with <code>jxl</code> is adequate.</li><li>Confirm the git server, organization, and repository name. JenkinsX will create a repository called <code>environment-capi-quickstart-dev</code> because we named the cluster <code>capi-quickstart</code> This repository doesn&rsquo;t exist so when JenkinsX will prompt you to log into GitHub in order to create the repository.<pre tabindex=0><code>? git server for the new git repository: https://github.com
 ? git owner (user/organization) for the new git repository: bagnaram
 ? git repository name: environment-capi-quickstart-dev
 checking git repository bagnaram/environment-capi-quickstart-dev exists on server https://github.com
@@ -186,59 +63,25 @@ to boot your cluster run the following commands:
 
 jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
 jxl boot run --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
-</code></pre></li>
-</ol>
-<p>When the steps complete, Jenkins will provide two commands that are necessary to finalize and deploy the installation. Run the following command to provision a secret that JenkinsX will use for GitHub.</p>
-<div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
-</code></pre></td></tr></table>
-</div>
-</div><ol>
-<li>The default Jenkins admin username can be used.</li>
-<li>Enter a secure admin password</li>
-<li>Pipeline bot Git username will be <code>bagnaram</code> for this example, because it uses the same github user.</li>
-<li>Pipeline bot Git email address will be linked to an email address associated with that Git user.</li>
-<li>Pipeline bot Git token will contain the token that was provisioned earler in the GitHub settings. You can also get an explanation by entering <code>?</code> in the prompt. Enter the token and confirm.</li>
-</ol>
-<h2 id=disable-bundled-nginx-and-tekton>Disable Bundled Nginx and Tekton</h2>
-<p>As mentioned earlier, JenkinsX bundles its own Helm-based installation of the
+</code></pre></li></ol><p>When the steps complete, Jenkins will provide two commands that are necessary to finalize and deploy the installation. Run the following command to provision a secret that JenkinsX will use for GitHub.</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>jxl boot secrets edit --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
+</span></span></code></pre></td></tr></table></div></div><ol><li>The default Jenkins admin username can be used.</li><li>Enter a secure admin password</li><li>Pipeline bot Git username will be <code>bagnaram</code> for this example, because it uses the same github user.</li><li>Pipeline bot Git email address will be linked to an email address associated with that Git user.</li><li>Pipeline bot Git token will contain the token that was provisioned earler in the GitHub settings. You can also get an explanation by entering <code>?</code> in the prompt. Enter the token and confirm.</li></ol><h2 id=disable-bundled-nginx-and-tekton>Disable Bundled Nginx and Tekton</h2><p>As mentioned earlier, JenkinsX bundles its own Helm-based installation of the
 Nginx Ingress controller, and Tekton. I decided to supply my own installation of
 both of these, so it needs to be disabled from the JenkinsX deployment manifest.
 The <code>jx-apps.yml</code> file inside the JenkinsX environment repo contains the list of
-Helm apps to deploy.</p>
-<ol>
-<li>
-<p>Check out the <code>environment-capi-quickstart-dev</code> repo and modify the <code>jx-apps.yml</code> to remove the <code>nginx-ingress</code> and <code>tekton lines</code>. It should be modified as follows:</p>
-<pre tabindex=0><code></code></pre></li>
-</ol>
-<p>apps:</p>
-<ul>
-<li>name: jenkins-x/jxboot-helmfile-resources</li>
-<li>name: jenkins-x/nexus</li>
-<li>name: jenkins-x/lighthouse</li>
-<li>name: jenkins-x/chartmuseum</li>
-<li>name: jenkins-x/jxui</li>
-<li>name: repositories
-repository: &ldquo;..&rdquo;</li>
-</ul>
-<pre tabindex=0><code>2. Save &amp; Commit the file.
+Helm apps to deploy.</p><ol><li><p>Check out the <code>environment-capi-quickstart-dev</code> repo and modify the <code>jx-apps.yml</code> to remove the <code>nginx-ingress</code> and <code>tekton lines</code>. It should be modified as follows:</p><pre tabindex=0><code></code></pre></li></ol><p>apps:</p><ul><li>name: jenkins-x/jxboot-helmfile-resources</li><li>name: jenkins-x/nexus</li><li>name: jenkins-x/lighthouse</li><li>name: jenkins-x/chartmuseum</li><li>name: jenkins-x/jxui</li><li>name: repositories
+repository: &ldquo;..&rdquo;</li></ul><pre tabindex=0><code>2. Save &amp; Commit the file.
 
 ## Deploy JenkinsX
 Jxl includes a `boot run` command which runs the Helm deploy against the environment repository. Simply run the command that was supplied at the end of the `boot create`.
 ```bash
 jxl boot run --git-url https://github.com/bagnaram/environment-capi-quickstart-dev
-</code></pre><h1 id=expose-jenkins-ui>Expose Jenkins UI</h1>
-<p>Create the following HTTP Proxy resource. HttpProxy objects are similar to exposed
+</code></pre><h1 id=expose-jenkins-ui>Expose Jenkins UI</h1><p>Create the following HTTP Proxy resource. HttpProxy objects are similar to exposed
 Ingress routes, but allow for more fine-grained control over specific paths and
 http options. The JenkinsX UI uses WebSockets for populating front-end content
 which are not supported by plain Ingress in Contour. This is because http issues
 an <code>upgrade</code> request when WebSocket traffic initiates, following a different
-protocol. HttpProxy supports WebSockets.</p>
-<pre tabindex=0><code>apiVersion: projectcontour.io/v1
+protocol. HttpProxy supports WebSockets.</p><pre tabindex=0><code>apiVersion: projectcontour.io/v1
 kind: HTTPProxy
 metadata:
   annotations:
@@ -256,56 +99,15 @@ spec:
       port: 80
   virtualhost:
     fqdn: ui-jx.example.com
-</code></pre><p>If everything binds appropriately the HttpProxy object should produce a <code>valid</code> status.</p>
-<pre tabindex=0><code>archlinux% kubectl get httpproxy
+</code></pre><p>If everything binds appropriately the HttpProxy object should produce a <code>valid</code> status.</p><pre tabindex=0><code>archlinux% kubectl get httpproxy
 NAME    FQDN                   TLS SECRET   STATUS   STATUS DESCRIPTION
 nexus   nexus-jx.example.com                valid    valid HTTPProxy
-</code></pre><h1 id=testing-locally>Testing locally</h1>
-<p>In my environment, I mentioned setting up an <code>example.com</code> domain on AWS. This
+</code></pre><h1 id=testing-locally>Testing locally</h1><p>In my environment, I mentioned setting up an <code>example.com</code> domain on AWS. This
 Route53 domain is local to the VPC that CAPA is installed to. I don&rsquo;t want to
 pay for a public top-level domain so I resolve this domain locally to the VPC.
 This means that records can only be resolved by machines inside this VPC, or
 pointing to Amazon&rsquo;s DNS server. However we have an option to tunnel all local
 traffic through a bastion that lives inside that VPC. This is done using a SOCKS
-proxy. This is extremely useful, because it can also proxy DNS requests.</p>
-<p>Set up a SOCKS proxy locally:</p>
-<pre tabindex=0><code>ssh -D 1337 -q -C -N ubuntu@xxx.xxx.xxx.xxx -i ~/mbagnara-key.pem
-</code></pre><p>This essentially sets up an HTTP proxy locally on <code>127.0.0.1:1337</code> in which we can route requests through. For more information, please refer to <a href=https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc>https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc</a></p>
-<p>Configure your browser to use this proxy and be sure to enable the <code>Proxy DNS</code> option.
-<img src=/img/jx-ui.png alt="JenkinsX UI" class=inline></p>
-</div>
-</article>
-</main>
-<footer class=common-footer>
-<div class=common-footer-bottom>
-<div class=copyright>
-<p>© bagnaram 2021<br>
-</p>
-</div>
-<ul class=social-icons>
-<li>
-<a href=https://github.com/bagnaram title=Github rel=me>
-<span class=inline-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentcolor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6.0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6.0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3.0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1.0-6.2-.3-40.4-.3-61.4.0.0-70 15-84.7-29.8.0.0-11.4-29.1-27.8-36.6.0.0-22.9-15.7 1.6-15.4.0.0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5.0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9.0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4.0 33.7-.3 75.4-.3 83.6.0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6.0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9.0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-</span>
-</a>
-</li>
-<li>
-<a href="https://www.inaturalist.org/observations?user_id=mbagnara" title="I naturalist" rel=me>
-🍃
-</a>
-</li>
-<li>
-<a href=https://www.youtube.com/channel/UCRhnNw_9b4ys6jJcBM_hkuw title=Youtube rel=me>
-<span class=inline-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentcolor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78.0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span>
-</a>
-</li>
-</ul>
-</div>
-<p class="h-card vcard">
-<a href=https://bagnaram.github.io/ class="p-name u-url url fn" rel=me>bagnaram</a>
-</p>
-</footer>
-</div>
-</body>
-</html>
+proxy. This is extremely useful, because it can also proxy DNS requests.</p><p>Set up a SOCKS proxy locally:</p><pre tabindex=0><code>ssh -D 1337 -q -C -N ubuntu@xxx.xxx.xxx.xxx -i ~/mbagnara-key.pem
+</code></pre><p>This essentially sets up an HTTP proxy locally on <code>127.0.0.1:1337</code> in which we can route requests through. For more information, please refer to <a href=https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc>https://github.com/bagnaram/personal-docs/blob/master/sections/socks.adoc</a></p><p>Configure your browser to use this proxy and be sure to enable the <code>Proxy DNS</code> option.
+<img src=/img/jx-ui.png alt="JenkinsX UI" class=inline></p></div></article></main><footer class=common-footer><div class=common-footer-bottom><div class=copyright><p>© bagnaram 2022<br></p></div><ul class=social-icons><li><a href=https://github.com/bagnaram title=Github rel=me><span class=inline-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentcolor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6.0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6.0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3.0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1.0-6.2-.3-40.4-.3-61.4.0.0-70 15-84.7-29.8.0.0-11.4-29.1-27.8-36.6.0.0-22.9-15.7 1.6-15.4.0.0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5.0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9.0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4.0 33.7-.3 75.4-.3 83.6.0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6.0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9.0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span></a></li><li><a href="https://www.inaturalist.org/observations?user_id=mbagnara" title="I naturalist" rel=me>🍃</a></li><li><a href=https://www.youtube.com/channel/UCRhnNw_9b4ys6jJcBM_hkuw title=Youtube rel=me><span class=inline-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentcolor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78.0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></span></a></li></ul></div><p class="h-card vcard"><a href=https://bagnaram.github.io/ class="p-name u-url url fn" rel=me>bagnaram</a></p></footer></div></body></html>
