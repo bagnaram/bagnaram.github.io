@@ -48,6 +48,12 @@ street food vendors and also many boutique vendors.
 I ended the day by enjoying a relaxing drink of mezcal at a nearby mezcaleria
 Casa Convite.
 
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/1KpL2u43AqWh2cXbA"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEX3nQWZspMytiKwVo6dl7Fdm2P342LHhxRuxmtojf1F1NFCDHcffkHFYDDJyqwp356C6lYzl8eOUnfBDr0Cq99oJzHVa6YwvxauTbHxiH382kOVioW8u4wwOx4iDTkSwrtyMcTiWbBEG6JtIPyEzYH2=w1170-h877-no?authuser=0"
+alt="Welcome" class="inline"/></a>
+#+END_EXPORT
+
 * Day 1
 I woke up early to join the OAX Sports team for their track workout. This was
 across the town at a university campus. I decided I would jog there across the
@@ -64,6 +70,12 @@ visited an Organic Mercado, El Centro main square, the Gueleguetza venue on top
 of the hill, tried some ice cream with Tuna(Nopal fruit), Tacos, and even saw
 the aqueduct that Nacho Libre was shot!
 
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/xm7HBhNGedyTNYgZ8"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEWpkkH86JGYq2ptJhqVmsD6t6-Ib9-wpJ42CST1FLtCWKXnaKdfyQbYnX3aMT0yZ1gjQyKcPf6RP1eb2Tt_GbFI57DfdccCbYqu9dsKgIi_5rJ0PC2nYvCm7nUsTVRJ-Yc27gAlxoGSyfnDtMeQH7Of=w1170-h877-no?authuser=0"
+alt="Aqueduct" class="inline"/></a>
+#+END_EXPORT
+
 We also entered both of the enormous Mercados. Mercado Benito Juarez and Mercado
 20 de November. These places are enormous! The is the full experience I wanted
 by walking through the halls of a giant market and getting lost weth countless
@@ -73,6 +85,12 @@ regular household goods!
 I also came to know a fantastic cacao drink called tejate. This chocolately
 drink consists of cacao blossom, mamey seed & coriu cacao. It has a foam on the
 surface that makes for a delicious and refreshing drink.
+
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/pKnhV9yXdg6ai6si7"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEWbSWf1qsOE4KC_1FMK4CDDLRi7CnmveHsnEcz-kJWoLVaYjnJ5BpwoaheCqSv3vpcnwqEMNqiFonA0PdwK-ctoLZIihxZm0ArYAT4ZYuK_r2yz5Ex1j2mxx2lNa2tUX2n0-_xCemM4dB0cS1DZcCJf=w658-h877-no?authuser=0"
+alt="Tejate" class="inline"/></a>
+#+END_EXPORT
 
 That night I met up with the local Couchsurfing group in Oaxaca and joined them
 at the Feria de Mezcal. This is a massive Mezcal trade show and party located in
@@ -107,6 +125,12 @@ returned tired and hungry. Just in time for some breakfast at a rural mountain
 restaurant on the way back down the mountain. There I had some traditional hot
 chocolate and some carne asada that was very satisfying after the run!
 
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/6PAVATX7NRNE2aov5"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEUVNkB2S7oTf_-KIDVHfxgzx3NFN6qUGbW40YhFhjXMigNqr5xdRY57pIbdl4W8PsKCUuSumM9A1bYnyiO_ByWIqxrLDou-nKzM5FHWtD9zBxyqi8ZaW50xOZK2nIIDl7I1bq3FAMXYXJ1afobcy_EQ=w1170-h877-no?authuser=0"
+alt="Open Range" class="inline"/></a>
+#+END_EXPORT
+
 After the run I had some free time until meeting the Couchsurfing group for a
 Gueleguetza parade in downtown Oaxaca. This parade was starting at 7PM but the
 CS group suggested meeting a few hours early to get a spot. Luckily I did
@@ -132,8 +156,8 @@ of the race and were ready to start the 12k at around 8AM.
 
 #+BEGIN_EXPORT html
 <a href="https://photos.google.com/share/AF1QipMvPtkghHsWVyks_J9R31N-lnlu2YpgmeQx0QvUDMDkY2qxrt1DPYO40A1V2kIvQg/photo/AF1QipO9ePYipUrDoQojq2BajDBDVPK8iitBK-W9Vz-G?key=d3Z1X3RRZl9STlpPbDlSTFlZcUU0QzlZbkFIOFhR"><img
-src="https://photos.google.com/share/AF1QipMvPtkghHsWVyks_J9R31N-lnlu2YpgmeQx0QvUDMDkY2qxrt1DPYO40A1V2kIvQg/photo/AF1QipO9ePYipUrDoQojq2BajDBDVPK8iitBK-W9Vz-G?key=d3Z1X3RRZl9STlpPbDlSTFlZcUU0QzlZbkFIOFhR"
-alt="camping supplies" class="inline"/></a>
+src="https://lh3.googleusercontent.com/pw/AL9nZEV9Wu0EEbdlYGYtun2PIJZmzuiBeB_QO__NCsp3eY_CWQ549tNBI6tlr-VQ-hNV9xpBB4ONrdq31zGBj8YqenWNRP2HHnX2FJXrTyotqSG7RGvdHg9iA2qJ3MyoJR8_Cyz6Oqt44d8jUA8rV3jLvH4z=w1170-h877-no"
+alt="Welcome" class="inline"/></a>
 #+END_EXPORT
 
 The race course took us up the side of a large set of hills, through the trails
@@ -247,17 +271,28 @@ I rose early to check out a local mercado for breakfast. I tried some empanadas
 at a place called La Guerita purely because the long line out front. It must be
 good if locals are lining up right? It did not disappoint!
 
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/A6H4YTifJGe9qTSi6"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEVPpnATRXqxGC3Zr8zaCUq9l24rd2_-rzlWrqK25KJOoJea29jeKGe8DRaCj3nj_r6O9M4rjyQBSioA3bJ0gUD2PW-mZ7ftCwIeRsPWHpGYoUjHDuUgWHG8-Yqwzcj44zcZlPZe4Wmq4unc2c1YIHrv=w1170-h877-no?authuser=0"
+alt="Desayunos" class="inline"/></a>
+#+END_EXPORT
+
 This was also sort of a free day where we visited the mercados to try some
 delacies such as Chapulin (crickets) and the Mayodormo chocolatier. The last
 evening I went to a late night Chicharron taqueria near the accomidation.
 
 * Day 7
-This day involved getting up and heading to the ADS bus station in Oaxaca. The
+This day involved getting up and heading to the ADO bus station in Oaxaca. The
 bus system in Mexico is pretty impressive and ADO is the regional bus service in
 this part of the country. I took the bus to Mexico City which was around 8 hours
 total. Thu bus made no stops, but that is okay because there is a restroom
 onboard. However, I wish I had brought something besides bread!
 
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/X7wL6BWiUMCDmDHw7"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEXeyihEEvNpoPlieOR_XKmM1d5pyaAucvlMIkBH3kP0zYhH2MJR5LWYA7r3vd2OdrBD2tAaGAd2ZwOFG2YMwi0HGw5o-qGA_F9pCsvD3kP99aMCXJAE9HeaDsjkKruXPbAYNohjePhuVZFfy4Q5BdR3=w1170-h877-no?authuser=0"
+alt="Desayunos" class="inline"/></a>
+#+END_EXPORT
 The journey to CDMX was very scenic and featured mountains, desert, countryside
 and everything in between. The bus was a great way to see the countryside of
 Mexico that you would otherwise be flying across. I recommend these busses for
