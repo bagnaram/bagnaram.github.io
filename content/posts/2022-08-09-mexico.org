@@ -149,7 +149,7 @@ featured fireworks, costumes, marching bands and each region of the Oaxaca
 region showcasing their culture!
 
 #+BEGIN_EXPORT html
-<iframe width="1175" height="661" src="https://www.youtube.com/embed/XLdpJU8psdY?list=PLVXoDcbm8YOw7WKfiBtx8pKDWlLG7p_AV" title="Feria de Gueleguetza 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="512" src="https://www.youtube.com/embed/XLdpJU8psdY?list=PLVXoDcbm8YOw7WKfiBtx8pKDWlLG7p_AV" title="Feria de Gueleguetza 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_EXPORT
 
 That evening was a free salsa dance lesson put on by my hostel. Now I was a true
@@ -220,7 +220,7 @@ experience. What a rich cultural showcase with each region of Oaxaca
 representing its own dance! It is best shown in video form!
 
 #+BEGIN_EXPORT html
-<iframe width="1179" height="663" src="https://www.youtube.com/embed/KRwuWQQpXCE" title="Gueleguetza 2022 Danza de la Pluma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="512" src="https://www.youtube.com/embed/KRwuWQQpXCE" title="Gueleguetza 2022 Danza de la Pluma" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_EXPORT
 
 The festival lasted around 4 hours with breaks for Micheladas and some snacks!
