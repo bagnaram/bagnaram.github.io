@@ -228,6 +228,13 @@ Afterwards was sort of a free day. I met with a running friend Edith who ran her
 own artisinal mezcaleria. She was running with us at OAX Sport. I also visited
 some of the mercados for a second time and had some street food that evening!
 
+#+BEGIN_EXPORT html
+<a href="https://photos.app.goo.gl/atksmaRW91pxjCs37p"><img
+src="https://lh3.googleusercontent.com/pw/AL9nZEXA7GHyJzTuO_GH7zjJn0x9uvCdzXsdmwyFlM5TV89B1yyBQAy6f9Y7OARQV28b-Yn4w_bdyRgJFl4nAwULxgearnlsN2FvEp8rDBLz4RCn06YPmZ23xnLXCOlU0B7tLzynHvV4QUkoqNw3ER33QXL4=w658-h877-no?authuser=0"
+alt="Free Mezcal" class="inline"/></a>
+#+END_EXPORT
+
+
 * Day 5
 We started the day off very early for our mezcal hike and tour to Hierve el Agua
 a set of rock formations in San Lorenzo Albarradas, Oaxaca. This tour was
