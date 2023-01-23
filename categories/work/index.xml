@@ -191,7 +191,9 @@ output in pretty colors! If you don&amp;#39;t have &lt;code>kubecolor&lt;/code> 
 &lt;/div>
 &lt;/div>
 &lt;pre class="example">
-&lt;/pre></description></item><item><title>Kube Sticky Project</title><link>https://bagnaram.github.io/posts/2021-07-07-kube-project/</link><pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-07-07-kube-project/</guid><description>&lt;p>
+&lt;/pre>
+&lt;p>
+You can follow along in my dotfiles &lt;a href="https://codeberg.org/bagnaram/dotfiles/src/branch/master/zshrc#L154">Here&lt;/a>!&lt;/p></description></item><item><title>Kube Sticky Project</title><link>https://bagnaram.github.io/posts/2021-07-07-kube-project/</link><pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2021-07-07-kube-project/</guid><description>&lt;p>
 One of the main things I missed going from RedHat Openshift to vanilla
 Kubernetes is the concept of switching projects. An Openshift project is simply
 a context associated with a particular namespace. However projects/namespaces
