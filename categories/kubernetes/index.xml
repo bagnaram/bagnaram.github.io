@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kubernetes on Bagnaram Blog</title><link>https://bagnaram.github.io/categories/kubernetes/</link><description>Bagnaram Blog (kubernetes)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bagnaram.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title>Kube Menu Selector</title><link>https://bagnaram.github.io/posts/2023-01-23-kube-fuzzel/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://bagnaram.github.io/posts/2023-01-23-kube-fuzzel/</guid><description>&lt;p>
 This is a continuation of the Kube project shell plugin I wrote. This allows you
-to select contexts and projects dynamically from a &lt;code>dmenu&lt;/code> compatible launcher!&lt;/p>
+to select contexts and projects dynamically from a &lt;code>dmenu&lt;/code> compatible launcher!
+In my example I am using &lt;a href="https://codeberg.org/dnkl/fuzzel">Fuzzel&lt;/a> by &lt;code>dnkl&lt;/code>.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>Getting the current context.&lt;/p>
