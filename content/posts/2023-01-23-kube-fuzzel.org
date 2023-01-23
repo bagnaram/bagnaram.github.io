@@ -7,6 +7,7 @@
 
 This is a continuation of the Kube project shell plugin I wrote. This allows you
 to select contexts and projects dynamically from a ~dmenu~ compatible launcher!
+In my example I am using [[https://codeberg.org/dnkl/fuzzel][Fuzzel]] by ~dnkl~.
 
 1. Getting the current context.
     #+BEGIN_SRC text
