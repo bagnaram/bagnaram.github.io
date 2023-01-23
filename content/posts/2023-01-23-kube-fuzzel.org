@@ -98,3 +98,5 @@ alias kubectl='_kcl'
 
 #+RESULTS:
 :
+
+You can follow along in my dotfiles [[https://codeberg.org/bagnaram/dotfiles/src/branch/master/zshrc#L154][Here]]!
