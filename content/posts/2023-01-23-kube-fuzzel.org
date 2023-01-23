@@ -1,0 +1,88 @@
+#+title: Kube Menu Selector
+#+author: bagnaram
+#+lastmod: [2023-01-23 Mon 12:00]
+#+date: 2023-01-23
+#+categories[]: kubernetes work shell
+#+draft: false
+
+This is a continuation of the Kube project shell plugin I wrote. This allows you
+to select contexts and projects dynamically from a ~dmenu~ compatible launcher!
+
+1. Getting the current context.
+    #+BEGIN_SRC text
+    kubectl config current-context
+    #+END_SRC
+
+   You can issue the command ~kubecontext~ to interactively select one
+   using ~fuzzel~
+    #+BEGIN_SRC text
+    kubecontext
+    #+END_SRC
+
+2. Getting the current project.
+
+    #+BEGIN_SRC text
+    kubectl project
+    Current project: default
+    Usage: kubectl project <namespace>
+    #+END_SRC
+
+3. Getting the pods in the project
+
+    #+BEGIN_SRC text
+    kubectl get pods
+    No resources found in default namespace.
+    #+END_SRC
+
+4. Switching project
+    #+BEGIN_SRC text
+    kubectl project test
+    Set current project to test
+    #+END_SRC
+
+   You can also issue the command ~kubeproject~ to interactively select one
+   using ~fuzzel~
+    #+BEGIN_SRC text
+    kubeproject
+    #+END_SRC
+
+5. All subsequent commands inherit the project's namespace.
+    #+BEGIN_SRC text
+    kubectl get pods
+    NAME                              READY   STATUS    RESTARTS   AGE
+    test-fddbfcd5c-kjmvk              1/1     Running   1          13m
+    #+END_SRC
+
+The alias is simple as the following lines:
+
+#+BEGIN_SRC shell
+alias kubecontext='kubectl config use-context `\kubectl config get-contexts -oname | fuzzel -w 100 -d --log-level=none`'
+alias kubeproject='kubectl project `\kubectl get ns -oname | sed "s/namespace\///g" | fuzzel -w 100 -d --log-level=none`'
+#+END_SRC
+
+The plugin that can be added to your shell init.
+#+BEGIN_SRC shell
+function _kcl() {
+  if [[ -z "$1" && -z "$2" ]]; then
+    \kubectl -n $KUBESPACE "$@"
+    return 0
+  fi
+  if [[ ! -z "$1" && "$1" == "project" && -z "$2" ]]; then
+      echo "Current project: $KUBESPACE"
+      echo "Usage: $0 project <namespace>"
+      return 1
+  fi
+  if [[ ! -z "$1"  && "$1" == "project" && ! -z $2 ]]; then
+    export KUBESPACE="$2"
+    echo "Set current project to $KUBESPACE"
+    return 0
+  else
+    \kubectl -n $KUBESPACE "$@"
+    return 0
+  fi
+}
+alias kubectl='_kcl'
+#+END_SRC
+
+#+RESULTS:
+:
