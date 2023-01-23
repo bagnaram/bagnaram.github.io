@@ -61,24 +61,35 @@ alias kubecontext='kubectl config use-context `\kubectl config get-contexts -ona
 alias kubeproject='kubectl project `\kubectl get ns -oname | sed "s/namespace\///g" | fuzzel -w 100 -d --log-level=none`'
 #+END_SRC
 
-The plugin that can be added to your shell init.
+The plugin that can be added to your shell init. It also is using ~kubecolor~ to
+output in pretty colors! If you don't have ~kubecolor~ installed, just replace
+~kubecolor~ with ~kubectl~ below.
 #+BEGIN_SRC shell
+# Kubectl project plugin
 function _kcl() {
+  # lazy-load kube completions (optional)
+  if [ $commands[kubectl] ]; then
+    source <(command kubectl completion zsh)
+  fi
+
   if [[ -z "$1" && -z "$2" ]]; then
-    \kubectl -n $KUBESPACE "$@"
+    command kubecolor -n $KUBESPACE "$@"
     return 0
   fi
   if [[ ! -z "$1" && "$1" == "project" && -z "$2" ]]; then
-      echo "Current project: $KUBESPACE"
-      echo "Usage: $0 project <namespace>"
+      printf 'Current project: \033[31m%s\n' $KUBESPACE
+      printf '\033[0m'
+      printf 'Usage: kubectl project \033[34m<namespace>\n'
+
       return 1
   fi
   if [[ ! -z "$1"  && "$1" == "project" && ! -z $2 ]]; then
     export KUBESPACE="$2"
-    echo "Set current project to $KUBESPACE"
+    printf 'Set current project: \033[31m%s\n' $KUBESPACE
+    printf '\033[0m'
     return 0
   else
-    \kubectl -n $KUBESPACE "$@"
+    command kubecolor -n $KUBESPACE "$@"
     return 0
   fi
 }
